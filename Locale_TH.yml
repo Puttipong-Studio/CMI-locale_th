@@ -3,6 +3,7 @@
 # Github : https://github.com/Puttipong-Studio
 # ไฟล์นี้เเปลไทยเเล้วประมาณ 70-80% คุณสามารถนำไปเเปลต่อได้เลยนะครับ
 # โปรดอย่าเอาไปขายต่อเลยครับ ถือว่าช่วยๆกันครับ
+
 info:
   Same: '&cCan''t open your own inventory for editing!'
   cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name:
@@ -22,7 +23,7 @@ info:
   WarmUp:
     canceled: '&eคำสั่งถูกยกเลิกเนื่องจากคุณขยับ'
     counter: '!actionbar!&6--> Wait &e[time] &6seconds <--'
-    DontMove: '!title!&6อย่าขยับ!!subtitle!&7กรุณารอ &c[time] &7วินาที'
+    DontMove: '!title!&6กรุณาอย่าขยับ!!subtitle!&7กรุณารอ &c[time] &7วินาทีครับ'
     Boss:
       DontMove: '&4Don''t move for &7[autoTimeLeft] &4seconds!'
       WaitFor: '&4Wait for &7[autoTimeLeft] &4seconds!'

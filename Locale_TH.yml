@@ -1,0 +1,4277 @@
+# Funnycraft Thai Language CMI Translations | Last Update : 30/7/2565 12:17:54
+# You can support the creator by click star and follow! 
+# Github : https://github.com/Puttipong-Studio
+# ไฟล์นี้เเปลไทยเเล้วประมาณ 70-80% คุณสามารถนำไปเเปลต่อได้เลยนะครับ
+# โปรดอย่าเอาไปขายต่อเลยครับ ถือว่าช่วยๆกันครับ
+info:
+  Same: '&cCan''t open your own inventory for editing!'
+  cantLoginWithDifCap: '&cCan''t login with different name capitalization! Old name:
+    &e[oldName]&c. Current: &e[currentName]'
+  Searching: '&eSearching for player data, please wait, this can take some time to
+    finish!'
+  NoCommandWhileSleeping: '&cCan''t perform commands while sleeping!'
+  PurgeNotEnabled: '&cPurge function is not enabled in config file!'
+  TeamManagementDisabled: '&7This feature will have limited functionalaty while DisableTeamManagement
+    is set to true!'
+  NoGameMode: '&cPlease use 0/1/2/3 or Survival/Creative/Adventure/Spectator or s/c/a/sp!'
+  NameChange: '&6[playerDisplayName] &elogged in, also known as: &6[namelist]'
+  Cooldowns: '&eThis command is on cooldown for another &6[time]'
+  specializedCooldowns: '&eกรุณารออีกครั้งเพื่อที่จะทำสิ่งนี้ได้ในอีก &6[time]'
+  specializedRunning: '&eCommand still running, please wait &6[time]'
+  CooldownOneTime: '&eThis command can only be used once!'
+  WarmUp:
+    canceled: '&eคำสั่งถูกยกเลิกเนื่องจากคุณขยับ'
+    counter: '!actionbar!&6--> Wait &e[time] &6seconds <--'
+    DontMove: '!title!&6อย่าขยับ!!subtitle!&7กรุณารอ &c[time] &7วินาที'
+    Boss:
+      DontMove: '&4Don''t move for &7[autoTimeLeft] &4seconds!'
+      WaitFor: '&4Wait for &7[autoTimeLeft] &4seconds!'
+  Spawner: '&r[type] Spawner'
+  FailedSpawnerMine: '!actionbar!&cFailed to mine spawner. &7[percent]% &cdrop chance'
+  ClickSpawner: '!actionbar!&7[percent]% &eDrop chance'
+  Elevator:
+    created: '&eCreated elevator sign'
+  CantPlaceSpawner: '&eCan''t place spawner so close to another spawner (&6[range]&e)'
+  ChunksLoading: '&eWorld chunk data is still being loaded. Please wait a bit and
+    try again.'
+  CantUseNonEncrypted: '!actionbar!&cCommands on this item are not encrypted. Can''t
+    use them!'
+  CantDecode: '!actionbar!&cCan''t decode message/command. Key file contains wrong
+    key for this task. Inform server administration about this'
+  CantTeleport: '&eYou can''t teleport because you have too many limited items. Scroll
+    over this line to see the maximum amount of items allowed.'
+  BlackList: '&e[material] [amount] &6Max: [max]'
+  wrongPortal: '&cYou are in incorrect area of effect'
+  ItemWillBreak: '!actionbar!&eYour item (&6[itemName]&e) will break soon! &e[current]&6/&e[max]'
+  ArmorWillBreak: '!actionbar!&eYour [itemName] will break soon! &e[current]&6/&e[max]'
+  flyingToHigh: '&cYou can''t fly so high, max height is &6[max]&c!'
+  specializedItemFail: '&cCan''t determine specialized item requirement by value:
+    &7[value]'
+  sunSpeeding: Sleeping [count] of [total] [hour] hour [speed]X speed
+  sleepersRequired: '!actionbar!&f[sleeping] &7of &f[required] &7sleeping from required
+    for night time speedup'
+  sunSpeedingTitle: '&7[hour]'
+  skippingNight: '!title!&7Skipping entire night'
+  sunSpeedingSubTitle: '&f[count]&7/&f[total] &7(&f[speed]X&7)'
+  repairConfirm: '&eClick to confirm &7[items] &eitem repair for &7[cost]'
+  bookDate: '&7Written at &f[date]'
+  maintenance: '&7Maintenance mode'
+  mapLimit: '&cCant go beyond 30 000 000 blocks'
+  startedEditingPainting: '&eYou started editing painting. Click any other block to
+    cancel.'
+  canceledEditingPainting: '&eYou canceled painting editing mode'
+  changedPainting: '!actionbar!&eChanged painting to &6[name] &ewith id of &6[id]'
+  noSpam: '!title!&cNo spamming!'
+  noCmdSpam: '!title!&cNo command spamming!'
+  spamConsoleInform: '&cPlayer (&7[playerName]&c) triggered (&7[rules]&c) chat filter
+    with:&r [message]'
+  # This line can have extra variables: [totalUsers] [onlinePlayers]
+  FirstJoin: '&eผู้เล่น &6[playerDisplayName] &eได้เข้าเซิร์ฟเวอร์เป็นครั้งเเรก ยินดีต้อนรับ!'
+  LogoutCustom: '&8[&f&8] &7ผู้เล่น &c[playerName] &7ได้ออกจากเซิฟเวอร์'
+  LoginCustom: '&8[&f&8] &7ผู้เล่น &a[playerName] &7ได้เข้าร่วมเซิร์ฟเวอร์'
+  deathlocation: '&eYou died at x:&6[x]&e, y:&6[y]&e, z:&6[z]&e in &6[world]'
+  book:
+    exploit: '&cYou cant create book with more than [amount] pages'
+  combat:
+    CantUseShulkerBox: '&cCan''t use shulker box while you are in combat with player.
+      Wait: [time]'
+    CantUseCommand: '!actionbar!&cCan''t use command while in combat mode. Wait: [time]'
+    bossBarPvp: '&cCombat mode [autoTimeLeft]'
+    bossBarPve: '&2Combat mode [autoTimeLeft]'
+  noSchedule: '&cSchedule by this name is not found'
+  totem:
+    cooldown: '&eTotem cooldown: [time]'
+    warmup: '&eTotem effect: [time]'
+    cantConsume: '&eTotem usage was denied due to its cooldown time'
+  InventorySave:
+    info: '&8Info: &8[playerDisplayName]'
+    saved: '&e[time] &eInventory saved with id: &e[id]'
+    NoSavedInv: '&eThis player doesn''t have any saved inventories'
+    NoEntries: '&4File exists, but no inventories were found!'
+    CantFind: '&eCan''t find inventory with this id'
+    TopLine: '&e----------- &6[playerDisplayName] saved inventory &e-----------'
+    List: '&eid: &6[id]&e. &6[time]'
+    KillerSymbol: '&c ☠'
+    Click: '&eClick to check ([id]) saved inventory'
+    IdDontExist: '&4This save Id doesn''t exist!'
+    Deleted: '&eSaved inventory was successfully deleted!'
+    Restored: '&eYou have restored &e[sourcename] &einventory for &e[targetname] &euser.'
+    GotRestored: '&eYour inventory was restored from &e[sourcename] &esaved inventory
+      on &e[time]'
+    LoadForSelf: '&eLoad this inventory for your self'
+    LoadForOwner: '&eLoad this inventory for owner'
+    NextInventory: '&eNext inventory'
+    PreviousInventory: '&ePrevious inventory'
+    Editable: '&eEdit mode enabled'
+    NonEditable: '&eEdit mode disabled'
+  vanishSymbolOn: '&8[&7H&8]&r'
+  vanishSymbolOff: ''
+  afkSymbolOn: '&f&r'
+  afkSymbolOff: ''
+  beeinfo: '!actionbar!&7Honey level: &e[level]&7/&e[maxlevel] &7Bees inside: &e[count]&7/&e[maxcount]'
+  pvp:
+    noGodDamage: '!actionbar!&cYou can''t damage players while being immortal'
+  pve:
+    noGodDamage: '!actionbar!&cYou can''t damage mobs while being immortal'
+  InvEmpty:
+    armor: '&eYour armor slots should be empty!'
+    hand: '&eYour hand should be empty!'
+    maininv: '&eYour main inventory should be empty!'
+    maininvslots: '&eYour main inventory should have atleast &6[count] &eempty slots!'
+    inv: '&eYour inventory should be empty!'
+    offhand: '&eYour offhand should be empty!'
+    quickbar: '&eYour quick bar should be empty!'
+    quickbarslots: '&eYour quick bar should have atleast &6[count] &eempty slots!'
+    subinv: '&eYour sub inventory should be empty!'
+    subinvslots: '&eYour sub inventory should have atleast &6[count] &eempty slots!'
+  Relog: '&eRelog might be needed for change to take effect'
+  time:
+    # Mainly for placeholder playtime output
+    # Use + sign at the start of line to force include it even if specific and previous time values are 0
+    # Use - sign at the start of line if you want to include it only if its value isn't 0. If entire output results into empty line, then we will output seconds value
+    days: '&2[d] &7วัน:'
+    hours: '&2[h] &7ชั่วโมง '
+    minutes: '&2[m] &7นาที '
+    seconds: '&2[s] &7วินาที'
+  CommandFormat: '&cIncorrect command format'
+  ServerSwitchOut: ' &6[playerDisplayName] &eswitched server to &6[serverName]'
+  ServerSwitchIn: ' &6[playerDisplayName] &ecame from &6[serverName] &eserver'
+  months: '&e[months] &6months '
+  oneMonth: '&e[months] &6month '
+  weeks: '&e[weeks] &6weeks '
+  oneWeek: '&e[weeks] &6week '
+warp:
+  list: '&e[pos]. &6[warpName] &f- &7[worldName] ([x]:[y]:[z])'
+afk:
+  'off': '&7Playing'
+  MayNotRespond: '&ePlayer is AFK and may not respond'
+  MayNotRespondStaff: '&eStaff member is AFK and may not respond. Try contacting us
+    through discord'
+BossBar:
+  hpBar: '&f[victim] &e[current]&f/&e[max] &f(&c-[damage]&f)'
+Potion:
+  Effects: '&8Potion effects'
+  List: '&e[PotionName] [PotionAmplifier] &eDuration: &e[LeftDuration] &esec'
+  NoPotions: '&eNone'
+Information:
+  Title: '&8Players information'
+  Health: '&eHealth: &6[Health]/[maxHealth]'
+  Hunger: '&eHunger: &6[Hunger]'
+  Saturation: '&eSaturation: &6[Saturation]'
+  Exp: '&eExp: &6[Exp]'
+  NotEnoughExp: '&eNot enough exp: &6[Exp]'
+  NotEnoughExpNeed: '&eNot enough exp: &6[Exp]/[need]'
+  tooMuchExp: '&eToo much exp: &6[Exp]/[need]'
+  NotEnoughVotes: '&eNot enough votes: &6[votes]'
+  TooMuchVotes: '&eToo many votes: &6[votes]'
+  BadGameMode: '&cYou can''t do this in your current game mode'
+  BadArea: '&cYou can''t perform this action in this area'
+  GameMode: '&eGameMode: &6[GameMode]'
+  Flying: '&eFlying: &6[Flying]'
+  Uuid: '&6[uuid]'
+  FirstConnection: '&eFirst connection: &6[time]'
+  Lastseen: '&eLast seen: &6[time]'
+  Onlinesince: '&eOnline since: &6[time]'
+  Money: '&eBalance: &6[money]'
+  Group: '&eGroup: &6[group]'
+econ:
+  commandCost: '&7This command cost is &6[cost] &7repeat it or click here to confirm'
+  disabled: '&cCan''t use this command while economy support is disabled'
+Elytra:
+  Speed: '&eSpeed: &6[speed]&ekm/h'
+  SpeedBoost: ' &a+ '
+  SpeedSuperBoost: ' &2+ '
+  CanUse: '&cCan''t equip elytra without permission!'
+  CantGlide: '&cCan''t use elytra here!'
+  Charging: '&eCharging &f[percentage]&e%'
+NetherPortal:
+  ToHigh: '&cPortal is to big, max height is &6[max]&c!'
+  ToWide: '&cPortal is to wide, max width is &6[max]&c!'
+  Creation: '!actionbar!&7Created [height]x[width] nether portal!'
+  Disabled: '&cPortal creation disabled!'
+Ender:
+  Title: '&7Open ender chest'
+Chat:
+  localPrefix: ''
+  shoutPrefix: '&c[S]&r'
+  LocalNoOne: '!actionbar!&cNobody hear you, write ! before message for global chat'
+  shoutDeduction: '!actionbar!&cDeducted &e[amount] &cfor shout'
+  # Use \n to add new line
+  publicHover: '&eSent time: &6%server_time_hh:mm:ss%'
+  privateHover: '&eSent time: &6%server_time_hh:mm:ss%'
+  staffHover: '&eSent time: &6%server_time_hh:mm:ss%'
+  helpopHover: '&eSent time: &6%server_time_hh:mm:ss%'
+  link: '&l&4[&7LINK&4]'
+  item: '&7[%cmi_iteminhand_realname%[amount]&7]'
+  itemAmount: ' x[amount]'
+  itemEmpty: '&7[Mighty fist]'
+Spy:
+  Chat:
+    msg: '&2Spy&7[&8[senderDisplayName] &7-> &8[playerDisplayName]&7]&f [message]'
+    custom: '&2Spy&8[senderDisplayName] &7-> &4|&8[place]&4|&f [message]'
+  Command:
+    msg: '&5C&2Spy&7[&8[senderDisplayName]&7]&7: &f[command]'
+  Sign:
+    msg: '&5Sign&2Spy&7[&8[senderDisplayName]&7]&7: &f[text]'
+command:
+  help:
+    output:
+      usage: '&eการใช้: &7%usage%'
+      cmdInfoFormat: '[command] &f- &e[description]'
+      cmdFormat: '&6/[command]&f[arguments]'
+      helpPageDescription: '&e* [description]'
+      explanation: '&e * [explanation]'
+      title: '&e------ ======= &6ช่วยเหลือ&e &e======= ------'
+  nocmd:
+    help:
+      info: '&eแสดงคำสั่งทั้งหมดที่มี'
+      args: ''
+  actionbarmsg:
+    help:
+      info: '&eส่งข้อความแถบแอ็คชันไปยังผู้เล่น'
+      args: '[playerName/all] [message]'
+    info:
+      message: '&f[messsage]'
+  afk:
+    help:
+      info: '&eสลับโหมดไม่อยู่/กำลังเล่น สามารถระบุเหตุผลได้'
+      args: (-p:playerName) (reason)
+    info:
+      # This only determines message in title message and not message shown in chat. For chat message check config.yml file
+      afkTitle: '&eคุณกำลัง AFK'
+      afkSubTitle:
+      - '&2อย่าลืมกลับมาล่ะ!'
+      - '&2เป็นวันที่ดีสำหรับการตกปลานะ!'
+      - '&2อย่ากินคุ๊กกี้มากเกินไปล่ะ!'
+  afkcheck:
+    help:
+      info: '&eตรวจสอบสถานะของผู้เล่น'
+      args: '[playerName]'
+    info:
+      feedback: '&e[playerDisplayName]&e: &6[status]'
+      feedbackInactive: '&eไม่อยู่เป็นระยะเวลา &6[time]'
+      feedbackAll: '&e[place]. &e[playerDisplayName]&e: &6[status]'
+      feedbackReason: '&7[reason]'
+  air:
+    help:
+      info: '&eตั้งค่าอากาศให้ผู้เล่น'
+      args: '[playerName] [amount]'
+    info:
+      feedback: '&eคุณได้ตั้งค่า &3[amount]&e อากาศให้ &3[playerName]&e (&3[offon]&e)'
+      targetFeedback: '&eอากาศของคุณถูกกำหนดเป็น &3[amount]&e โดย &3[senderDisplayName]'
+      current: '&3[playerDisplayName] &eสถานะอากาศ: &3[amount]'
+  alert:
+    help:
+      info: '&eแจ้งเตือนทีมงานเมื่อผู้เล่นเข้าเซิร์ฟเวอร์'
+      args: '[playerName] (reason)'
+      explanation:
+      - '&eสิทธิ์:'
+      - '&6command.alert.info.inform &e- เพื่อดูการแจ้งเตือนเกี่ยวกับการเข้าเล่นเซิร์ฟเวอร์ของผู้เล่น'
+    info:
+      inform:
+      - '&e!Alert!******** &6[name] &4ได้เข้าเล่นเซิร์ฟเวอร์แล้ว &e*******!Alert!'
+      reason: '&eแจ้งเตือนด้วยเหตุผล: &6[reason]'
+      removed: '&6[playerDisplayName] &eลบออกจากรายการเตือน'
+      added: '&eข้อความแจ้งเตือนจะถูกส่งถึงทีมงานทั้งหมดหาก &6[playerDisplayName]
+        &eเข้าเซิร์ฟเวอร์ใน 24 ชั่วโมงข้างหน้า'
+      online: '&6[playerDisplayName] &eออนไลน์แล้ว'
+  alertlist:
+    help:
+      info: '&eLists all recorded alerts'
+      args: ''
+    info:
+      list: ' &e[place]. &6[playerDisplayName] &e[time] &7Reason: [reason]'
+  aliaseditor:
+    help:
+      info: '&eแก้ไขคำสั่งร่วม'
+      args: (new) (alias-cmd)
+    info:
+      ListNumber: '&e[number].'
+      alias: '&6[alias]'
+      commandList: ' &e/[command]  '
+      commandListDelay: ' &6[command]  '
+      permRequirements: Permission
+      permReqExplanation: '&7จะต้องมี &6cmi.customalias.[alias] &7เพื่อใช้งาน'
+      tab: ' TabComplete'
+      tabCompleteExplanation: '&7When disabled tabcomplete will not work'
+      tabCompletes: '&2TabCompletes: '
+      cTab: ' CustomTab'
+      file: ' &2FileName'
+      fileExplanation: '&7Current destination file: &e[file]'
+      addTabComplete: ' AddTab'
+      addTabExplanation: '&6When enabled we will add defined tabs to existing ones'
+      newAliasInfo: '&eป้อนชื่อคำสั่งร่วมใหม่แล้วกด Enter'
+      addInfo: '&eป้อนคำสั่งใหม่ พิมพ์ &6cancel &eเพื่อยกเลิก'
+      addInformationHover: "&eตัวแปรทั้งหมดสนับสนุนในหมวดหมู่ผู้ส่ง \n&edelay! 5 &6เ\
+        พื่อตั้งระยะเวลาที่รอ \n&e$1 &6จะใช้ตัวแปรที่มีให้ โดยคำสั่งใหม่จะเกิดขึ้น\
+        ในสถานที่นั้น \n&e$1- &6รับตัวแปรทั้งหมด จากจุดนี้และแทรกลงในคำสั่งดั้งเดิ\
+        ม \n&e? &6ทำให้ถูกต้อง เมื่อใช้ตัวแปรสุดท้าย สำหรับการใช้หน้าช่วยเหลือ \n\
+        &efromConsole! จะแสดง คำสั่งจากเซิร์ฟเวอร์"
+      editInfo: '&eคลิกเพื่อวางข้อความเก่า พิมพ์ &6cancel &eเพื่อยกเลิกการกระทำ พิมพ์
+        &6remove &eเพื่อลบบรรทัด'
+  anvil:
+    help:
+      info: '&eเปิดทั่งตีเหล็ก'
+      args: (playerName)
+    info:
+      feedback: '&eคุณได้เปิดทั่งตีเหล็กให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      targetfeedback: '&3[senderDisplayName]&e ได้เปิดทั่งตีเหล็กให้คุณ'
+  anvilrepaircost:
+    help:
+      info: '&eSet items repair cost'
+      args: (playerName) [amount]
+      explanation:
+      - 'Example:'
+      - /repaircost 10
+      - /repaircost set 10
+      - /repaircost add 10
+      - /repaircost take 10
+      - /repaircost Zrips clear
+      - /repaircost Zrips add 10
+    info:
+      current: '&eCurrent items base repair cost: &6[cost]&e.'
+      noitem: '&cNot holding any item in hand.'
+      cantDetermineCost: '&cCan''t determine base repair cost for this item.'
+      selffeedback: '&eBase repair cost was set to &3[amount] &efor &3[playerDisplayName]&e
+        item in hand (&3[offon]&e).'
+      targetfeedback: '&eYour item repair cost was set to &3[amount]&e by &3[senderDisplayName]&e.'
+  armoreffect:
+    help:
+      info: '&eModifies armor effects'
+      args: '[potionEffect]'
+  armorstand:
+    help:
+      info: '&eเปิดเครื่องมือแก้ไขหุ่น'
+      args: (last/near)
+    info:
+      cantClick: '&cไม่สามารถทำสิ่งนี้ได้ มีคนกำลังแก้ไขหุ่นนี้'
+      tooFar: '&cหุ่นอยู่ไกลเกินไป'
+      title: ปรับแต่ง
+      coordX: '&cX'
+      coordY: '&2Y'
+      coordZ: '&eZ'
+      body: '&7การหมุนของร่างกาย: &f[amount]'
+      head: '&7ส่วนหัว [coord]&7: &f[amount]'
+      torso: '&7ส่วนตัว [coord]&7: &f[amount]'
+      leftArm: '&7แขนซ้าย [coord]&7: &f[amount]'
+      rightArm: '&7แขนขวา [coord]&7: &f[amount]'
+      leftLeg: '&7ขาซ้าย [coord]&7: &f[amount]'
+      rightLeg: '&7ขาขวา [coord]&7: &f[amount]'
+      pos: '&7ตำแหน่ง [coord]&7: &f[amount]'
+      list: '&7[place]. &6[distance] [items]'
+      items: '&3[displayName]&e[type]'
+      plate: '&7พื้นหุ่น'
+      size: '&7ขนาดเล็ก'
+      visible: '&7แสดงหุ่น'
+      arms: '&7แสดงแขน'
+      gravity: '&7แรงโน้มถ่วง'
+      glow: '&7เรืองแสง'
+      invulnerable: '&7ทำลายไม่ได้'
+      name: '&7แสดงชื่อ'
+      nameEdit: '&7Middle mouse click to edit name'
+      interactable: '&7ใช้งาน'
+      explanation: '&8คลิกปุ่มเมาส์ซ้ายหรือขวาเพื่อปรับค่า'
+      explanation2: '&8กด Shift เพื่อทำให้มากขึ้น/ลดลง 10 เท่า'
+      disableGravity: '&eปิดใช้งานแรงโน้มถ่วงหากคุณต้องการเปลี่ยนค่านี้'
+      copyLabel: '&7เปิดเครื่องมือโคลน'
+      copyTitle: '&8เลือกสิ่งที่คุณต้องการโคลน'
+      click: '&eคลิกหุ่นเพื่อโคลน หรือต่อยบล็อกเพื่อยกเลิกกระบวนการ'
+      canceled: '&eกระบวนการโคลนหุ่นถูกยกเลิก'
+      updated: '&eอัปเดตหุ่นแล้ว'
+      positionLabel: '&7Open position options'
+      saveLabel: '&7Open template saver'
+      saveButton: '&7Save'
+      saveTitle: '&8Pick what you want to save'
+      receivedItem: '&eReceived special armor stand into your inventory'
+      armorStandItem: '&7ArmorStand Template: &6[name]'
+      action:
+        helmet: '&7Helmet'
+        chest: '&7Chest'
+        offhand: '&7Offhand'
+        mainhand: '&7Mainhand'
+        leggings: '&7Leggings'
+        boots: '&7Boots'
+        name: '&7Name'
+        body: '&7Body'
+        plate: '&7Plate'
+        size: '&7Size'
+        visible: '&7Visible'
+        arms: '&7Arms'
+        gravity: '&7Gravity'
+        glow: '&7Glow'
+        invulnerable: '&7Invulnerable'
+        interactable: '&7Interactable'
+        head: '&7Head'
+        torso: '&7Torso'
+        leftArm: '&7Leftarm'
+        rightArm: '&7Rightarm'
+        leftLeg: '&7Leftleg'
+        rightLeg: '&7Rightleg'
+  attachcommand:
+    help:
+      info: '&eใส่คำสั่งลงในไอเท็ม'
+      args: '[command/-clear]'
+      explanation:
+      - แยกคำสั่งด้วย ;;
+      - คุณสามารถกำหนดให้รันคำสั่งด้วยการคลิกเมาส์ซ้ายหรือขวาแยกกันด้วย
+      - '!left! เพื่อดำเนินการคำสั่งด้วยการคลิกซ้าย'
+      - '!right! เพื่อดำเนินการคำสั่งด้วยการคลิกขวา'
+      - '!limiteduse:[amount]! กำหนดจำนวนครั้งที่คุณสามารถใช้ไอเท็มได้'
+      - '!safelimiteduse:[amount]! จะไม่ลบไอเท็มออกหลังจากใช้งานหมด'
+      - '!cc! ดำเนินการคำสั่งจากเซิร์ฟเวอร์, ต้องการสิทธิ์ cmi.command.attachcommand.cc'
+      - '!cooldownn:[amount]! เพิ่มคูลดาวน์ในการใช้ไอเท็ม'
+      - '[interactedPlayer] แทรกชื่อของผู้เล่นที่คุณมีการโต้ตอบในขณะที่ถือไอเท็ม'
+      - ตัวแปรทั่วโลกทำงานนอกเหนือจาก [itemUses]
+    info:
+      list: ' &e[id]. &6[cmd]'
+      uses: '&eItem usages: &6[amount]'
+      usesLeft: '!actionbar!&eItem uses left: &6[itemUses]'
+      cooldown: '&7Item is on cooldown. Wait [time]'
+  autorecharge:
+    help:
+      info: '&eToggle auto flight recharge'
+      args: (playerName) [exp/money/off] (-s)
+    info:
+      disabled: '&eAuto recharge disabled'
+      moneyEnabled: '&eEnabled automatic flight charge recharging by using &6money'
+      expEnabled: '&eEnabled automatic flight charge recharging by using &2exp'
+  back:
+    help:
+      info: '&eเคลื่อนย้ายกลับไปยังตำแหน่งล่าสุด'
+      args: (playerName) (-s)
+    info:
+      noinfo: '&4ไม่มีตำแหน่งที่บันทึกไว้เพื่อกลับไป'
+      feedback: '&eกลับสู่ตำแหน่งล่าสุด (&6[worldName]&e,&6[x]&e,&6[y]&e,&6[z]&e)'
+  balance:
+    help:
+      info: '&eตรวจสอบยอดเงิน'
+      args: (playerName)
+    info:
+      balance: '&eเงิน: &6[money]'
+      balanceOther: '&6[playerDisplayName] &eมีเงิน: &6[money]'
+  baltop:
+    help:
+      info: '&eตรวจสอบอันดับคนรวย'
+      args: (playerName)
+    info:
+      topLine: '&e&m-----&6 อันดับคนรวย &e&m-----'
+      topLineHover: '&6รวมเงินในเซิร์ฟเวอร์: &c[total]'
+      list: '&e[place]. &6[playerDisplayName]: &e[balance]'
+      ownLine: '&2[place]. &2[playerDisplayName]: &2[balance]'
+      # Set to empty field if you want to not show hover over message
+      hover: '&2[playerName]'
+      recalculating: '&2กำลังคำนวณอันดับคนรวย โปรดรอ 2-3 วินาทีแล้วลองอีกครั้ง'
+  ban:
+    help:
+      info: '&eแบนผู้เล่น'
+      args: '[playerName] (reason) (-s)'
+      explanation:
+      - cmi.command.ban.bypass - เพื่อหลีกเลี่ยงการแบน
+    info:
+      # Make sure that OverrideLoginMessage is enabled in config file
+      message: '&cคุณถูกแบนจากเซิร์ฟเวอร์นี้'
+      reason: '&6เหตุผล: &e[reason]'
+      defaultReason: '&eผิดกฎเซิร์ฟเวอร์'
+      messageToAll: '&6[playerDisplayName] &eถูกแบนโดย &6[senderDisplayName] &eเหตุผล:
+        &6[reason]'
+      banedSilent: '&7[&8เงียบ&7]&6[playerDisplayName] &eถูกแบนโดย &6[senderDisplayName]
+        &eเหตุผล: &6[reason]'
+      noSelfBan: '&cคุณไม่สามารถแบนตัวเองได้'
+      cantBan: '&cคุณไม่สามารถแบนผู้เล่นนี้ได้'
+  banlist:
+    help:
+      info: '&eเช็ครายการแบน'
+      args: ''
+  bbroadcast:
+    help:
+      info: '&eส่งข้อความพิเศษถึงผู้เล่นทุกคนบนเซิร์ฟเวอร์ทั้งหมด'
+      args: (!) [message] (-s:[serverName,serverName])
+      explanation:
+      - หากข้อความเริ่มต้นด้วย ! ข้อความกำหนดเองจะปรากฎขึ้น
+      - เซิร์ฟเวอร์สามารถกำหนดให้ประกาศข้อความเฉพาะในเซิร์ฟเวอร์นั้น
+    info:
+      format: '&7【 &aประกาศจากทางเซิร์ฟเวอร์ &7】 » &c[message]'
+  blockcycling:
+    help:
+      info: '&eเปลี่ยนสถานะรอบบล็อก'
+      args: ''
+  blockinfo:
+    help:
+      info: '&eตรวจสอบข้อมูลบล็อก'
+      args: ''
+    info:
+      Id: ' &eId: &6[id][data]'
+      Material: ' &eMaterial: &6[name][ndata]'
+      RealName: ' &eชื่อจริง: &6[name]'
+      TempLight: ' &eอุณหภูมิ: &6[temp]&e, ความสว่าง: &6[blevel]&e, ความสูง: &6[slevel]&e,
+        ความสว่างของบล็อกในตอนนี้: &6[level]'
+      Resistance: ' &eความต้านทานการขุด: &6[mining]&e, การระเบิด: &6[explosion]'
+      noteBlock: ' &eโทน: &6[tone] &eเสียงคู่แปด: &6[octave] &6เครื่องดนตรี: &e[instrument]
+        &6ระดับเสียง: &7[pitch]'
+      BlockState: ' &7[state]: &f[value]'
+      BlockHitBox: ' &7Height: &f[height] &7Length: &f[length] &7Width: &f[width]'
+      BlockHitBoxHover: '&7From Top: &f[top] &7From Bottom: &f[bottom]'
+  blocknbt:
+    help:
+      info: '&eแสดงข้อมูล NBT บล็อก'
+      args: ''
+    info:
+      noNbt: '&eบล็อกไม่มีข้อมูล NBT ใด ๆ'
+  book:
+    help:
+      info: '&eแก้ไขหนังสือ'
+      args: '[Author/Title/Unlock] [value]'
+    info:
+      noitem: '&cไม่ถือสิ่งของใด ๆ ในมือ'
+      notBook: '&cไอเท็มไม่ใช่หนังสือที่เขียน'
+      wrongValue: '&cไอเท็มไม่ได้ถูกเขียนเป็นหนังสือ'
+      inccorectAction: '&eชื่อการกระทำไม่ถูกต้อง'
+      authorChanged: '&eผู้เขียนเปลี่ยนเป็น: [author]'
+      titleChanged: '&eเปลี่ยนชื่อเป็น: [title]'
+      unlocked: '&eปลดล็อคหนังสือแล้ว'
+  bossbarmsg:
+    help:
+      info: '&eส่งข้อความแถบบนให้ผู้เล่น'
+      args: '[playerName/all] (-sec:[seconds])(-t:[timeToKeepFor]) (-n:nameOfBar)
+        (-p:[maxValue/current]) (-c:[color]) (-s:[1,6,10,12,20]) (-cmd:"command;;command2")
+        (-a:[ticks]) [message]'
+      explanation:
+      - PlaceHolderAPI ได้รับการสนับสนุนสำหรับความก้าวหน้าและส่งข้อความด้วยตนเอง
+      - เวลาถูกกำหนดในวิธีปกติ, เช่น 1s คือหนึ่งวินาที และ 1m เป็นหนึ่งนาที วิธีนี้จะกำหนดระยะเวลาที่จะให้แถบแสดงต่อผู้เล่นก่อนที่จะซ่อนตัวโดยอัตโนมัติ
+      - nameOfBar เป็นตัวเลือกและเมื่อกำหนดค่าเดียวกันแถบปัจจุบันจะ อัปเดตด้วยข้อมูลใหม่
+      - 'สีที่ใช้ได้: red, green, pink, purple, white, yellow'
+      - ค่าสูงสุดและปัจจุบันกำหนดค่าการเติมตัวแปร PlaceHolderAPI สามารถใช้สำหรับ การปรับปรุงแบบไดนามิก
+      - 'ตัวอย่าง:'
+      - /cmi bossbar Zrips BossBarTitle
+      - /cmi bossbarmsg all -t:1s -p:%server_max_players%/%server_online% -n:testbar
+        -c:red &2Title of bar %server_online%/%server_max_players% &e%cmi_user_name%
+      - /cmi bossbarmsg all -p:+1 -n:testbar - จะเพิ่มหนึ่งเปอร์เซ็นต์ไปยังแถบปัจจุบันตามชื่อ
+      - /cmi bossbarmsg all -p:-1 -n:testbar - จะหักหนึ่งเปอร์เซ็นต์จากแถบการแสดงปัจจุบันตามชื่อ
+      - /cmi bossbarmsg all -s:10 -n:testbar - จะตั้งค่าสไตล์แถบเป็น 10 กลุ่มโดยใช้ชื่อบาร์
+      - /cmi bossbarmsg all -sec:5 - จะนับ 5 วินาทีตั้งแต่ 0 ถึง 5
+      - /cmi bossbarmsg all -sec:-5 - จะนับ 5 วินาทีตั้งแต่ 5 ถึง 0
+      - http://www.zrips.net/cmi/commands/bossbarmsg-handling/
+  broadcast:
+    help:
+      info: '&eส่งข้อความพิเศษถึงผู้เล่นทุกคน'
+      args: (!) [message] (-w:[worldName,worldName])
+      explanation:
+      - หากข้อความเริ่มต้นด้วย ! ข้อความกำหนดเองจะปรากฎขึ้น
+      - โลกสามารถกำหนดให้ประกาศข้อความได้เฉพาะในโลกเหล่านั้น
+    info:
+      format: '&f[ &f &f] &7: &c[message]'
+  burn:
+    help:
+      info: '&eเผาผู้เล่น'
+      args: (playerName) (time) (-s)
+    info:
+      feedback: '&eคุณได้จุดไฟ &3[playerDisplayName]&e เป็นเวลา &6[time] &e(&3[offon]&e)'
+      targetfeedback: '&eคุณโดนจุดไฟโดย &3[senderDisplayName]&e เป็นเวลา &6[time]'
+  cartographytable:
+    help:
+      info: '&eOpen cartography table'
+      args: (playerName) (-s)
+    info:
+      feedback: '&eYou have opened cartography table for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&3[senderDisplayName]&e opened cartography table for you.'
+  charges:
+    help:
+      info: '&eแสดงค่าใช้จ่ายกรงสปาว'
+      args: '[playerName] [add/set/take/clear/reset] (-f)'
+    info:
+      charges: '&e* ค่าใช้จ่าย: &6[current]&e/&6[max] [bypass]'
+      cd: '&e* คูลดาวน์: &6[cdtime] &eถัดไปใน: &6[time]'
+      bypass: '&6(ข้าม)'
+      allUsed: '&eค่าใช้จ่ายทั้งหมดที่ใช้ ถัดไปในอีก [time]'
+      noGroup: '&eยังไม่ได้กำหนดกลุ่มการเรียกเก็บเงิน'
+      cantBreak: '&eคุณไม่สามารถทำลายได้จนกว่าคุณจะได้รับมอบหมายกลุ่ม'
+      minusCd: '&e ลบ &6[sec]&eวินาที บนคูลดาวน์ของกรงสปาว'
+      add: '&eเพิ่ม &6[amount] &eค่าใช้จ่ายกรงสปาวให้ &6[playerDisplayName]'
+      set: '&eตั้งค่า &6[amount] &eค่าใช้จ่ายกรงสปาวสำหรับ &6[playerDisplayName]'
+      clear: '&eล้างค่าใช้จ่ายกรงสปาวทั้งหมดให้ &6[playerDisplayName]'
+      reset: '&eรีเซ็ตกลุ่มการเรียกเก็บเงินกรงสปาวให้ &6[playerDisplayName]'
+      take: '&eเอา &6[amount] &eค่าใช้จ่ายกรงสปาวจาก &6[playerDisplayName]'
+  chat:
+    help:
+      info: '&eแชทกับผู้เล่นเป้าหมาย'
+      args: '[playerName/off]'
+    info:
+      joined: '&eเข้าร่วมห้องแชท: &7[chatRoomName]'
+      joinedWatcher: '&eObserving chat room: &7[chatRoomName]'
+      stopeedWatching: '&eStopped observing chat room: &7[chatRoomName]'
+      watcherSymbol: ◕‿◕
+      watcherSymbolActive: '&2'
+      watcherSymbolInactive: '&7'
+      joinedInfo: '&e[playerDisplayName] &7เข้าร่วมห้องแชท'
+      alreadyIn: '&eYou are already in &7[chatRoomName] chat room'
+      left: '&eออกจากห้องแชทชื่อ &7[chatRoomName]'
+      leftInfo: '&e[playerDisplayName] &7ออกจากห้องแชท'
+      invite: '&6[playerDisplayName] &eเชิญคุณเข้าร่วมห้องแชท: &7[chatRoomName]'
+      sentInvite: '&eInvited &6[playerDisplayName] &eto join chat room: &7[chatRoomName]'
+      format: '&3|&7[chatRoomName]&3| &6[playerDisplayName]: &r[message]'
+      nobody: '&4ไม่มีใครอยู่ในห้องแชท'
+      notOwner: '&4Only chat owner can do this'
+      wrongName: '&4Wrong chat room name'
+      takenName: '&4Chat room name is taken, use different one'
+      notIn: '&4User is not in chat room'
+      cantJoin: '&4Chat room is private and you don''t have invitation'
+      cantSee: '&4Chat room is private, you don''t have permission to see messages
+        in it'
+      kicked: '&6[playerDisplayName] &ekicked from chat room'
+      cantleave: '&6Can''t leave locked room'
+      gotKicked: '&4You got kicked from &7[chatRoomName] &4chat room'
+      list: '&e[chatRoomName]&e: &7[list]'
+      globalList: '&7[number]. [joined]&e[chatRoomName][private]&e: &7[count][expires]'
+      globalListPrivate: '&2(P)'
+      globalListJoined: '&2+'
+      globalListHover:
+        Owner: '&7Owner: [playerDisplayName]'
+        Ends: ' &7Expires in: [time]'
+        Names: '&7[playerDisplayName]'
+  checkaccount:
+    help:
+      info: '&eค้นหาบัญชีอื่นของผู้เล่น'
+      args: (playerName/ip)
+      explanation:
+      - 'สิทธิ์พิเศษ: cmi.command.checkaccount.showip'
+    info:
+      place: '&e[place]. &6'
+      ip: '&6[ip]&e: '
+      name: '&6[name]&e(&6[times]&e)'
+      nonIpList: '&eบัญชี: &6'
+      nonIpName: '&6[name]'
+      click: '&eคลิกเพื่อตรวจสอบ &6[name] &eบัญชี'
+      noData: '&cไม่มีบันทึกสำหรับผู้เล่นนี้'
+  checkban:
+    help:
+      info: '&eตรวจสอบสถานะแบน'
+      args: (playerName)
+    info:
+      list: '&6[place]&e. &e[playerDisplayName] &6[time]'
+      permanent: '&3ถาวร'
+      bannedUntil: '&eแบนเมื่อ: &6[time]'
+      reason: '&eเหตุผล: &6[reason]'
+      bannedBy: '&eแบนโดย: &6[sourceDisplayName]'
+      bannedWhen: '&eแบนเมื่อวันที่: &6[date]'
+  checkcommand:
+    help:
+      info: '&eค้นหาคำสั่งที่เป็นไปได้ด้วยคำหลัก'
+      args: (key word)
+    info:
+      list: '&e[place]. &f[command] &7[args]'
+      hover: '&e[desc]'
+      variableColor: '&f'
+      noCommandFound: '&7No commands found by this keyword'
+  checkexp:
+    help:
+      info: '&eตรวจสอบประสบการณ์ผู้เล่น'
+      args: (playerName)
+    info:
+      current: '&eเลเวล: &6[currentLevel] &eประสบการณ์: &6[levelExp] &eประสบการณ์ทั้งหมด:
+        &6[exp]'
+      need: '&eต้องการประสบการณ์เพื่ออัพเลเวล: &6[missingExp]'
+  checkperm:
+    help:
+      info: '&eตรวจสอบสิทธิ์ที่เป็นไปได้'
+      args: (key word)
+    info:
+      list: '&e[place]. [permission]'
+      hover: '&e[desc]'
+      others: |-
+        &4
+        ---->เมื่อใช้คำสั่งกับผู้เล่นอื่น<----
+        &cต้องการคำสั่งพื้นฐาน
+      permissionColor: '&6'
+      cmdPermissionColor: '&2'
+      variableColor: '&f'
+      noPermissionFound: '&7ไม่พบสิทธิ์ของคำหลักนี้'
+  cheque:
+    help:
+      info: '&eแปลงเงินเป็นเช็ค'
+      args: (playerName) [amount]
+    info:
+      transferred: '&eTransferred &6[amount] &eto your account. New balance: &6[balance]'
+      chequeName: '&eเช็คเงินจำนวน &6[amount]'
+      chequeLore:
+      - '&r&fออกโดย &7[senderDisplayName]'
+      - '&r&fคลิกขวาเพื่อรับเงิน'
+      holdPaper: '&eถือกระดาษในมือของคุณ'
+      cantUse: '&eไม่สามารถใช้กระดาษแผ่นนี้ มันเป็นเช็คแล้ว'
+  clear:
+    help:
+      info: '&eเคลียร์ช่องเก็บของผู้เล่น'
+      args: (playerName) (item(-amount)) (-s) (+clearType)
+      explanation:
+      - 'ตำแหน่งที่เคลียร์ได้: quickbar, inventory, partinventory, weapons, armorslots,
+        tools, armors, mainhand, offhand'
+      - ควรเริ่มต้นด้วยเครื่องหมาย +
+      - สามารถใช้ได้หลายประเภท
+      - cmi clear +armors - จะลบไอเท็มประเภทเกราะ
+      - cmi clear +armorslots - จะลบไอเท็มออกจากช่องใส่ชุดเกราะ
+    info:
+      clearFeedback: '&eYou have removed &6[amount] &eitems from &3[playerDisplayName]&e
+        inventory (&3[offon]&e).'
+      target: '&6[amount] &eitems got removed from your inventory by &3[senderDisplayName]&e.'
+      confirm: '&7คลิกเพื่อยืนยันเคลียร์ช่องเก็บของ &cไอเท็มทั้งหมดจะถูกลบ'
+  clearchat:
+    help:
+      info: '&eล้างการแชท'
+      args: (self)
+      explanation:
+      - 'สิทธิ์:'
+      - ' &6cmi.command.clearchat.bypass &e- เพื่อละเว้นการล้างการแชท'
+    info:
+      information: '&eแชทถูกล้างโดย &6[senderDisplayName]'
+  clearender:
+    help:
+      info: '&eล้างหีบเอ็นเดอร์ของผู้เล่น'
+      args: '[playerName] (-s)'
+    info:
+      feedback: '&eคุณได้ล้าง &3[playerDisplayName]&e หีบเอ็นเดอร์ (&3[offon]&e)'
+      targetfeedback: '&eหีบเอ็นเดอร์ของคุณถูกล้างโดย &3[senderDisplayName]'
+  colorlimits:
+    help:
+      info: '&eแสดงสีที่สามารถใช้ได้ทั้งหมด'
+      args: (playerName)
+    info:
+      publicmessage: ' &eสาธารณะ: '
+      privatemessage: ' &eส่วนตัว: '
+      nickname: ' &eชื่อเล่น: '
+      signs: ' &eป้าย: '
+      books: ' &eหนังสือ: '
+      itemname: ' &eItemName: '
+      itemlore: ' &eItemLore: '
+      me: ' &eตัวเอง: '
+      None: '&e-'
+  colorpicker:
+    help:
+      info: '&ePick hex color'
+      args: (hex/colorname)
+    info:
+      hovers:
+      - '[color]⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛'
+      - '&f#[hex]'
+      - '&7Closest match: '
+      - '[colorHex] - [colorName]'
+      - '[closeColor]⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛'
+      - Shift+Click
+  colors:
+    help:
+      info: '&eแสดงสีที่เป็นไปได้ทั้งหมด'
+      args: (playerName)
+    info:
+      List:
+      - '&e***************************************'
+      - '     &0&%0  &1&%1  &2&%2  &3&%3  &4&%4  &5&%5  &6&%6  &7&%7'
+      - '     &8&%8  &9&%9  &a&%a  &b&%b  &c&%c  &d&%d  &e&%e  &f&%f'
+      - '       &%k - &kMagic&r      &%l - &lBold'
+      - '       &%m - &mStrike&r     &%n - &nUline'
+      - '       &%o - &oItalic&r      &%r - &rReset'
+      - '&e***************************************'
+  compass:
+    help:
+      info: '&eตั้งค่าเข็มทิศผู้เล่นไปยังตำแหน่งของคุณ'
+      args: (targetName) (sourceName) (x) (z) (worldname) (reset) (-s)
+      explanation:
+      - 'ตัวอย่าง: /cmi compass Zhax'
+      - /cmi compass Zhax Zrips
+      - /cmi compass Zhax LT_Craft 0 0 -s
+      - /cmi compass reset Zhax
+    info:
+      wrongworld: '&cโลกที่คุณกำหนดไม่มีอยู่'
+      feedback: '&eคุณได้ตั้งค่า &3[playerDisplayName] &eเข็มทิศให้ชี้ไปยัง &3[sourceDisplayName]
+        &eตำแหน่ง'
+      feedbackCustom: '&eคุณได้ตั้งค่า &3[playerDisplayName] &eเข็มทิศชี้ไปยัง &3[x]
+        [z] [world] &eตำแหน่ง'
+      targetFeedback: '&eเป้าหมายเข็มทิศของคุณถูกตั้งค่าเป็น &3[sourceDisplayName]
+        &eตำแหน่ง โดย &3[senderName]'
+      targetFeedbackCustom: '&eเป้าหมายเข็มทิศของคุณถูกตั้งค่าเป็น &3[x] [z] [world]
+        &eตำแหน่ง โดย &3[sourceDisplayName]'
+      reset: '&eลบเป้าหมายเข็มทิศแล้ว'
+  condense:
+    help:
+      info: '&eรวมไอเท็มให้เป็นบล็อก'
+      args: (itemName)
+    info:
+      converted: '&eแปลง &7[items] &eไอเท็มให้เป็น &7[blocks] &eบล็อก'
+      nothing: '&cไม่มีไอเท็มในตัวที่จะแปลงเป็นบล็อก'
+  counter:
+    help:
+      info: '&eเริ่มตัวนับสำหรับผู้เล่นโดยรอบ'
+      args: '[join/leave/start] (t:time) (r:[range/-1]) (c:[world:x:y:z]) (msg:custom_message)
+        (-f)'
+      explanation:
+      - '&eสิทธิ์:'
+      - '&6cmi.command.counter.force &e- เพื่อบังคับให้ทุกคนอยู่ในระยะ '
+      - '&6cmi.command.counter.time &e- กำหนดช่วงเวลาที่กำหนดเอง '
+      - '&6cmi.command.counter.range &e- เพื่อกำหนดระยะที่กำหนดเอง'
+      - '&6cmi.command.counter.msg &e- เพื่อกำหนดข้อความที่กำหนดเอง'
+      - '&6cmi.command.counter.autojoin &e- เข้าร่วมตัวนับโดยอัตโนมัติ'
+      - -f จะบังคับให้ตอบโต้ผู้เล่นทุกคนในระยะ
+      - 'ตัวอย่าง: /cmi counter start r:30 t:7 msg:&eCustom_message -f'
+    info:
+      join: '&eเข้าร่วมตัวนับ'
+      leave: '&eออกจากตัวนับ'
+      go: '&eลุย!'
+      tooFast: '&cไม่สามารถทำซ้ำคำสั่งได้ ให้รออีก: &6[sec]&eวินาที'
+      noOne: '&cไม่มีใครเห็นตัวนับนี้'
+  cplaytime:
+    help:
+      info: '&eแสดงเวลาเล่นโดยละเอียด'
+      args: (playerName)
+    info:
+      moreDetails: '&7คลิกเพื่อดูรายละเอียดเพิ่มเติม'
+      title: '&8[playerDisplayName] &7เวลาเล่น'
+      date: '&8[date]'
+      time: '&7[hour]:00&f-&7[nextHour]:00'
+      thishour: '&7ชั่วโมงปัจจุบัน'
+      hourback: '&7ชั่วโมงก่อนหน้า'
+      today: '&7วันนี้'
+      yesterday: '&7เมื่อวาน'
+      thisweek: '&7สัปดาห์นี้'
+      week: '&7ช่วง 7 วัน'
+      thismonth: '&7เดือนนี้'
+      month: '&7ช่วง 30 วัน'
+      thisyear: '&7ปีนี้'
+      year: '&7ช่วง 365 วัน'
+      total: '&7รวม'
+  ctellraw:
+    help:
+      info: '&eส่งข้อความชนิด Tellraw'
+      args: '[playerName/all] [formattedMessage]'
+      explanation:
+      - การใช้งานเหมือนที่แสดงใน http://www.zrips.net/cmi/custom-text/ เช่น ข้อความที่กำหนดเอง
+  ctext:
+    help:
+      info: '&eแสดงข้อความที่กำหนดเอง'
+      args: '[cText] (playerName/all) (sourcePlayer)'
+    info:
+      list: '&eข้อความที่กำหนดเอง: &6'
+      check: '&eตรวจสอบ: &6[text]'
+  cuff:
+    help:
+      info: '&eใส่/ปลดกุญแจมือของผู้เล่น'
+      args: '[playername] (true/false)'
+    info:
+      noChat: ''
+      noCommand: '&cคุณไม่สามารถใช้คำสั่งได้ขณะถูกใส่กุญแจมือ อนุญาตแค่ &6/msg, /r,
+        /tell'
+      cuffed: '&6[playerDisplayName] &eถูกใส่กุญแจมือ'
+      unCuffed: '&6[playerDisplayName] &eได้รับการปล่อยตัว'
+      free: '&eคุณเป็นอิสระแล้ว'
+      gotCuffed: ''
+      cuffedInfo: ''
+      cantCuff: '&cคุณไม่สามารถใส่กุญแจมือคนนี้ได้'
+  customrecipe:
+    help:
+      info: '&eจัดการวิธีคราฟต์ที่กำหนดเอง'
+      args: ''
+    info:
+      removed: '&eลบสูตร: [id]. หากไม่ต้องการให้ผู้เล่นใช้สูตรนี้ได้ คุณจะต้องรีสตาร์ทเซิร์ฟเวอร์'
+      noRecipe: '&eไม่มีสูตรที่กำหนดเองโดยรหัสนี้'
+      edit: '&8แก้ไขสูตร (&6[type]&8)'
+      addNew: '&eเพิ่มสูตรใหม่ (&6[type]&e)'
+      shapelessRecipe: '&6ทำสูตรไร้รูปแบบใหม่'
+      shapedRecipe: '&eทำสูตรรูปทรงใหม่'
+      furnaceRecipe: '&2ทำสูตรเตาใหม่'
+      campfireRecipe: '&2Make new campfire recipe'
+      smithingRecipe: '&2Make new smithing recipe'
+      stonecuttingRecipe: '&2Make new stonecutting recipe'
+      blastingRecipe: '&2Make new blasting recipe'
+      smokingRecipe: '&2Make new smoking recipe'
+      exact: '&2Require exact ingredients: [state]'
+      exists: '&4Looks like recipe like this already exists'
+      mainTitle: '&8สูตรที่กำหนดเอง (&7[current]&8/&7[total]&8)'
+  dback:
+    help:
+      info: '&eกลับสู่ตำแหน่งที่ตาย'
+      args: (playerName) (-s)
+    info:
+      noinfo: '&4ไม่มีตำแหน่งที่บันทึกไว้เพื่อกลับไป'
+      feedback: '&6กลับสู่ตำแหน่งล่าสุด ([world],[x],[y],[z])!'
+  disableenchant:
+    help:
+      info: '&eปิดการใช้ลงมนต์'
+      args: (enchant/id) (disable/enable)
+    info:
+      title: ควบคุมมนต์
+      feedback: '&6[enchantName] &eได้รับการ [state]'
+  dispose:
+    help:
+      info: '&eทิ้งไอเท็มที่ไม่ต้องการ'
+      args: (playerName)
+    info:
+      title: '&cถังขยะ'
+      cant: '&cYou can''t dispose this item'
+  distance:
+    help:
+      info: '&eตรวจสอบระยะห่างระหว่าง 2 ผู้เล่น'
+      args: (playerName) (playerName)
+    info:
+      feedback: '&7ระยะทาง: &e[dist] &7x:&e[x] &7y:&e[y] &7z:&e[z] &7ทิศ:&e[dir]'
+  donate:
+    help:
+      info: '&eบริจาคไอเท็มที่คุณถืออยู่'
+      args: '[playerName] (amount)'
+    info:
+      donated: '&eบริจาค &6[type]&eX&6[amount] &eให้กับ &6[playerDisplayName]'
+      got: '&eได้รับ &6[type]&eX&6[amount] &eจาก &6[playerDisplayName]'
+      sentOffer: '&eส่งการบริจาคให้กับ &6[playerDisplayName]&e ให้รอจนกว่าผู้เล่นยอมรับ'
+      gotOffer: '&eได้รับ &6[type]&eX&6[amount] &eจาก &6[sourceDisplayName]&e คลิกเพื่อรับไอเท็ม'
+      doesnthave: '&eผู้เล่นไม่มีไอเท็มนี้แล้ว'
+      'no': '&eNo pending donations'
+      list: '&7[number]. &e[playerDisplayName] &e- &7[material] &6x &e[amount]'
+  down:
+    help:
+      info: '&eTeleport one floor down'
+      args: '[playerName] (-s)'
+    info:
+      notFound: '&eNo suitable location'
+  dsign:
+    help:
+      info: '&eจัดการป้ายแบบไดนามิก'
+      args: (new)
+      explanation:
+      - มองที่ป้ายแล้วพิมพ์คำสั่ง /cmi dsign new
+    info:
+      howTo: '&cนี่ไม่ใช่ป้ายแบบไดนามิกเพื่อสร้างการดำเนินการใหม่ ให้พิมพ์ &e/cmi
+        dsign new'
+      gui: '&7---- &f<Open gui> &7----'
+      guiHover: '&eเปิดหน้าต่างการตั้งค่าป้ายแบบไดนามิก'
+      individual: '&7สถานะ: [state]'
+      individualLore:
+      - '&2True &7- จะส่งป้ายให้มีความแตกต่างกันสำหรับผู้เล่นแต่ละคน'
+      - '&2True &7- จะอัปเดตตัวยึดตำแหน่งของผู้เล่น'
+      - '&2False &7- จะส่งผลให้ป้ายมีการปรับปรุงทางกายภาพ'
+      - '&2False &7- มีประสิทธิภาพมากขึ้น แต่จำกัดมากขึ้นในเวลาเดียวกัน'
+      interval: '&7อัปเดตทุก ๆ &6[second] &7วินาที'
+      intervalLore:
+      - '&7มีการอัปเดตข้อมูลเกี่ยวกับป้ายบ่อยครั้งเป็นวินาที'
+      - '&7สิ่งนี้จะกำหนดความเร็วการเลื่อนของบรรทัด'
+      range: '&7ช่วงการเปิดใช้งาน: &6[blocks]'
+      rangeLore:
+      - '&7กำหนดพื้นที่รอบป้ายเพื่อเรียกการอัปเดต'
+  dye:
+    help:
+      info: '&eย้อมสีให้เกราะหนัง'
+      args: (playerName) (red,green,blue/hexCode/colorName/random/clear/rainbow/day/biome/health)
+        (-s)
+    info:
+      color: '&eสีปัจจุบัน - &c[red],&2[green],&9[blue] &eรหัสสี:&6#[hex]'
+      custom: '&eเปิดใช้งานโหมดสีที่กำหนดเอง: &6[mode]'
+      bound: '&eเจ้าของคือ: &6'
+      boundName: '[playerName]'
+  editctext:
+    help:
+      info: '&eแก้ไขข้อความที่กำหนดเอง'
+      args: ''
+    info:
+      noText: '&cไม่พบข้อความที่กำหนดเองที่ใช้ชื่อนี้'
+      editInfo: '&eคลิกเพื่อวางข้อความเก่า พิมพ์ &6cancel &eเพื่อยกเลิกการกระทำ พิมพ์
+        &6remove &eเพื่อลบบรรทัด'
+      addInfo: '&eป้อนข้อความบรรทัดใหม่ พิมพ์ &6cancel &eเพื่อยกเลิก'
+      addInformationHover: "&eตัวแปรทั้งหมดสนับสนุนในหมวดหมู่ผู้ส่ง \n&eรวมข้อความ\
+        ที่คลิกได้: \n&e<T>&rText&e</T><H>&rHover text&e</H><C>&rcommand&e</C><SC>&rSuggested\
+        \ text&e</SC> \n&6<T> &eและ &6</T> &erequired, อื่น ๆ เป็นตัวเลือก \n&eใช้\
+        \ \\u005Cn เพื่อเพิ่มบรรทัด \n&eหากต้องการใช้ข้อความ JSON มากกว่าหนึ่งรายก\
+        ารให้ใช้ <Next> \n&6<CC> &eดำเนินการคำสั่งเซิร์ฟเวอร์หนึ่งครั้ง \n&6<CCI>\
+        \ &eดำเนินการคำสั่งเซิร์ฟเวอร์ ทุกครั้งที่ผู้เล่นคลิกที่ข้อความ \n&6<URL>\
+        \ &eอนุญาตให้เพิ่มลิงก์เพื่อเปลี่ยนเส้นทาง  ไปยังเว็บ"
+      newInfo: '&eป้อนชื่อของข้อความที่กำหนดเอง พิมพ์ &6cancel &eเพื่อยกเลิก'
+      deleteInfo: '&eพิมพ์ &6confirm &eเพื่อยืนยันการลบ หรือ พิมพ์ &6cancel &eเพื่อยกเลิกการกระทำนี้'
+      deleted: '&eข้อความที่กำหนดเอง (&6[ctext]&e) ถูกลบออก'
+      createdNew: '&eข้อความที่กำหนดเอง (&6[ctext]&e) ถูกสร้าง'
+      hidden: '&eHidden: &6[state]'
+      autoPage: '&eหน้าอัตโนมัติ: &6[state]'
+      autoAlias: '&eคำสั่งร่วมอัตโนมัติ: &6[state]'
+      permReq: '&eต้องการสิทธิ์: &6[state]'
+      pageLabel: ' &e<PageLabel>'
+      pageLabelHover: '&e[value]'
+      listTitle: '&eCText''s'
+      listFormat: '&6[name]&7: &r[extra]'
+  editlocale:
+    help:
+      info: '&eแก้ไขไฟล์ภาษาของคุณ'
+      args: (keyword(-s))
+    info:
+      found: '&7********* &eพบ: [found] &7*********'
+  editplaytime:
+    help:
+      info: '&eแก้ไขเวลาเล่นของผู้เล่น'
+      args: (playerName) [add/take/set] [amount] (-s)
+    info:
+      cantSet: '&cไม่สามารถเปลี่ยนเวลาเล่นได้'
+      set: '&eเปลี่ยนจาก &6[old] &eเป็น &6[new]'
+  editwarnings:
+    help:
+      info: '&eตรวจสอบคำเตือนของผู้เล่น'
+      args: (playerName/clearall) (clear)
+    info:
+      list: '&7[place]. &e[time] &6โดย [warnedBy] &cเพราะ: &7[warnedFor]'
+      hover: '&7หมดในอีก: [time]'
+      cleared: '&eคำเตือนทั้งหมดของผู้เล่นได้รับการล้าง'
+      allCleared: '&eคำเตือนของผู้เล่นทั้งหมดถูกล้าง'
+  editwarp:
+    help:
+      info: '&eแก้ไขวาร์ป'
+      args: (warpName) (newName)
+    info:
+      exists: '&cวาร์ปชื่อ (&7[newName]&c) มีแล้วให้ใช้ชื่ออื่น'
+      updated: '&eอัปเดตชื่อจาก &7[oldName]&e เป็น &7[newName]'
+      placeItem: '&2วางไอเท็มเพื่อตั้งค่าไอคอนที่กำหนดเอง'
+      placeOffItem: '&2วางไอเท็มเพื่อตั้งค่าไอคอนปิดที่กำหนดเอง'
+      autoLore: '&2สร้างรายละเอียดอัตโนมัติ: [state]'
+      group: '&2Group: &7[group]'
+      newGroup: '&eEnter new group name'
+      displayName: '&2DisplayName: &7[displayName]'
+      newDisplayName: '&eEnter new display name'
+      randomizeYaw: '&2สุ่มทิศทาง: [state]'
+      permission: '&2ต้องการสิทธิ์ที่ใช้วาร์ป: [state]'
+      reqPermission: '&2แสดงโดยไม่มีสิทธิ์: [state]'
+      hidden: '&2Hidden: [state]'
+      primaryLocation: '&2Primary location'
+      secondaryLocation: '&2Extra locations'
+      uniqueLocation: '&2Repeating locations: [state]'
+      slot: '&2ช่อง: &6[slot]'
+      page: '&2หน้า: &6[page]'
+      overllaps: '&2ทับซ้อนกับ:'
+      notSet: '&eไม่ได้ตั้งค่า'
+  effect:
+    help:
+      info: '&eเพิ่มเอฟเฟกต์ให้กับผู้เล่น ใช้ล้างเพื่อลบเอฟเฟกต์ทั้งหมด'
+      args: '[playername/all] [effect/clear] (duration) (multiplier) (-s) (-visual)'
+      explanation:
+      - -visual จะเพิ่มฟองอากาศและไอคอนที่มองเห็นได้ที่มุมขวาบน
+      - 'ตัวอย่าง:'
+      - /cmi effect zrips nightvision 60 1 - จะให้การมองเห็นกลางคืน 60 วินาทีสำหรับ
+        Zrips
+      - /cmi effect zrips nightvision +10 - จะเพิ่ม 10 วินาทีสำหรับเอฟเฟกต์มองกลางคืน
+      - /cmi effect zrips nightvision -10 - จะลบ 10 วินาทีสำหรับเอฟเฟกต์มองกลางคืน
+      - /cmi effect all health_boost 60 1 - จะเพิ่มเลือด 2 หัวใจให้ทุกคนในเซิร์ฟเวอร์
+    info:
+      feedback: '&eเอฟเฟกต์ &6[effect] &eเพิ่มไปยัง &3[playerDisplayName]&e เป็นเวลา
+        &6[sec]วินาที&e ด้วยระดับ &6[power] &e(&3[offon]&e)'
+      cleared: '&eล้างเอฟเฟกต์ให้ &3[playerDisplayName]&e (&3[offon]&e)'
+  enchant:
+    help:
+      info: '&eลงมนต์ไอเท็ม'
+      args: (playerName) [enchant] [level] (-o) (-onlyvalid) (-keeponlyvalid) (-inform)
+        (-s) (-i:[itemName(:data)])
+      explanation:
+      - -o จะใช้ไอเท็มจากมือรอง
+    info:
+      feedback: '&eคุณได้ลงมนต์ไอเท็มด้วย &3[enchant]:[level]&e ให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      removed: '&eคุณได้ลบ &3[enchant] &eจาก &3[playerDisplayName]&e (&3[offon]&e)'
+      cleared: '&eล้าง &3มนต์ &eทั้งหมดในไอเท็มสำหรับ &3[playerDisplayName]&e (&3[offon]&e)'
+      noitem: '&cต้องถือไอเท็มที่ต้องการลงมนต์ไว้ในมือ'
+      invalidEnchant: '&cคุณไม่มีสิทธิ์ลงมนต์ไอเท็มที่มีมนต์ไม่ถูกต้อง'
+      clearedInvalid: '&eลบ &6[amount] &eมนต์ที่ไม่ถูกต้องจากไอเท็ม'
+      inccorectId: '&eชื่อหรือรหัสมนต์ไม่ถูกต้อง'
+      wrongItem: '&eไอเท็มไม่ถูกต้องในมือของคุณ'
+      enchantlimit: '&cคุณไม่มีสิทธิ์เข้าถึงมนต์นี้'
+      levellimit: '&cเลเวลสูงเกินไป อนุญาตมากสุด &e[level]'
+      possible: '&ePossible enchants: '
+      possibleList: '&6[enchant]'
+  ender:
+    help:
+      info: '&eเปิดหีบเอ็นเดอร์ของผู้เล่น'
+      args: (playerName)
+      explanation:
+      - cmi.command.ender.preventmodify - ป้องกันการแก้ไขช่องเก็บของ
+      - cmi.enderedit - อนุญาตให้แก้ไขช่องเก็บของที่เปิดอยู่
+    info:
+      title: '&8[playerDisplayName] หีบเอ็นเดอร์'
+      feedback: '&eคุณกำลังแก้ไข &3[playerDisplayName] &eหีบเอ็นเดอร์ (&3[offon]&e)'
+  endgateway:
+    help:
+      info: '&eสลับลำแสงบีม'
+      args: ''
+    info:
+      'off': '&7สถานะลำแสงบีม &eปิดใช้งาน'
+      'on': '&7สถานะลำแสงบีม &6เปิดใช้งาน'
+  entityinfo:
+    help:
+      info: '&eตรวจสอบข้อมูลม็อบ'
+      args: ''
+    info:
+      type: '&eประเภทม็อบ: &6[type]'
+      customName: '&eชื่อที่กำหนดเอง: &6[name]'
+      health: '&eเลือด: &6[current]&e/&6[max]'
+      lastDamage: '&eสาเหตุความเสียหายครั้งล่าสุด: &6[cause]'
+      tamed: '&eถูกเลี้ยง: &6[state]'
+      owner: '&eเจ้าของ: &6[playerDisplayName]'
+      grows: '&eGrows up in: &6[time]'
+      horse: '&eHorse: jump &6[jump]&eblocks, speed &6[speed]&eblocks/sec'
+      villager: '&eProfession: &7[profession] &eLvl: &7[lvl] &eType: &7[type]'
+      subTypes: '&eSub Types: &6[list]'
+  entitynbt:
+    help:
+      info: '&eตรวจสอบข้อมูลม็อบ NBT'
+      args: ''
+  exp:
+    help:
+      info: '&eตั้งค่าประสบการณ์ผู้เล่น ใช้ L เพื่อตั้งค่าเลเวล'
+      args: '[playerName] [add/set/take/clear] [amount]'
+      explanation:
+      - 'ตัวอย่าง:'
+      - /exp 10
+      - /exp add 10
+      - /exp set 10L
+      - /exp take 10
+      - /exp Zrips clear
+      - /exp Zrips add 10
+    info:
+      current: '&e[playerDisplayName] &eเลเวลปัจจุบันคือ &6[lvl]&e กับ &6[currentExp]&e
+        ค่าประสบการณ์ และ &6[exp]&e คือค่าประสบการณ์ทั้งหมด'
+      selfFeedback: '&eค่าประสบการณ์ถูกตั้งค่าเป็น &3[exp] &eสำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetFeedback: '&eประสบการณ์ของคุณถูกกำหนดเป็น &3[exp]&e โดย &3[senderDisplayName]'
+  ext:
+    help:
+      info: '&eดับไฟผู้เล่น'
+      args: (playerName) (-s)
+    info:
+      feedback: '&eคุณได้ดับไฟให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      targetfeedback: '&eคุณโดนสาดน้ำโดย &3[senderDisplayName]&e ทำให้ไฟที่ไหม้ดับ'
+  falldistance:
+    help:
+      info: '&eSet players falldistance'
+      args: (playerName) (number) (-s)
+    info:
+      feedback: '&eYou have set fall distance to &3[amount]&e for &3[playerDisplayName]&e
+        (&3[offon]&e).'
+  feed:
+    help:
+      info: '&eฟื้นอาหารผู้เล่น'
+      args: (playerName/all) (-s)
+    info:
+      feedback: '&eคุณได้ฟื้นอาหารให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      feedbackMulti: '&eYou have fed &3[count] &eplayers.'
+      targetfeedback: '&eคุณได้รับการฟื้นอาหารจาก &3[senderDisplayName]'
+  findbiome:
+    help:
+      info: '&eค้นหาไบโอมที่ใกล้ที่สุดโดยใช้ชื่อ'
+      args: '&3(biomeName/stop/stopall)'
+    info:
+      infoShow: '&6TPS: &3[tps] &6หาอีก &e[left] &6(&e[time]&6) &6ความเร็ว: &e[speed]'
+      stopped: '&eหยุดทำงาน'
+      cantFindBiome: '&eไม่พบไบโอมที่คุณต้องการ ตรวจสอบไป &6[amount] &eชิ้น'
+      teleportedTo: '&eได้เคลื่อนย้ายไปยังไบโอม &6[biome]'
+  fixchunk:
+    help:
+      info: '&eสแกนหาชิ้นส่วนโลกที่เสียหาย'
+      args: '&ew &6[worldName]&e r &6[range in chunks]&e c &6[x:z]&e '
+      explanation:
+      - '&6คำสั่งย่อย:'
+      - '- &6stats &e- แสดงสถิติการสแกนปัจจุบัน'
+      - '- &6pause &e- หยุดการสแกนชั่วคราว'
+      - '- &6continue &e- ทำการสแกนต่อไป'
+      - '- &6stop &e- หยุดการสแกน'
+      - '- &6stopall &e- หยุดการสแกนทั้งหมด'
+      - '- &6speed [amount] &e- ตั้งค่าความเร็วสแกนปัจจุบัน'
+      - '- &6autospeed [true/false] &e- ตั้งค่าความเร็วอัตโนมัติ'
+      - '- &6messages [true/false] &e- ตั้งค่าข้อความเป็นเปิดหรือปิด'
+      - 'ตัวอย่าง:'
+      - /fixchunk w LT_Craft
+      - /fixchunk w LT_Craft r 50 c 1024:-2048
+      - /fixchunk w LT_Craft r g
+      - /fixchunk fix
+    info:
+      startScanning: '&eพบ &6[amount] &eชิ้นส่วนเพื่อตรวจสอบ เริ่มทำงาน'
+      paused: '&eการสแกนหยุดชั่วคราวเพื่อใช้งานต่อ พิมพ์ &6/cmi fixchunk continue'
+      continuing: '&eกำลังสแกนต่อเนื่อง'
+      stoped: '&eการสแกนหยุดลง คุณสามารถตรวจสอบผลลัพธ์ด้วยคำสั่ง /cmi fixchunk info'
+      speedChange: '&eความเร็วเปลี่ยนเป็น [amount]'
+      autospeedChange: '&eสถานะความเร็วอัตโนมัติเปลี่ยนเป็น [state]'
+      messagesChange: '&eสถานะข้อความเปลี่ยนเป็น [state]'
+      NoInfo: '&eไม่มีข้อมูล'
+      InfoShow: '&6TPS: &3[tps] &6เหลืออีก &e[left] &6(&e[min]นาที:[sec]วินาที&6)
+        &6ความเร็ว: &e[speed] &6พบ: &e[found]'
+      scanList: '&2[number]. &7X:&f[x] &7Z:&f[z]'
+      finished: '&eการสแกนเสร็จสิ้น ใช้คำสั่ง &6/cmi fixchunk fix &eเพื่อแก้ไขปัญหาที่พบ
+        &cชิ้นส่วนจะถูกสร้างใหม่'
+      fixed: '&2[number] &eชิ้นส่วนได้รับการสร้างใหม่'
+      total: '&eกำลังตรวจสอบจาก [current]/[until] จากทั้งหมดของ [total]'
+      stats:
+      - '&e************************************************************'
+      - '&e* &6ชิ้นส่วน: &e[checked]/[total]'
+      - '&e* &6ช่วงสแกน: &e[range]'
+      - '&e* &6ความเร็วในการสแกน: &e[scanspeed] &6(&e[autospeed]&6)'
+      - '&e* &6ความเร็วจริง: &e[cps] &6CPS (&e[avgcps] avg&6)'
+      - '&e* &6โลก: &e[world]'
+      - '&e* &6พบ: &e[found]'
+      - '&e* &6เวลา: &e[min]นาที [sec]วินาที'
+      - '&e************************************************************'
+  flightcharge:
+    help:
+      info: '&eจัดการและตรวจสอบการบิน'
+      args: (add/take/set/show/expcharge/moneycharge/recharge) (playerName) (amount)
+    info:
+      charge: '&eการบิน: &6[charge]&e/&6[max]'
+      changed: '&eการบินของคุณเปลี่ยนเป็น &6[charge]'
+      newCharge: '&eการบินใหม่: &6[charge]'
+      bossbar: '&2>> &fการบิน [charge][changeAmount]&7/&f[max] &2<<'
+      guiTitle: '&8การบิน'
+      buttonExp: '&6จ่ายด้วยค่าประสบการณ์'
+      buttonMoney: '&6จ่ายด้วยเงินในเกม'
+      max: '&6ได้เติมการบินจนเต็มแล้ว'
+      amounts:
+      - '&eLeft click +1. Cost: &7[amount1]'
+      - '&6Shift left +10. Cost: &7[amount10]'
+      - '&eRight click +100. Cost: &7[amount100]'
+      - '&6Shift right +1000. Cost: &7[amount1000]'
+      - '&eMiddle Mouse +10000. Cost: &7[amount10000]'
+      - ''
+      changeAmount: '&e([amount]&e)'
+      cost: '&eCharged &6[amount] &efor &6[charge] &eflight charges'
+  fly:
+    help:
+      info: '&eตั้งค่าการบินของผู้เล่น'
+      args: '[playerName] (true/false) (-s)'
+    info:
+      feedback: '&eคุณได้ตั้งค่าการบินเป็น &3[boolean]&e ให้กับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetFeedback: '&eการบินของคุณถูกตั้งค่าเป็น &3[boolean]&e โดย &3[senderDisplayName]'
+  flyc:
+    help:
+      info: '&eสลับโหมดค่าใช้จ่ายการบิน'
+      args: (playerName) (true/false) (-s)
+    info:
+      feedback: '&eคุณได้ตั้งโหมดการบินเป็น &3[boolean]&e ให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetFeedback: '&eโหมดการบินของคุณเป็น &3[boolean]&e โดย &3[senderDisplayName]'
+      targetFeedbackSelf: '&eโหมดการบินของคุณตั้งค่าเป็น &3[boolean]'
+      noCharge: '&eการบินของคุณหมดแล้ว'
+  flyspeed:
+    help:
+      info: '&eตั้งค่าความเร็วการบิน'
+      args: '[playerName] [amount] (-s)'
+    info:
+      feedback: '&eคุณได้ตั้งค่า &3[amount]&e ความเร็วบินให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&eความเร็วบินของคุณถูกตั้งค่าเป็น &3[amount]&e โดย &3[senderDisplayName]'
+      max: '&eความเร็วสูงสุดที่อนุญาตสำหรับคุณคือ &6[max]'
+  gamerule:
+    help:
+      info: '&eจัดการ Gamerule'
+      args: ''
+  generateworth:
+    help:
+      info: '&eAuto generate posible item worth values'
+      args: ''
+  getbook:
+    help:
+      info: '&eรับหนังสือ'
+      args: '[cTextName] (playerName)'
+    info:
+      list: '&eหนังสือ: &6'
+      check: '&eตรวจสอบ: &6[text]'
+      title: '&7[title]'
+  give:
+    help:
+      info: '&eมอบไอเท็มให้ผู้เล่น'
+      args: (playerName) [itemname] (amount)
+      explanation:
+      - ชื่อและรายละเอียดรองรับ Placeholders
+      - 'ตัวอย่าง: /give stone'
+      - /give Zrips stone 5 n Stonehenge
+      - /give stick e knockback:1
+      - /give Zrips sponge l Got_item_on:_%date/YY/MM/dd-HH:mm:ss%
+      - /cmi give Zrips sponge 1 e Knockback:%rand/1-5%
+      - /cmi give Zrips sponge %rand/1-10%
+      - /give sponge a maxhealth:5:mainhand
+      - /give diamond_sword unbreakable
+      - /give mob_spawner:creeper
+      - /give minecraft:diamond_helmet 1 0 {ench:[{id:0,lvl:100},{id:2,lvl:100},{id:34,lvl:100}]}
+    info:
+      feedback: '&6ให้ &e[amount] &e[itemname] &6(&e[customitemname]&6) กับ &e[playerDisplayName]'
+      maxLimit: '&cคุณไม่สามารถให้ได้เกิน &7[max] &cไอเท็มในครั้งเดียว'
+      notItem: '&cไม่สามารถให้คุณได้ สิ่งนี้ไม่ใช่ไอเท็ม'
+      maxLimitResize: '&cคุณไม่สามารถให้ได้เกิน &7[max] &cทำการปรับจำนวนเพื่อจำกัด'
+  giveall:
+    help:
+      info: '&eมอบไอเท็มให้ผู้เล่นทุกคน'
+      args: '[itemname] (amount) (e|l|n|offline)'
+      explanation:
+      - '&e- กำหนดชื่อไอเท็มหรือรหัสด้วยค่าข้อมูล'
+      - '&e- เลือกระบุจำนวนที่คุณต้องการให้ '
+      - '&e- &6n &e- เพื่อกำหนดชื่อไอเท็ม '
+      - '&e- &6l &e- เพื่อกำหนดรายละเอียด '
+      - '&e- &6e &e - เพื่อกำหนดการลงมนต์ '
+      - '&e- &6-s &e - จะไม่แสดงข้อความเสนอแนะ '
+      - '&e- &6h &e - ตามด้วยชื่อผู้เล่นจะให้ไอเท็มจากมือ '
+      - '&e- &6inv &e - ตามด้วยชื่อผู้เล่นจะให้ช่องเก็บของทั้งหมดแก่ผู้อื่น '
+      - '&e- &6offline &e- รวมผู้เล่นที่ออฟไลน์'
+      - '&ecmi giveall stone 1 n &2Uber_stone l &3Stone_lore offline'
+      - '&ecmi giveall h Zrips'
+      - '&ecmi giveall inv Zrips'
+    info:
+      starting: '&6เริ่มการให้ไอเท็มสำหรับผู้เล่นทุกคน อาจใช้เวลาสักครู่'
+      running: '&6[amount] มีไอเท็มแล้ว ทำการข้ามไปคนต่อไป'
+      feedback: '&aสำเร็จ &e[amount] &aคน ได้รับไอเท็ม'
+  glow:
+    help:
+      info: '&eตั้งค่าการเรืองแสง'
+      args: (playerName) [true/false/color/gui]
+      explanation:
+      - 'ตัวอย่าง: /glow Zrips red'
+      - 'สิทธิ์: cmi.command.glow.[color] - อนุญาตให้ตั้งค่าสีเรืองแสงกำหนดเอง'
+    info:
+      feedback: '&eคุณได้ตั้งค่าการเรืองแสง [color]&e เป็น &3[boolean]&e ให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&eการเรืองแสง [color] &eได้ถูกตั้งเป็น &3[boolean]&e โดย &3[senderDisplayName]'
+      title: เลือกสี
+      incorrect: '&4Incorrect color name'
+      lore: '&2Click to select color'
+      noPerm: '&4No permission yet'
+  gm:
+    help:
+      info: '&eตั้งค่าเกมโหมดของผู้เล่น'
+      args: (playerName) [gamemode]
+    info:
+      feedback: '&e'
+      targetfeedback: '&e'
+  god:
+    help:
+      info: '&eตั้งค่าโหมดอมตะของผู้เล่น'
+      args: '[playerName] (true/false) (-s)'
+    info:
+      feedback: '&eคุณได้ตั้งโหมดอมตะเป็น &3[boolean]&e ให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&eโหมดอมตะของคุณถูกตั้งเป็น &3[boolean]&e โดย &3[senderDisplayName]'
+  grindstone:
+    help:
+      info: '&eOpen grindstone'
+      args: (playerName) (-s)
+    info:
+      feedback: '&eYou have opened grindstone for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&3[senderDisplayName]&e opened grindstone for you.'
+  groundclean:
+    help:
+      info: '&eล้างไอเท็มในเซิร์ฟเวอร์ที่ไม่จำเป็น'
+      args: (+cb) (+cm) (+ci) (+b) (+tnt) (-w:[worldName])
+      explanation:
+      - +cm จะรวมถึงรถรางในการล้าง
+      - +cb จะรวมถึงเรือในการล้าง
+      - +ci กำหนดว่าคุณต้องการรวมอาวุธและชุดเกราะ
+      - +tnt กำหนดว่าคุณต้องการรวมระเบิดที่กำลังทำงาน
+      - +b ประกาศข้อความล้างไอเท็ม
+    info:
+      removed: '&eลบออก -[list]'
+      items: ' &eไอเท็ม: &6[items]'
+      arrows: ' &eลูกธนู: &6[arrows]'
+      exporbs: ' &eบอลค่าประสบการณ์: &6[exporbs]'
+      blocks: ' &eบล็อกที่กำลังตก: &6[blocks]'
+      projectiles: ' &eลูกกระสุน: &6[projectiles]'
+      tnt: ' &eระเบิดที่กำลังทำงาน: &6[tnt]'
+      boat: ' &eเรือ: &6[boat]'
+      minecart: ' &eรถราง: &6[minecart]'
+      nothing: '&eไม่มีอะไรที่จะให้ลบ'
+  haspermission:
+    help:
+      info: '&eตรวจสอบว่าผู้เล่นได้รับสิทธิ์พิเศษหรือไม่'
+      args: (playerName) [permissionNode]
+    info:
+      title: '&6[playerDisplayName] &e-> &6[permission]'
+      none: '&eไม่มีสิทธิ์สำหรับผู้เล่นและเขาไม่ได้เป็น OP ผลลัพธ์ที่ได้คือ &6[state]'
+      softSet: '&eตั้งค่าโดย YML เป็น &6[state]'
+      hardSet: '&eยากที่จะตั้ง &6[state] &eโดยปลั๊กอินบางตัว'
+      notHardSet: '&eไม่ยากเกินไป สามารถส่งผลให้ &cเป็นเท็จ &eในบางกรณี'
+      ops: '&eผลลัพธ์ที่ได้ &6[state] &eเพราะผู้เล่นมี OP'
+      minMax: '&eMin: &6[min] &eMax: &6[max]'
+  hat:
+    help:
+      info: '&eสวมใส่ไอเท็มที่กำหนดเป็นหมวก'
+      args: (playerName)
+    info:
+      feedback: '!actionbar!&6คุณเปลี่ยนหมวกสำเร็จแล้ว'
+      targetfeedback: '&6หมวกของคุณถูกเปลี่ยนโดย &3[senderDisplayName]'
+      fullinv: '&3[playerDisplayName] &6ช่องเก็บของเต็มไม่สามารถเปลี่ยนหมวกได้'
+      incorrect: '&3Incorrect item in head slot, cant replace with new one. Remove
+        it manually'
+      cantUse: '&3Can''t use this item as a hat'
+  head:
+    help:
+      info: '&eรับหัวของผู้เล่น'
+      args: '[sourceName] (targetName) (-s) (amount)'
+    info:
+      Feedback: '&3[headName] &6ได้สร้างหัวแล้ว'
+      targetFeedback: '&eคุณได้รับ &3[headName] &eหัวจาก &3[senderDisplayName]'
+  heal:
+    help:
+      info: '&eรักษาผู้เล่น'
+      args: '[playerName/all] (healamount/healpercent)'
+    info:
+      feedback: '&eคุณได้รักษา &3[playerDisplayName]&e (&3[offon]&e)'
+      feedbackMulti: '&eคุณได้รักษา &3[count] &eผู้เล่น'
+      targetfeedback: '&eคุณได้รับการรักษาจาก &3[senderDisplayName]'
+  helpop:
+    help:
+      info: '&eส่งข้อความเพื่อขอความช่วยเหลือจากทีมงาน'
+      args: '[message]'
+      explanation:
+      - ต้องการ cmi.command.helpop.inform เพื่อเห็นข้อความ
+    info:
+      message: '&c[ช่วยเหลือ]&4[&7[senderDisplayName]&4]&r&c [message]'
+      feedback: '&c[ช่วยเหลือ]&7คำถามของคุณถูกส่งไปยังทีมงาน'
+      offline: '&c[ช่วยเหลือ]&7ขณะนี้ไม่มีทีมงานออนไลน์ ให้ลองใหม่ในภายหลัง'
+  hideflags:
+    help:
+      info: '&eซ่อนการตั้งค่าไอเท็ม'
+      args: (playerName) [flagName/clear] (flagName)
+    info:
+      feedback: '&eคุณได้เพิ่มการตั้งค่าสถานะใหม่ให้กับไอเท็มสำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      cleared: '&eล้าง &3สถานะ &eทั้งหมดจากไอเท็มสำหรับ &3[playerDisplayName]&e (&3[offon]&e)'
+      noitem: '&cต้องถือไอเท็มในมือ'
+      inccorectId: '&eชื่อสถานะไม่ถูกต้อง'
+  hologram:
+    help:
+      info: '&eสร้างโฮโลแกรม'
+      args: ''
+    info:
+      howTo: '&cเพื่อสร้างโฮโลแกรมใหม่ พิมพ์ &e/cmi hologram new &6[name]'
+      gui: '&7---- &f<เปิดการตั้งค่า GUI> &7----'
+      guiHover: '&7เปิด GUI การตั้งค่าโฮโลแกรม'
+      interval: '&7อัปเดตทุก ๆ &6[second] &7วินาที'
+      intervalLore:
+      - '&7ข้อมูลโฮโลแกรมได้รับการอัปเดตบ่อยเพียงไม่กี่วินาที'
+      - '&7หากข้อความไม่เปลี่ยนแปลงให้ตั้งค่าเป็น -1'
+      pageInterval: '&7เปลี่ยนหน้าทุก ๆ &6[second] &7วินาที'
+      pageIntervalLore:
+      - '&7หน้าโฮโลแกรมเปลี่ยนความถี่โดยอัตโนมัติเป็นวินาที'
+      pageIntervalNoPages: '&4โฮโลแกรมนี้ยังไม่มีหน้าใด ๆ'
+      text: '&7การเว้นวรรคสำหรับข้อความ &6[space]'
+      usync: '&7การเปลี่ยนแปลงข้อความในการซิงค์: &6[state]'
+      reqPermission: '&7ต้องการสิทธิ์เพื่อดู: &6[state]'
+      teleport: '&7เคลื่อนย้ายไปยังตำแหน่งโฮโลแกรม'
+      icon: '&7ระยะห่างสำหรับไอคอน &6[space]'
+      iconLore:
+      - '&7กำหนดระยะห่างระหว่างวัตถุ'
+      range: '&7แสดงช่วง: &6[blocks]'
+      rangeLore:
+      - '&7กำหนดพื้นที่รอบ ๆ โฮโลแกรมเพื่อแสดงหรือซ่อน'
+      updateRange: '&7ช่วงอัปเดต: &6[blocks]'
+      updateRangeLore:
+      - '&7กำหนดพื้นที่รอบ ๆ โฮโลแกรมเพื่อเรียกการอัปเดต'
+      relocate: '&7ย้าย'
+      relocateLore:
+      - '&7ย้ายโฮโลแกรมไปยังตำแหน่งปัจจุบันของคุณ'
+      los: '&7พิจารณาแนวสายตา: &6[state]'
+      losLore:
+      - '&7ช่วงเวลา: [interval]'
+      interact: '&7โต้ตอบ: &6[state]'
+      particles: '&7แสดงอนุภาค: &6[state]'
+      big: '&7ปุ่มใหญ่: &6[state]'
+      bigLore:
+      - '&7โปรดทราบว่าโหมดปุ่มใหญ่'
+      - '&7จะป้องกันไม่ให้คุณเดินผ่านมันไป'
+      order: '&7วางลง: &6[state]'
+      commands: '&7คำสั่ง:'
+      newMethod: '&7Use new method: &6[state]'
+      hoverParticles: '&7Show hover particles: &6[state]'
+      stabilizedParticles: '&7Stabilized particles: &6[state]'
+      particleCount: '&7Particles: &6[count]'
+      particleType: '&7Particle type: &6[type]'
+      particleSpacing: '&7Particle spacing: &6[amount]'
+      particleHeight: '&7Particle extra height: &6[amount]'
+      particleWidth: '&7Particle extra width: &6[amount]'
+      particleOffsetX: '&7Particle offset X: &6[amount]'
+      particleOffsetY: '&7Particle offset Y: &6[amount]'
+      autoButton: '&7Automatically generate pagination buttons'
+      autoButtonLore:
+      - '&eCurrent hologram doesnt have any pages create'
+      - '&eUse &6!nextpage! &eas a new line to make next page'
+      autoButtonForward: '&2This hologram already has forwards button created'
+      autoButtonBackward: '&2This hologram already has backwards button created'
+      moveX: '&7X:&e[x]'
+      moveY: '&7Y:&e[y]'
+      moveZ: '&7Z:&e[z]'
+      shift:
+      - '&eเปลี่ยน 0.01 หรือกด Shift เพื่อเปลี่ยน 0.1'
+      listFormat: '&6[name]&7: &r[extra]'
+      addInfo: '&eป้อนข้อความบรรทัดใหม่ พิมพ์ &6cancel &eเพื่อยกเลิก ตัวแปรเสริม:
+        &6ไอคอน:&7[Value] &6SICON:&7[Value]&e &7Value&e- &7[MaterialName-amount]%enchanted%&e,
+        &7%itemInHand%&e, &7หัว:[headOwner]'
+  hologrampages:
+    help:
+      info: '&eเปลี่ยนหน้าโฮโลแกรม'
+      args: '[holoName] (playerName) (next/prev/[pageNumber])'
+  home:
+    help:
+      info: '&eเคลื่อนย้ายไปที่บ้าน'
+      args: (homeName) (playerName) (whoTeleport)
+    info:
+      list: '&eบ้านที่มี: &6'
+      listNonePrivate: '&f'
+      listPrivate: '&2'
+      click: '&eคลิกเพื่อเคลื่อนย้ายไปที่ &6[home]'
+      teleported: '&eได้เคลื่อนย้ายมาที่: &6[home]'
+      noHomes: '&cไม่มีบ้านที่บันทึกไว้'
+      private: '&cตำแหน่งบ้านนี้เป็นส่วนตัว'
+      remove: '&cShift+คลิกขวาเพื่อลบบ้าน'
+      missingBed: '&cMissing bed for your home location'
+      notAccessible: '&cHome location world (&7[worldName]&c) doesn''t exist!'
+      guiTitle: '&0[playerDisplayName] &8homes [current]/[max]'
+  homes:
+    help:
+      info: '&eรายการบ้านที่คุณสามารถคลิกเพื่อเคลื่อนย้าย'
+      args: (playerName)
+    info:
+      nearList: '&7[number]. &e[playerDisplayName] &6[homeName] &7[distance] blocks
+        away &e[direction]'
+      closeButton: '&7Close'
+      infoButton: '&7Information'
+      bedButton: '&7Bed location'
+      homeButton: '&7Home location'
+      deathButton: '&7Death location'
+      lore: |-
+        &7[world]
+        &f[x]&7:&f[y]&7:&f[z]
+      pickerLore: '&7Click Q to change icon'
+  hunger:
+    help:
+      info: '&eตั้งค่าความหิวของผู้เล่น'
+      args: '[playerName] [amount] (-s)'
+    info:
+      feedback: '&eคุณได้ตั้งค่า &3[hunger]&e ความหิวให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      targetfeedback: '&eความหิวของคุณถูกกำหนดเป็น &3[hunger]&e โดย &3[senderDisplayName]'
+  ic:
+    help:
+      info: '&eสร้างคำสั่งแบบโต้ตอบ'
+      args: (new) (name)
+    info:
+      public: ' &2[Public]'
+      notPublic: ' &7[NotPublic]'
+      reqPerm: ' &2[ReqPerm]'
+      noPerm: ' &7[ReqPerm]'
+      permHover: ' &eต้องการสิทธิ์ &7[permission] &eเพื่อวางป้าย'
+      editSign: ' &e[EditSignLines]'
+      publicHover: "&eเปลี่ยนสถานะสาธารณะ \nป้ายบรรทัดบนสุด &7[ic:[name]]"
+      createdPublic: '&eสร้างป้ายโต้ตอบแล้ว'
+      list: '&e[place]. &6[name]'
+      listType: ' &e[type]    '
+      editCommands: '&eแก้ไขคำสั่ง'
+      editBlocks: ' &eแก้ไขบล็อก'
+      addBlock: '&eเพิ่มบล็อกที่คุณกำลังดู'
+      addEntity: ' &eเพิ่มม็อบที่คุณกำลังดู'
+      manageCommands: '&eสลับไปที่ตัวแก้ไขคำสั่ง'
+      manageBlockEnt: '&eสลับเป็นตัวแก้ไขบล็อก/ม็อบ'
+      locationList: '&6[type]'
+      entityList: '&2[type]'
+      notPublicIc: '&cคุณไม่สามารถใช้สิ่งนี้ แต่ไม่ใช่แบบสาธารณะ'
+      block: (Block)
+      entity: (Entity)
+      both: (Both)
+      none: (None)
+      addedNew: '&eเพิ่มบล็อก/ม็อบใหม่สำหรับ &6[name]'
+      dontExist: '&cไม่มีคำสั่งแบบโต้ตอบด้วยชื่อนี้'
+      exists: '&cคำสั่งแบบโต้ตอบที่ใช้ชื่อนี้มีอยู่แล้ว'
+      blockExist: '&cบล็อกนี้กำลังถูกใช้งานโดย &e[name]'
+      entityExist: '&cมีการใช้ม็อบชื่อ &e[name] &cแล้ว'
+      cantUsePlayer: '&cคุณไม่สามารถใช้ผู้เล่นเป็นคำสั่งได้'
+      addInfo: '&eป้อนคำสั่งใหม่ พิมพ์ &6cancel &eเพื่อยกเลิก'
+      addInformationHover: "&eตัวแปรทั้งหมดสนับสนุนในหมวดหมู่ผู้ส่ง \n&eเพื่อระยะเ\
+        วลาที่ต้องรอ: \n&edelay! 5 \n&eตัวแปรเพิ่มเติมสามารถ นำมาใช้เพื่อแทรกตัวแป\
+        รตามสถานที่ของพวกเขา \n&e$1 จะใช้ตัวแปรที่มีให้ โดยคำสั่งใหม่และจะเกิดขึ้น\
+        ในสถานที่นั้น \n&e$1- รับตัวแปรทั้งหมด จากจุดนี้และแทรกลงในคำสั่งดั้งเดิม"
+      editInfo: '&eคลิกเพื่อวางข้อความเก่า พิมพ์ &6cancel &eเพื่อยกเลิกการกระทำ พิมพ์
+        &6remove &eเพื่อลบบรรทัด'
+  ifoffline:
+    help:
+      info: '&eดำเนินการคำสั่งเมื่อผู้เล่นออฟไลน์'
+      args: '[playerName] (command)'
+  ifonline:
+    help:
+      info: '&eดำเนินการคำสั่งเมื่อผู้เล่นออนไลน์'
+      args: '[playerName] (command)'
+  ignore:
+    help:
+      info: '&eเพิกเฉยผู้เล่นที่กำหนด'
+      args: (playerName/uuid/all)
+      explanation:
+      - cmi.command.ignore.bypass - ข้ามรายการเพิกเฉยทั้งหมด
+    info:
+      self: '&cคุณไม่สามารถเพิกเฉยตัวเองได้'
+      added: '&eตอนนี้คุณเพิกเฉย &6[playerDisplayName]'
+      addedAll: '&eตอนนี้คุณได้เพิกเฉยทุกคน'
+      all: '&eทุกคน'
+      removed: '&eคุณได้เลิกเพิกเฉย &6[playerDisplayName]'
+      removedAll: '&eคุณได้เลิกเพิกเฉยทุกคนแล้ว'
+      list: '&e[place]. [playerDisplayName]  '
+      ignoringYou: '&c[playerDisplayName] &eไม่สนใจคุณ'
+      empty: '&7รายการเพิกเฉยว่างเปล่า'
+  importfrom:
+    help:
+      info: '&eนำเข้าข้อมูลจากปลั๊กอินอื่น'
+      args: '[essentials] [home/warp/nick/logoutlocation/money/mail]'
+    info:
+      converted: '&eแปลง: &6[done]&e/&6[total] &eผู้ใช้'
+      convertedWarps: '&eแปลง &6[amount] &eวาร์ป'
+      noInfo: '&cคุณลืมให้ข้อมูลที่ต้องการนำเข้า'
+      savingInProgress: '&eข้อมูลถูกบันทึกในฐานข้อมูลในอีกไม่กี่นาที ขึ้นอยู่กับจำนวนบันทึก'
+      HDfile: '&cไม่พบไฟล์ข้อมูล HolographicDisplays ทำการยกเลิก'
+      HDexist: '&cโฮโลแกรม &7[name] &cมีชื่อนี้แล้ว ข้ามไป'
+      HDfailed: '&cไม่สามารถโหลดโฮโลแกรม (&7[name]&c)'
+      HDimported: '&eนำเข้า &7[amount] &eโฮโลแกรม'
+  importoldusers:
+    help:
+      info: '&eนำเข้าผู้ใช้จากโฟลเดอร์หลักของโลก เซิร์ฟเวอร์จะช้าลงระหว่างการนำเข้า'
+      args: ''
+    info:
+      starting: '&eเริ่มการนำเข้า'
+      feedback: '&eนำเข้า &6[amount] &eผู้ใช้ใหม่'
+  info:
+    help:
+      info: '&eแสดงข้อมูลผู้เล่น'
+      args: '[playerName/uuid]'
+    info:
+      feedback:
+        uuid: '&eวาง UUID ลงในกล่องแชท'
+        ouuid: '&eShift + คลิกซ้ายเพื่อวาง UUID ออนไลน์ลงในกล่องแชท'
+      newName: '&6[playerName]'
+      newBalance: '&7(&e[balance]&7) '
+      newDisplayName: '&7ชื่อ: &r[playerDisplayName]'
+      newNameHover:
+      - '[playerDisplayName]'
+      - '[nick]'
+      - '[group]'
+      - '[knownAs]'
+      - '[onlineoffline]'
+      - '[playtime]'
+      newIp: '&fไอพี '
+      newIpHover:
+      - '[ip][country]'
+      - '[ping]'
+      - '[firstLogin]'
+      newNameHoverNick: '&7ชื่อที่ใช้: &f[nick]'
+      newNameHoverGroup: '&7ยศ: &f[group]'
+      newNameHoverKnownAs: '&7หรือที่เรียกว่า: &f[nameList]'
+      newNameHoverIp: '&7ไอพี: &f[ip]'
+      newNameHoverPing: '&7ปิง: &f[ping]'
+      newNameHoverCountry: ' &7[country] &f(&2[countryCode]&f)'
+      newFirstLogin: '&7เข้าเล่นครั้งแรก: &6[firstLogin]'
+      newPlaytime: '&7เวลาที่เล่น: &6[time]'
+      newOnline: '[state]: &6[logoff]'
+      newOnlineStateOn: '&2ออนไลน์'
+      newOnlineStateOff: '&7ออฟไลน์'
+      newUUID: '&fUUID '
+      newUUIDHover: '&7UUID: &6[UUID]'
+      newOUUIDHover: '&7ออนไลน์ UUID: &6[OUUID]'
+      newTurnedOnColor: '&a'
+      newTurnedOffColor: '&7'
+      newOp: 'OP '
+      newGod: 'โหมดอมตะ '
+      newFly: 'สามารถบินได้&6([flying]&6) '
+      newFlying: กำลังบิน
+      newFlyHover: '&7ความเร็วในการบิน: &6[flyspeed]'
+      newFlyTemp: '&7การบินชั่วคราว: &6[time]'
+      newFlyCharge: '&7ค่าใช้จ่ายการบิน: &6[charge]'
+      newElytraFlyHover: '&7กำลังบินด้วยปีก'
+      newGodHover: '&7อมตะชั่วคราว: &e[time]'
+      newNoDamageHover: '&7No Damage Ticks for: &e[time]'
+      newSneaking: กำลังย่อตัว
+      newSprint: กำลังวิ่ง
+      newWalkSpeed: '&7ความเร็วในการเดิน: &6[walkspeed]'
+      newGameMode: '&fเกมโหมด: &6[gameMode] '
+      newGameModeHover:
+      - '[sprint]'
+      - '[sneaking]'
+      - '[walkspeed]'
+      - '[hp]'
+      - '[hunger]'
+      - '[saturation]'
+      - '[exp]'
+      newHp: '&7เลือด: &6[hp]&e/&6[maxhp]'
+      newAir: '&7อากาศ: &6[leftAir]&e/&6[totalAir]'
+      newHunger: '&7ความหิว: &6[food]&e/&620'
+      newSaturation: '&7ความอิ่ม +&6[saturation]&e'
+      newExp: '&7ค่าประสบการณ์: &6[totalexp]&7ประสบการณ์ -> &6[currentexp]&e/&6[needexp]
+        &e(&6[level]&7เลเวล&e)'
+      newPos: '&fพิกัด '
+      newPosHover: '&6[world] (&e[x]&6:&e[y]&6:&e[z]&6)'
+      newAfk: 'AFK '
+      newAfkHover: '&6AFK ครั้งสุดท้าย: [time]'
+      AfkInHover: '&6Afk in: [time]'
+      newBed: '&fพิกัดเตียง '
+      newBedHover: '&6[world] (&e[x]&6:&e[y]&6:&e[z]&6)'
+      newDeath: '&fพิกัดที่ตาย '
+      newDeathHover: '&6[world] (&e[x]&6:&e[y]&6:&e[z]&6)'
+      newBack: '&fพิกัดก่อนหน้า '
+      newBackHover: '&6[world] (&e[x]&6:&e[y]&6:&e[z]&6)'
+      newRespawn: '&fพิกัดที่เกิด '
+      newRespawnHover: '&6[world] (&e[x]&6:&e[y]&6:&e[z]&6)'
+      inv: '&fInv '
+      ender: '&fEnder '
+      newSee: '◕‿◕ '
+      newSeeHover: '&6สามารถเห็นคุณ'
+      newSeeHoverNot: '&2ไม่เห็นคุณ'
+      vanished: '(V) '
+      vanishedHover: '&6Vanished'
+      newBanned: 'แบน '
+      newBannedHover:
+      - '&7แบนโดย: &e[name]'
+      - '&7เหลือเวลาอีก: &e[left]'
+      - '&7เหตุผล: &e[reason]'
+      newMuted: 'โดนปิดแชท '
+      newMutedHover:
+      - '&7เหลือเวลาอีก: &e[left]'
+      - '&7เหตุผล: &e[reason]'
+      newShadowMutedHover: '&4โดนปิดแชทแบบไม่รู้ตัว'
+      newCuffed: 'ถูกใส่กุญแจมือ '
+      newJailed: 'ติดคุก '
+      newJailedHover:
+      - '&7ติดคุก: &e[jail]'
+      - '&7ไอดี: &e[id]'
+      - '&7เหลือเวลาอีก: &e[time]'
+      - '&7เหตุผล: &e[reason]'
+      newHomes: '&fบ้าน: &e[count] '
+      newMail: '&fจดหมาย: &e[count] '
+      newWarnings: '&fคำเตือน: &e[count] '
+      newAlert: 'แจ้งเตือน '
+      newAlertHover:
+      - '&7เหลือเวลาอีก: &e[left]'
+      - '&7เหตุผล: &e[reason]'
+      newChatRoom: 'ห้องสนทนา '
+      newChatRoomHover:
+      - '&7ห้องสนทนาชื่อ: &e[name]'
+      - '&7ผู้ใช้งานในห้องแชท: &e[count]'
+      List:
+      - '&e------------- [enableColor]Enabled [disableColor]Disabled&e -------------'
+      - '&e| [name][balance][UUID][ip]'
+      - '&e| [OP][god][fly][gameMode][afk][see]'
+      - '&e| [banned][muted][cuffed][jailed][alert][chatroom]'
+      - '&e| [pos][bed][respawn][death][back][ender][inv]'
+      - '&e| [homes][mail][warnings]'
+      - '&e-----------------------------------------'
+  inv:
+    help:
+      info: '&eเปิดช่องเก็บของผู้เล่น'
+      args: '[playerName]'
+      explanation:
+      - cmi.command.inv.preventmodify - ป้องกันการแก้ไขช่องเก็บของ
+      - cmi.invedit - อนุญาตให้แก้ไขช่องเก็บของ
+      - cmi.command.inv.location - แสดงที่ตั้งของผู้เล่น
+    info:
+      feedback: '&eคุณกำลังแก้ไข &3[playerDisplayName] &eช่องเก็บของ (&3[offon]&e)'
+  invcheck:
+    help:
+      info: '&eเปิดช่องเก็บของที่บันทึกไว้ในโหมดดูตัวอย่าง'
+      args: (playerName) [id] (-e) (last)
+  invlist:
+    help:
+      info: '&eแสดงช่องเก็บของที่บันทึกไว้'
+      args: (playerName)
+  invload:
+    help:
+      info: '&eโหลดช่องเก็บของที่บันทึกไว้'
+      args: (sourceName) (targetName) [id/last]
+  invremove:
+    help:
+      info: '&eลบช่องเก็บของที่บันทึกไว้สำหรับผู้เล่น'
+      args: (playerName) [id/all/last]
+  invremoveall:
+    help:
+      info: '&eลบช่องเก็บของที่บันทึกไว้ทั้งหมด'
+      args: '[confirmed]'
+    info:
+      removed: '&eลบช่องเก็บของที่บันทึกไว้ทั้งหมดจำนวน ([count])'
+  invsave:
+    help:
+      info: '&eบันทึกช่องเก็บของ'
+      args: (playerName) (id) (-s)
+  ipban:
+    help:
+      info: '&eแบนไอพี'
+      args: '[ip/playerName] (reason) (-s)'
+      explanation:
+      - cmi.command.banip.bypass - เพื่อหลีกเลี่ยงการแบน
+    info:
+      message: '&cคุณถูกแบนจากเซิร์ฟเวอร์นี้'
+      messageToAll: '&6[playerDisplayName] &eโดนแบนไอพีโดย &6[senderDisplayName] &eเหตุผล:
+        &6[reason]'
+      banedSilent: '&7[&8เงียบ&7]&6[playerDisplayName] &eโดนแบนไอพีโดย &6[senderDisplayName]
+        &eเหตุผล: &6[reason]'
+      replacer: '*'
+  ipbanlist:
+    help:
+      info: '&eเช็ครายการแบนไอพี'
+      args: ''
+    info:
+      banList: '&7[ip] &e- &6[reason]  '
+      bannedBy: '&7แบนโดย: &f[source]'
+      ends: '&7ระยะเวลาที่ปลดแบน: &f[time]'
+      related: |-
+        &7บัญชีที่เกี่ยวข้อง:
+        &f[list]
+  item:
+    help:
+      info: '&eมอบไอเท็มให้กับตัวเอง'
+      args: '[itemname] (amount)'
+      explanation:
+      - ชื่อและรายละเอียดรองรับ Placeholders
+      - 'ตัวอย่าง: /give stone'
+      - /give stone 5 n Stonehenge
+      - /give stick e knockback:1
+      - /give sponge l Got_item_on:_%date/YY/MM/dd-HH:mm:ss%
+      - /cmi give sponge 1 e Knockback:%rand/1-5%
+      - /cmi give sponge %rand/1-10%
+      - /give sponge a maxhealth:5:mainhand
+      - /give diamond_sword unbreakable
+      - /give mob_spawner:creeper
+      - /give minecraft:diamond_helmet 1 0 {ench:[{id:0,lvl:100},{id:2,lvl:100},{id:34,lvl:100}]}
+  itemcmdata:
+    help:
+      info: '&eCheck or modify items custom model data'
+      args: '[set/delete] (playerName) (id) (-s)'
+    info:
+      nothing: '&eDoesn''t contain any model data'
+      set: '&eSet new model data to: &6[value]'
+      current: '&eCurrent model data: &6[value]'
+      deleted: '&eRemoved model data: &6[value]'
+  itemframe:
+    help:
+      info: '&eManage item frames'
+      args: (invisible/fixed/invulnerable)
+    info:
+      enabled: Enabled
+      disabled: Disabled
+      feedback: '&e[count] &6item frames are invisible around you'
+  iteminfo:
+    help:
+      info: '&eแสดงข้อมูลไอเท็ม'
+      args: (playerName)
+    info:
+      nameMat: ' &eName: &7[name] &eMaterial: &7[material]'
+      mojangHover: '&eMojang Name: &7[name]'
+      display: ' &eDisplay Name: &7[display]'
+      lore: ' &eLore:'
+      loreLine: '   &5[loreLine]'
+      enchants: ' &eEnchants: &7[enchants]'
+      entityType: ' &eประเภท: &6[type]'
+      customModel: ' &eCustom Model Data: &6[data]'
+      durability: ' &eความทนทาน: &6[current]&e/&6[max]'
+      stackSize: ' &eMax stack size: &6[size]'
+  itemlore:
+    help:
+      info: '&eเปลี่ยนรายละเอียด'
+      args: (-p:[playerName]) [linenumber] [remove/insert/ new lore line]
+    info:
+      feedback: '&eคุณได้เปลี่ยนรายละเอียดเป็น ''&r&5[loreLine]&e'' สำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      noitem: '&cต้องถือไอเท็มที่ต้องการเปลี่ยนไว้ในมือ'
+      removed: '&eรายละเอียดบรรทัด &6[line] &eถูกลบให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      inserted: '&eรายละเอียดบรรทัด &6[line] &eถูกแทรกให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      maxLines: '&eมีเพียง &6[lines] &eรายละเอียด'
+      blocked: '&eไอเท็มนี้ถูกปิดกั้นไม่ให้แก้ไขรายละเอียด'
+  itemname:
+    help:
+      info: '&eเปลี่ยนชื่อไอเท็ม'
+      args: (-p:[playerName]) [remove/your new item name]
+    info:
+      feedback: '&eคุณได้เปลี่ยนชื่อไอเท็มเป็น [itemname]&e สำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      noitem: '&cต้องถือไอเท็มที่ต้องการเปลี่ยนไว้ในมือ'
+      removed: '&eลบชื่อไอเท็มสำหรับ &3[playerDisplayName]&e (&3[offon]&e)'
+      blocked: '&eไอเท็มนี้ถูกบล็อกไม่ให้เปลี่ยนชื่อ'
+      maxLength: '&cNew value is to long. Max length &e[length] &ccharacters'
+  itemnbt:
+    help:
+      info: '&eแสดงข้อมูล NBT ของไอเท็ม'
+      args: (playerName)
+    info:
+      jump: '&6[key][type]'
+      type: ' &6(&e[type]&6)'
+      value: ': &e[value]'
+      list: '&e- &r[value]'
+      noNbt: '&eไอเท็มไม่มีข้อมูล NBT ใดๆ'
+  jail:
+    help:
+      info: '&eจำคุกผู้เล่นเป็นระยะเวลาที่กำหนด'
+      args: '[playerName] (time) (jailName) (cellId) (-s) (r:jail_reason)'
+    info:
+      jailed: '&eคุณจับ &6[playerDisplayName] &eเข้าคุกเป็นเวลา [time]'
+      jailedPlayer: '&6[playerDisplayName] &eติดคุกต่ออีก [time]'
+      reason: ' &eเหตุผล: &c[reason]'
+      leftTime: '!title!&7เวลาที่ติดคุก:!subtitle![time]'
+      jailedTarget: '&eคุณติดคุกเป็นระยะเวลา [time]'
+      cantTalk: '&cคุณไม่สามารถพิมพ์แชทขณะติดคุก'
+      cantTalkRange: '!actionbar!&fช่วงแชทของคุณถูกจำกัดไว้ที่ &c[range] &fบล็อก'
+      failed: '&cไม่สามารถจับผู้เล่น ให้ตรวจสอบชื่อคุกหรือระยะเวลา'
+      bossbar: '&7เหลือเวลาติดคุก: [autoTimeLeft]'
+      noCommand: '&cคุณไม่สามารถใช้คำสั่งขณะติดคุก'
+  jailedit:
+    help:
+      info: '&eแก้ไขคุก'
+      args: ''
+    info:
+      notInArea: '&cคุณไม่ได้ยืนอยู่ในคุก'
+      noName: '&cไม่มีคุกที่ชื่อนี้'
+      noCell: '&cไม่มีเซลล์ตามรหัสนี้'
+      exist: '&cมีคุกชื่อนี้แล้ว'
+      createdJail: '&eได้สร้างคุกใหม่ชื่อ (&6[jail]&e)'
+      createdCell: '&eสร้างเซลล์คุกใหม่ชื่อ (&6[jail]&e:&6[cellId]&e)'
+      collides: '&cชนกับ &6[jailName] &eคุก'
+      editCells: '&eแก้ไขรายการเซลล์'
+      cList: '&eId: &6[id] &eJailed: &6[amount]'
+      jailListTpHover: '&eตั้งอยู่นอกตำแหน่งเคลื่อนย้าย'
+      jailListAreaHover: '&eกำหนดพื้นที่ใหม่'
+      jailRemoved: '&eลบออก (&6[jail]&e) คุก'
+      jailOutside: '&eตั้งค่าตำแหน่งนอกใหม่'
+      jailArea: '&eกำหนดพื้นที่ใหม่สำหรับ &6[jail]'
+      cellRemoved: '&eลบออก (&6[cellId]&e) เซลล์จาก &6[jail]'
+      list: '&eCells: &6[cells] &eJailed: &6[amount] &2[jail]'
+      listTp: '[tp] '
+      listArea: '&7[area] '
+      areaShow: '&7[S] '
+  jaillist:
+    help:
+      info: '&eรายการคุก'
+      args: (jailName) (cellId)
+    info:
+      jailList: '&6[place]. &e[jailName] &7เซลล์:&e[cellCount] &7จำนวน:&6[count]'
+      cellList: '&6[place]. &7รหัส:&e[cellId] &7จำนวน:&6[count]'
+      cellJailedList: '&6[place]. &e[playerDisplayName] &7ปล่อยในอีก &e[time]'
+      Release: '&7คลิกเพื่อปล่อย'
+  jump:
+    help:
+      info: '&eข้ามไปยังบล็อกเป้าหมาย'
+      args: ''
+    info:
+      tooFar: '&cไม่มีบล็อกในระยะหรือไกลเกินไป (มากสุด [max] บล็อก)'
+  kick:
+    help:
+      info: '&eเตะผู้เล่นด้วยข้อความที่กำหนดเอง'
+      args: '[playerName/all] (message) (-s)'
+      explanation:
+      - cmi.command.kick.bypass - ป้องกันจากการถูกเตะออก
+    info:
+      defaultMessage: '&eเตะจากเซิร์ฟเวอร์'
+      cantKick: '&eไม่สามารถเตะผู้เล่นนี้ได้'
+      messageToAll: '&6[playerDisplayName] &eถูกเตะจากเซิร์ฟเวอร์'
+      kickReason: ' &eเหตุผล: &6[reason]'
+      all: '&eเตะ &6[amount] &eผู้เล่นจากเซิร์ฟเวอร์'
+  kill:
+    help:
+      info: '&eKill player'
+      args: '[playerName] (-force) (damageCause) (-s) (-lightning)'
+    info:
+      cantKill: '&6Can''t kill, protected by another plugin, game/god mode. Use -forced
+        variable'
+      lackOfAccess: '&6Can''t use force kill without permission.'
+      killed: '&6Killed [playerDisplayName]'
+  killall:
+    help:
+      info: '&eฆ่าม็อบรอบตัวคุณ'
+      args: (-monsters/-pets/-npc/-animals/-ambient/-named/-f/-lightning/-list/-m:[mobType])
+        (-r:range) (-s) (-w:[worldName])
+    info:
+      infoList: '&2[category]&e: &7[amount] &e([list]&e)'
+      removedList: '&6[type]&e: &7[amount]'
+      total: '&eนำออกทั้งหมด: &7[amount] &e([list]&e)'
+      noRemove: '&eไม่มีอะไรที่จะลบ'
+      monsters: มอนสเตอร์
+      pets: สัตว์เลี้ยง
+      npc: ชาวบ้าน
+      animals: สัตว์
+      ambient: ม็อบในถ้ำ
+      vehicles: พาหนะ
+      named: ด้วยชื่อที่กำหนดเอง
+  kit:
+    help:
+      info: '&eให้ชุดไอเท็มที่กำหนดไว้ล่วงหน้า'
+      args: '[kitName] (playerName)'
+      explanation:
+      - '&eสิทธิ์:'
+      - '&6cmi.kit.[kitName] &e- อนุญาตให้ใช้ชุดที่กำหนด'
+      - '&6cmi.kit.bypass.money &e- ข้ามความต้องการเงิน'
+      - '&6cmi.kit.bypass.exp &e- ข้ามความต้องการประสบการณ์'
+      - '&6cmi.kit.bypass.onetimeuse &e- ข้ามการใช้งานครั้งเดียว'
+      - '&6/cmi kit [kitName] [playerName] &e- จะมอบชุดที่กำหนดให้ผู้อื่นได้'
+    info:
+      noMoney: '&eมีเงินไม่พอ ต้องจ่าย: &6[cost] &eคุณมีเงิน &6[balance]'
+      noExp: '&eมีค่าประสบการณ์ไม่พอ ต้องจ่าย: &6[cost] &eคุณมีค่าประสบการณ์ &6[balance]'
+      noCondition: '&eคุณไม่ได้รับอนุญาตให้ใช้ชุดนี้: &6[condition]'
+      oneTime: '&cนี่เป็นชุดใช้ครั้งเดียวและคุณใช้ไปแล้ว'
+      cantUseNow: '&cคุณไม่สามารถใช้ได้ในตอนนี้ ครั้งต่อไปที่ใช้ได้คือ [time]'
+      limitedTimeUseError: '&eไม่สามารถใช้งานได้มากกว่า &6[times] &eครั้ง'
+      limitedTimeUse: '&7สามารถใช้ได้ &c[times] &7ครั้ง'
+      limitedTimeAllUsed: '&cคุณไม่สามารถรับได้อีก'
+      canUseIn: "&eสามารถใช้งานได้อีกครั้งใน: \n[time]"
+      cooldown: "&eคูลดาวน์: \n[time]"
+      noKit: '&eไม่พบชื่อชุดนี้'
+      kitDoesntExist: '&eไม่พบชุดชื่อ ([kitName])'
+      noKitAccess: '&cคุณไม่มีสิทธิ์ใช้ชุดนี้'
+      noFoundKit: '&eไม่พบชุดใด ๆ'
+      givenKit: '&eคุณได้รับ &6[kit] &eถึง &6[playerDisplayName]'
+      title: '&8ชุดไอเท็ม'
+      nameCanUse: '&6[kitName]'
+      nameCantUse: '&7[kitName]'
+      group: '&eยศ: &6[group]'
+      left: '&6คลิกซ้าย &eเพื่อรับ'
+      right: '&6คลิกขวา &eเพื่อดูตัวอย่าง'
+      take: '&6ใช้ชุดนี้'
+      open: '&7Items from &8[kitName] &7kit!'
+      eye: ' &e☬'
+      use: '&2'
+      cantuse: '&7'
+      list: '&7[number]. &e[kitName] &6- [description]'
+  kitcdreset:
+    help:
+      info: '&eรีเซ็ตตัวจับเวลาชุดไอเท็ม'
+      args: (kitName) (playerName/all)
+    info:
+      notCd: '&eชุดไอเท็มไม่ได้อยู่ในระยะคูลดาวน์'
+      reset: '&eชุด (&6[kit]&e) คูลดาวน์ถูกรีเซ็ตสำหรับ &6[playerDisplayName]'
+      resetAll: '&eชุด (&6[kit]&e) คูลดาวน์ถูกรีเซ็ตจำนวน &6[count] &eผู้เล่น'
+      list: '&e[place]. &6[kit] &e[time]'
+      listHover: '&eคลิกเพื่อรีเซ็ต'
+      noCd: '&eไม่มีชุดไอเท็มอยู่ในคูลดาวน์'
+  kiteditor:
+    help:
+      info: '&eเครื่องมือแก้ไขชุดไอเท็ม'
+      args: ''
+      explanation:
+      - '&eสิทธิ์:'
+      - '&6cmi.kit.[kitName] &e- อนุญาตให้ใช้ชุดเฉพาะ'
+      - '&6cmi.kit.bypass.money &e- ข้ามความต้องการเงิน'
+      - '&6cmi.kit.bypass.exp &e- ข้ามความต้องการประสบการณ์'
+      - '&6/cmi kiteditor &e- แสดงรายการชุดไอเท็ม'
+    info:
+      kits: '&eชุด: '
+      iconSet: '&eตั้งค่าไอคอนใหม่สำหรับชุด &6[kitname]'
+      kitExists: '&eมีชื่อชุดนี้แล้ว'
+      deleteConfirm: '&eคลิกหากต้องการลบชุด (&6[kitname]&e)'
+      deleteConfirmFinal: '&cการกระทำนี้ไม่สามารถย้อนกลับได้'
+      kitRemoved: '&eชุด (&6[kitname]&e) ลบออกแล้ว'
+      kitNotRemoved: '&cชุด (&6[kitname]&c) ไม่สามารถลบได้'
+      addNewInfo: '&eพิมพ์ชื่อชุดลงในการแชทแล้วกด Enter พิมพ์ ''&6cancel&e'' เพื่อยกเลิกการกระทำนี้'
+      renameCommandInfo: '&eพิมพ์ชุดใหม่ &6คำสั่ง &eชื่อ เข้าสู่การแชทและกด Enter
+        พิมพ์ ''&6cancel&e'' เพื่อยกเลิกการกระทำนี้'
+      renameConfigInfo: '&eพิมพ์ชุดใหม่ &6การตั้งค่า &eชื่อ เข้าสู่การแชทและกด Enter
+        พิมพ์ ''&6cancel&e'' เพื่อยกเลิกการกระทำนี้'
+      groupInfo: '&eพิมพ์ชื่อกลุ่มใหม่ลงในการแชทแล้วกด Enter พิมพ์ ''&6none&e'' เพื่อลบกลุ่ม
+        พิมพ์ ''&6cancel&e'' เพื่อยกเลิกการกระทำนี้'
+      commandInfo: '&eพิมพ์คำสั่งใหม่ลงในการแชทแล้วกด Enter พิมพ์ ''&6cancel&e'' เพื่อยกเลิกการกระทำนี้
+        ตัวแปรที่เป็นไปได้: &6{USERNAME} {DISPLAYNAME} {WORLDNAME} {KITNAME} {RANDOMPLAYER}'
+      conditionsInfo: '&eพิมพ์เงื่อนไขใหม่ในการแชทแล้วกด Enter พิมพ์ ''&6cancel&e''
+        เพื่อยกเลิกการกระทำนี้'
+      descInfo: '&eพิมพ์คำอธิบายใหม่ในการแชทแล้วกด Enter พิมพ์ ''&6cancel&e'' เพื่อยกเลิกการกระทำนี้'
+      renamed: '&eเปลี่ยนชื่อ &6[kitname] &eเป็น &6[newkitname]'
+      groupSet: '&eกลุ่มใหม่ (&6[groupname]&e) ที่กำหนดไว้สำหรับ &6[kitname]'
+      commandsListTitle: '&e✎&6คำสั่ง:'
+      conditionsListTitle: '&e✎&6เงื่อนไข:'
+      descListTitle: '&e✎&6คำอธิบาย:'
+      ListTitleHover: '&eคลิกเพื่อเปิดหน้าต่างแก้ไข'
+      ListEditKitHover: '&cแก้ไข &6[kitname]'
+      ListAdd: ' &2+'
+      ListAddHover: '&2เพิ่มใหม่'
+      guiClickery:
+      - '&eคลิกเมาส์ซ้ายเพื่อเพิ่ม และคลิกขวาเพื่อลด'
+      - '&eกด &6Shift &eเพื่อเร่งกระบวนการให้เร็วขึ้น 10 เท่า'
+      - '&eการทำซ้ำการคลิกที่รวดเร็วจะช่วยเร่งการเปลี่ยนแปลงจำนวนเงิน'
+      - '&eหยุดคลิกเป็นเวลา 1 วินาที เพื่อกลับสู่จำนวนเงินเริ่มต้น'
+      OffHand: '&eวางไอเท็มมือรองที่นี่'
+      Helmet: '&eวางหมวกที่นี่'
+      Chest: '&eวางเสื้อที่นี่'
+      Legs: '&eวางกางเกงที่นี่'
+      Boots: '&eวางรองเท้าที่นี่'
+      Weight: '&eน้ำหนัก: &6[Weight]'
+      WeightExtra:
+      - '&eค่าที่สูงมีลำดับความสำคัญที่มากกว่า'
+      - '&eชุดควรอยู่ในกลุ่มเดียวกัน'
+      despiteWeight: '&eแสดงแม้จะมีน้ำหนัก: &6[Weight]'
+      despiteWeightExtra:
+      - '&eผู้เล่นไม่สามารถเข้าถึงชุดไอเท็ม แต่สามารถดูตัวอย่างได้'
+      Slot: '&eช่อง: &6[slot]'
+      Page: '&ePage: &6[page]'
+      SlotAuto: '&6อัตโนมัติ'
+      Clone: '&eคัดลอกไอเท็มจากช่องเก็บของ'
+      CloneExtra:
+      - '&eใช้ปุ่มเมาส์ขวาเพื่อรวมชุดเกราะ'
+      - '&eคลิกอีกครั้งเพื่อยกเลิกการเปลี่ยนแปลง'
+      timeDelay: '&eระยะเวลาที่รอ: &6[time]'
+      usages: '&eสามารถใช้ได้อีก &6[times] &eครั้ง'
+      withoutUsage: '&eShow without usages left: &6[state]'
+      usagesUnlimited: '&6ไม่จำกัด'
+      ignoreWeight: '&eแสดงแม้จะมีน้ำหนัก: &6[state]'
+      timeDelaySeconds: '&eเวลา (วินาที): &6[time]'
+      moneyCost: '&eเงินที่ต้องใช้: [cost]'
+      expCost: '&eค่าประสบการณ์ที่ต้องใช้: [cost]'
+      enabled: '&eเปิดใช้งาน'
+      disabled: '&6ปิดใช้งาน'
+      delete: '&6ลบชุด'
+      clickToSwitch: '&eคลิกเพื่อสลับสถานะ'
+      clickToEdit: '&eคลิกเพื่อเริ่มแก้ไข'
+      editConfigName:
+      - '&eคลิกเพื่อเปลี่ยนชื่อการกำหนดค่า'
+      - '&eนี่เป็นตัวกำหนดสิทธิ์เท่านั้น'
+      editCommandName:
+      - '&eคลิกเพื่อเปลี่ยนชื่อคำสั่ง'
+      - '&eชุดคำสั่งนี้คุณต้องใช้เพื่อรับชุดนี้'
+      displayName: '&7DisplayName: &r&f[name]'
+      editDisplayName:
+      - '&eClick to change display name'
+      - '&eThis only used for visual purposes'
+      kitGroup: '&eชุดสำหรับยศ: &6[group]'
+      dropItems: '&eตกพื้นถ้าเต็ม: &6[state]'
+      commands: '&eคำสั่ง:'
+      conditions: '&eเงื่อนไข:'
+      desc: '&eคำอธิบาย:'
+      mainMenu: '&eเมนูหลัก'
+      settings: '&eการตั้งค่า'
+      icon: '&eไอคอนที่ใช้เมื่อชุด &2พร้อมใช้งาน'
+      iconCd: '&eไอคอนที่ใช้เมื่อชุด &cไม่พร้อมใช้งาน'
+  kitusagereset:
+    help:
+      info: '&eรีเซ็ตตัวนับการใช้ชุดไอเท็ม'
+      args: (kitName) (playerName)
+    info:
+      notLimited: '&eชุดมีการใช้งานไม่จำกัด'
+      reset: '&eชุด (&6[kit]&e) จำนวนการใช้งานได้รับการรีเซ็ตสำหรับ &6[playerDisplayName]'
+      list: '&e[place]. &6[kit] &e[used]/[usages]'
+      listHover: '&eคลิกเพื่อรีเซ็ต'
+      noCd: '&eไม่มีชุดที่มีการใช้งานมากกว่า 0'
+  lastonline:
+    help:
+      info: '&eแสดงผู้เล่นที่ออฟไลน์นาทีที่กำหนด'
+      args: (-p:[page])
+    info:
+      searching: '&eค้นหา &6[checked]&e/&6[total] &e(&6[found]&e)'
+      List: ' &6[place]&e. &2[name] &e-> &6[time]'
+      timeFrame: '&eLast hour (&6[time1]&e), 24 hours (&6[time2]&e), 7 days (&6[time3]&e),
+        30 days (&6[time4]&e)'
+  launch:
+    help:
+      info: '&eผลักไปในทิศทางที่คุณกำลังมองหรือที่มุม'
+      args: (playerName) (p:[power]) (a:[angle]) (d:[direction]) (loc:[x]:[y]:[z])
+      explanation:
+      - cmi launch - จะผลักตัวตามทิศทางที่คุณต้องการ
+      - cmi launch p:3.2 - จะผลักด้วยพลัง 3.2
+      - cmi launch p:2.5 a:25 - จะผลักตามทิศทางที่คุณมองด้วยมุม 25 องศาและพลัง 2.5
+      - cmi launch Zrips d:east - จะผลักไปทิศตะวันออกในมุมเดียวกันกับที่คุณมอง
+      - cmi launch Zrips d:0 - จะผลักที่ 0 องศา (ทิศใต้) มุมเดียวกันที่คุณกำลังมองหา
+      - cmi launch d:45 a:30 p:2 - จะผลัก   ไปทิศตะวันตกเฉียงใต้ที่มุม 30 องศาด้วยพลัง
+        2
+      - cmi launch loc:150:120:123 - จะผลักผู้เล่นไปตำแหน่งที่กำหนด
+    info:
+      feedback: '!actionbar!&6[&fโอ้!&6]'
+  lfix:
+    help:
+      info: '&eแก้ไขแสงชิ้นส่วนรอบตัวคุณ'
+      args: (range) (playerName) (stop/stopall)
+    info:
+      NoMore: '&eช่วงไม่เกินช่วงมุมมองของเซิร์ฟเวอร์ เปลี่ยนเป็นสูงสุดที่อนุญาต'
+      startFixing: '&eพบ &6[amount] &eชิ้นส่วนที่จะแก้ไข เริ่มทำงาน'
+      InfoShow: '&6TPS: &3[tps] &6เหลืออีก &e[left] &6(&e[min]นาที:[sec]วินาที&6)
+        &6ความเร็ว: &e[speed]'
+      Finished: '&eได้ทำการแก้ไขแสงชิ้นส่วนแล้ว'
+      Stopped: '&eหยุดทำงาน'
+  list:
+    help:
+      info: '&eแสดงรายชื่อออนไลน์'
+      args: ''
+      explanation:
+      - 'สิทธิ์: '
+      - cmi.command.list.admin
+      - cmi.command.list.staff
+      - cmi.command.list.hidden
+      - cmi.command.list.group.[number]
+    info:
+      # [groupLine] can be replaced with specific grouped names like [group1] and [group2] and so on, you can have as many of those as you want and order them by your own liking
+      List:
+      - '&7========================'
+      - '&eผู้เล่นออนไลน์ &6[amount][hidden]&e/&6[maxamount]'
+      - '[adminLine]'
+      - '[staffLine]'
+      - '[groupLine]'
+      - '&7========================'
+      staffL: '&7ทีมงาน: &f[list]'
+      adminL: '&8ผู้ดูแล: &f[list]'
+      hiddenPref: '&e&7[ซ่อน]'
+      hiddenCount: '&e&7([amount])'
+      groupL: '&6[groupName]: &f[list]'
+      player: '%cmi_user_afk_symbol%&f[playerDisplayName]'
+      # Add as many groups as you wish, by default there is only 10, to create new one, just copy paste one line and add increment into lines name, like group11 or group12 and so on.
+      # ATTENTION! group names should be in 'group[number]' format, where you have word 'group' followed by number. This is required and you cant have custom names as they are not required, but we are using number provided to determine which group goes after which
+      # Player need to have appropriate permission node to be placed in group cmi.command.list.group.[groupnumber], bigger number have bigger priority
+      groups:
+        group1: '&eกลุ่มที่ 1: &f[list]'
+        group2: '&eกลุ่มที่ 2: &f[list]'
+        group3: '&eกลุ่มที่ 3: &f[list]'
+        group4: '&eกลุ่มที่ 4: &f[list]'
+        group5: '&eกลุ่มที่ 5: &f[list]'
+        group6: '&eกลุ่มที่ 6: &f[list]'
+        group7: '&eกลุ่มที่ 7: &f[list]'
+        group8: '&eกลุ่มที่ 8: &f[list]'
+        group9: '&eกลุ่มที่ 9: &f[list]'
+        group10: '&eกลุ่มที่ 10: &f[list]'
+      noGroupLine: '&eทั่วไป'
+  lockip:
+    help:
+      info: '&eป้องกันการเข้าบัญชีจากไอพีที่ต่างกัน'
+      args: (playername) [add/remove/list/clear] [ip]
+    info:
+      CantLogin: '&cคุณไม่สามารถเข้าเซิร์ฟเวอร์จากไอพีนี้'
+      add: '&eไอพีใหม่ (&6[ip]&e) ได้เพิ่มให้ &6[playerDisplayName]'
+      remove: '&eไอพี (&6[ip]&e) นำออกจาก &6[playerDisplayName]'
+      clear: '&eไอพีทั้งหมดถูกลบออกจาก &6[playerDisplayName]'
+      ipNotFound: '&cไม่พบไอพี'
+      empty: '&cรายการวางเปล่า'
+      list: '&6[place]&e. &6[ip]'
+  loom:
+    help:
+      info: '&eOpen loom'
+      args: (playerName)
+    info:
+      feedback: '&eYou have opened loom for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&3[senderDisplayName]&e opened loom for you.'
+  mail:
+    help:
+      info: '&eส่งและรับจดหมาย'
+      args: '[send/clear/read] [playerName] (message)'
+    info:
+      sentMail: '&eส่งจดหมายถึง &6[playerDisplayName]'
+      gotMail: '!actionbar!&eคุณได้รับจดหมายจาก &6[senderDisplayName]'
+      clearMail: '&eจดหมายทั้งหมดถูกล้าง'
+      removedMail: '&eลบจดหมาย'
+      noMailsById: '&eไม่มีจดหมายโดยรหัสนี้สำหรับผู้เล่นนี้'
+      noMails: '&eคุณไม่มีจดหมาย'
+      mailHover: '&e[senderName] /n &e[time]'
+      mailHoverExpires: '/n &eExpires in: &6[time]'
+      mailList: ' &7[senderDisplayName]&e: [mail] '
+      waitingMail: '&eคุณมี &6[amount] &eจดหมาย คลิกเพื่อตรวจจดหมายทั้งหมด'
+  mailall:
+    help:
+      info: '&eตรวจสอบหรือส่งจดหมายไปยังผู้เล่นทุกคน'
+      args: '[send/clear/remove] [message]'
+    info:
+      sentMail: '&eส่ง &6[amount] &eจดหมาย'
+      clearMail: '&6[amount] &eจดหมายถูกลบแล้ว'
+      removedMail: '&eลบออก &6[amount] &eจดหมาย'
+  maintenance:
+    help:
+      info: '&eตั้งค่าเซิร์ฟเวอร์ให้อยู่ในโหมดปรับปรุง'
+      args: (message)
+      explanation:
+      - cmi.command.maintenance.bypass - เพื่อข้ามโหมดการปรับปรุง
+    info:
+      feedback: '&eFUNNYCRAFT IS IN MAINTENANCE MODE'
+      set: '&eโหมดการปรับปรุงเซิร์ฟเวอร์ตั้งค่าเป็น &6[state] &eด้วยข้อความ: [message]'
+  maxhp:
+    help:
+      info: '&eตั้งค่าเลือดสูงสุดของผู้เล่น'
+      args: set/add/take/clear [playerName] [amount] (-s)
+    info:
+      feedback: '&eคุณได้ตั้งค่า &3[maxHp] &eเลือดสูงสุดสำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&eเลือดสูงสุดของคุณถูกตั้งค่าเป็น &3[maxHp] &eโดย &3[senderDisplayName]'
+  maxplayers:
+    help:
+      info: '&eเปลี่ยนจำนวนผู้เล่นสูงสุดที่เข้าเล่นได้'
+      args: '[amount]'
+      explanation:
+      - '&eสิทธิ์: '
+      - '&6cmi.fullserver.bypass &e- สามารถเข้าเซิร์ฟเวอร์ได้ถ้าคนเต็ม'
+    info:
+      changed: '&eเปลี่ยนผู้เล่นที่เข้าได้จาก &6[old] &eเป็น &6[new]&e ออนไลน์: &6[current]'
+  me:
+    help:
+      info: '&eส่งข้อความพิเศษถึงผู้เล่นทุกคน'
+      args: '[message]'
+    info:
+      format: '&c[senderDisplayName] &f﨤 &7: &f[message]'
+  merchant:
+    help:
+      info: '&eเปิดหน้าต่างการค้าขาย'
+      args: '[type] (playerName)'
+    info:
+      incorrect: '&cอาชีพที่ไม่ถูกต้อง'
+      feedback: '&eคุณได้เปิด &6[type] &eหน้าต่างแลกเปลี่ยนให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&3[senderDisplayName]&e เปิด &6[type] &eหน้าต่างแลกเปลี่ยนให้คุณ'
+  migratedatabase:
+    help:
+      info: '&eเปลี่ยนระบบฐานข้อมูลและโอนย้ายข้อมูลทั้งหมด'
+      args: ''
+  mirror:
+    help:
+      info: '&eเริ่มการวาง/ทุบ บล็อกแบบสะท้อน'
+      args: (start/stop)
+    info:
+      started: '&eเริ่มทำการมิเรอร์'
+      stopped: '&6การมิเรอร์หยุดลง'
+      tooFar: '&cคุณอยู่ไกลมากเกินไป (มากสุด &6[blocks] &cบล็อก) คุณสมบัติหยุดชั่วคราว'
+      title: กระจกเงา
+      notSet: '&cไม่ได้ตั้งศูนย์กลางไว้'
+      set: '&2ตั้งศูนย์กลางแล้ว'
+      noBlocks: '&cบล็อกไม่เพียงพอ'
+      used: '&7ใช้: &7[blocks]'
+      Action:
+        Name:
+          X: X
+          Y: Y
+          Z: Z
+          XY: XY
+          ZY: ZY
+          XZ: XZ
+          ZX: ZX
+          Rotate90V: หมุน 90V
+          Rotate90H: หมุน 90H
+          Rotate90HC: หมุน 90HC
+          Rotate180H: หมุน 180H
+          Pause: หยุด
+          Location: ที่ตั้ง
+        Desc:
+          X: '&eกระจกเงาจากแกน &6X'
+          Y: '&eกระจกเงาจากแกน &6Y'
+          Z: '&eกระจกเงาจากแกน &6Z'
+          XY: '&eกระจกเงาจากแกน &6X &eถึงแกน &6Y'
+          ZY: '&eกระจกเงาจากแกน &6Z &eถึงแกน &6Y'
+          XZ: '&eกระจกเงาจากแกน &6X &eถึงแกน &6Z'
+          ZX: '&eกระจกเงาจากแกน &6Z &eถึงแกน &6Y'
+          Rotate90V: '&eหมุนขึ้น'
+          Rotate90H: '&eหมุน &690 &eองศาตามเข็มนาฬิกา'
+          Rotate90HC: '&eหมุน &690 &eองศาทวนเข็มนาฬิกา'
+          Rotate180H: '&eหมุน &6180 &eองศา'
+          Pause: '&eหยุดการทำมิเรอร์ชั่วคราว'
+          Location: '&eตั้งค่าตำแหน่งศูนย์กลางมิเรอร์'
+  mobhead:
+    help:
+      info: '&eรับหัวของม็อบ'
+      args: '[mobType] (entryNumber) (playerName) (-s)'
+    info:
+      got: '&eได้รับ &6[type] &eหัวม็อบ'
+      base: '&7อัตราดรอปเริ่มต้น: &f[chance]%'
+      personal: '&7อัตราดรอปของคุณ: &f[chance]%'
+      headSpecific: '&7อัตราการดรอปพิเศษ: &f[chance]%'
+      criteria: '&7เกณฑ์: &f[criteria]%'
+      title: '&7[current]&8/&7[total]'
+  money:
+    help:
+      info: '&eจัดการยอดเงิน'
+      args: '[pay/give/take/set] [playerName/all/alloffline] [amount][%rand/1-1000%][1%[min-max]][playerName]]
+        (-s)'
+    info:
+      newBalance: '&6[playerDisplayName] &eยอดเงินใหม่: &6[money]'
+      paid: '&eคุณได้ส่ง &6[amount] &eให้ &6[playerDisplayName]'
+      gotMoney: '&eคุณได้รับ &6[amount] &eจาก &6[senderDisplayName]&e ยอดเงินใหม่:
+        &6[money]'
+      gotMoneyGive: '&eคุณได้รับ &6[amount]&e ยอดเงินใหม่: &6[money]'
+      lostMoney: '&6[amount]&e ได้ถูกลบจากกระเป๋าของคุณ คงเหลือ : &6[money]'
+      worldGroups: '&cคุณไม่สามารถส่งเงินระหว่างโลกได้'
+      self: '&cคุณไม่สามารถส่งเงินให้ตัวเองได้'
+      confirm: '&eคลิกเพื่อยืนยัน &6[money] &eโอนเงินให้ &6[playerDisplayName] &a&l[✔]'
+      notAccepting: '&eผู้ใช้รายนี้ไม่ยอมรับการชำระเงินจากผู้เล่นอื่น'
+      giveAll: '&eแจก &6[totalAmount] &eให้ &6[playerCount] &eผู้เล่น'
+      takeAll: '&eเอา &6[totalAmount] &eจาก &6[playerCount] &eผู้เล่น'
+      overLimit: '&e[playerDisplayName] &ecan''t receive your money due limitations
+        in how many he can hold at once'
+  more:
+    help:
+      info: '&eเติมไอเท็มให้เป็นจำนวนสูงสุด'
+      args: (playerName) (-clone/[amount])
+      explanation:
+      - '&eสิทธิ์:'
+      - ' &6cmi.command.more.oversize &e- เพื่อรับสแต็คสูงสุด'
+    info:
+      feedback: '&eเติมไอเท็มเป็นจำนวน &3[amount]&e ให้ &3[playerDisplayName]&e (&3[offon]&e)'
+  msg:
+    help:
+      info: '&eส่งข้อความไปยังผู้เล่น'
+      args: '[playerName] [message]'
+      explanation:
+      - หากข้อความเริ่มต้นด้วย ! จากนั้นข้อความที่ไม่มีชื่อผู้ส่งจะปรากฎขึ้น
+      - ต้องการสิทธิ์ cmi.command.msg.clean
+      - หากข้อความขึ้นต้นด้วย ! จากนั้นข้อความที่ไม่มีชื่อผู้ส่งจะถูกแสดง และไม่มีตัวเลือกในการตอบกลับ
+      - ต้องการสิทธิ์ cmi.command.msg.noreply
+    info:
+      TargetMsg: '&6[&6[senderName] &6-> &eฉัน&6]&r&f [message]'
+      SenderMsg: '&6[&eฉัน &7-> &6[playerName]&6]&r&f [message]'
+      consoleMsg: '[[senderDisplayName] -> [playerDisplayName]] [message]'
+      noPM: '&cผู้เล่นไม่รับข้อความส่วนตัวตอนนี้'
+      badGroup: '&cไม่สามารถส่งข้อความส่วนตัวถึงผู้เล่นกลุ่มนี้'
+  mute:
+    help:
+      info: '&eปิดแชทผู้เล่น'
+      args: '[playerName] (time) (-s) (reason)'
+      explanation:
+      - 'ตัวอย่าง: '
+      - /cmi mute zrips 1m
+      - /cmi mute zrips 1h
+      - /cmi mute zrips 1h For swearing
+    info:
+      mutedFor: '&e[playerDisplayName] โดนปิดแชทเป็นเวลา &6[time]'
+      muted: '&eคุณโดนปิดแชทเป็นเวลา &6[time]'
+      reason: '&eเหตุผล: &7[reason]'
+      badTimeRanges: '&cYou can''t mute for longer than [time] &6([seconds])'
+  mutechat:
+    help:
+      info: '&eปิดการแชท'
+      args: (time) (-s)
+      explanation:
+      - 'ตัวอย่าง: '
+      - /cmi mutechat 1m
+      - '/cmi mutechat 1h '
+    info:
+      mutedFor: '&eปิดการแชทสาธารณะเป็นเวลา &6[time]'
+      isMuted: '!actionbar!&eการแชทสาธารณะถูกปิดเป็นเวลา &6[time]'
+      muteReason: '&4Mute reason: &7[reason]'
+  nameplate:
+    help:
+      info: '&eตั้งคำนำหน้า/คำต่อท้ายให้ผู้เล่น'
+      args: (playerName) (-pref:[prefix]) (-suf:[suffix]) (-c:[colorCode])
+      explanation:
+      - Use _ to add space and __ to add underscore for placeholder and similar
+    info:
+      feedback: '&eคุณได้อัปเดตคำให้กับ &3[playerDisplayName]&e (&3[offon]&e)'
+      targetfeedback: '&eคำนำหน้า/คำต่อท้ายของคุณได้รับการอัปเดต'
+      namePlate: '&e[playerDisplayName] name plate: &f[namePlate]'
+  near:
+    help:
+      info: '&eตรวจสอบว่าใครอยู่ใกล้คุณ'
+      args: (distance)
+    info:
+      nope: '&eไม่มีใครอยู่ใกล้คุณ'
+      list: '&e[place]. &6[playerDisplayName] &e- &7[distance]บล็อก'
+      aproxList: '&e[place]. &6[playerDisplayName] &e- &6[dir] &7~[distance]บล็อก'
+  nick:
+    help:
+      info: '&eเปลี่ยนชื่อผู้เล่น'
+      args: '[newNickName/off] (playerName) (-s)'
+      explanation:
+      - 'หากต้องการเปลี่ยนเป็นชื่อเล่นอื่นต้องมีสิทธิ์: cmi.command.nick.different'
+      - เพื่อหลีกเลี่ยงการใช้กำหนดความยาวชื่อต้องมีสิทธิ์ cmi.command.nick.bypass.length
+    info:
+      changed: '&eเปลี่ยนชื่อเล่นเป็น &r[newNickName] &eจาก &r[oldNickName]'
+      changedTarget: '&eชื่อเล่นของคุณเปลี่ยนเป็น &r[newNickName] &eโดย &r[senderDisplayName]'
+      reset: '&eชื่อรีเซ็ตเป็นค่าเริ่มต้น'
+      sameNick: '&cคุณไม่สามารถเปลี่ยนเป็นชื่ออื่น คุณเปลี่ยนได้แค่สีเท่านั้น'
+      blockedNick: '&cคุณไม่สามารถใช้ชื่อเล่นนี้'
+      blockedNickLength: '&eชื่อเล่นยาวเกินไป มากสุด &6[amount] &eตัวอักษร'
+      blockedNickLengthMin: '&eชื่อเล่นสั้นเกินไป น้อยสุด &6[amount] &eตัวอักษร'
+      inUse: '&cชื่อนี้ถูกใช้โดยผู้เล่นคนอื่นแล้ว'
+  notarget:
+    help:
+      info: '&eสลับโหมดเป้าหมาย'
+      args: (playerName) (true/false) (-s)
+    info:
+      enabled: '&eมอนสเตอร์จะไม่โจมตีคุณอีกต่อไป'
+      disabled: '&eตอนนี้มอนสเตอร์จะโจมตีคุณ'
+  note:
+    help:
+      info: '&eจัดการบันทึกผู้เล่น'
+      args: (playerName) [add/remove/clear/list] (id/note)
+    info:
+      newNote: '&eเพิ่มโน้ตใหม่สำหรับผู้เล่น'
+      clearNote: '&eลบบันทึกทั้งหมดสำหรับผู้เล่นแล้ว'
+      removedNote: '&eลบบันทึกสำหรับผู้เล่น'
+      noNotesById: '&eไม่มีโน้ตที่บันทึกโดยรหัสนี้สำหรับผู้เล่น'
+      noNotes: '&eไม่มีโน้ตที่บันทึกไว้สำหรับผู้เล่น'
+      listNotes: '&7[note]'
+  openbook:
+    help:
+      info: '&eเปิดหน้าต่างสมุด'
+      args: (cText) (playerName)
+  oplist:
+    help:
+      info: '&eตรวจสอบรายชื่อที่มี OP'
+      args: ''
+    info:
+      feedback: '&e* &6[number]. &e[playerName]'
+  options:
+    help:
+      info: '&eModify personal options'
+      args: (playerName) (option) (enable/disable/toggle/status) (-s)
+      explanation:
+      - 'Posible actions: visibleHolograms, shiftSignEdit, totemBossBar, bassBarCompass,
+        tagSound, chatSpy, cmdSpy, signSpy, acceptingPM, acceptingTPA, acceptingMoney'
+    info:
+      title: '&8Options'
+      state: '&2State: [state]'
+      feedback: '&2[description]: [state]'
+      option:
+        visibleHolograms: '&eVisible holograms'
+        shiftSignEdit: '&eSign shift edit'
+        totemBossBar: '&eTotem BossBar'
+        bassBarCompass: '&eCompass BossBar'
+        tagSound: '&eChat tagging sound'
+        chatSpy: '&eChat spy'
+        cmdSpy: '&eCommand spy'
+        signSpy: '&eSign spy'
+        acceptingPM: '&eAccepting private messages'
+        acceptingTPA: '&eAccepting teleportations to you'
+        acceptingMoney: '&eAccepting money payments'
+        chatbubble: '&eChat bubbles'
+  panimation:
+    help:
+      info: '&eเล่นอนุภาคเคลื่อนไหวที่กำหนดเอง'
+      args: ''
+      explanation:
+      - ข้อมูลการใช้งานสามารถดูได้ที่ http://www.zrips.net/cmi/extra/particles/
+  patrol:
+    help:
+      info: '&eลาดตระเวน'
+      args: ''
+    info:
+      noPatrol: '&eขณะนี้ไม่มีผู้เล่นที่คุณสามารถลาดตระเวนได้'
+      Patroling: '&eกำลังลาดตระเวน: &6[playerDisplayName]'
+      lastPatrol: '&eครั้งสุดท้ายที่ลาดตระเวน &6[time]&eมาแล้ว'
+      notes: '&eมี &6[amount] &eโน้ต'
+  pay:
+    help:
+      info: '&eทำธุรกรรมเงิน'
+      args: '[playerName] [amount] (-s)'
+  ping:
+    help:
+      info: '&eแสดงความแลคของผู้เล่น'
+      args: (playerName/message)
+    info:
+      feedback: '&eความแลค: &6[ping]มิลลิวินาที'
+      selffeedback: '&eความแลคของคุณคือ &6[ping]มิลลิวินาที'
+      customMessage: '[message]'
+  placeholders:
+    help:
+      info: '&eรายชื่อตัวแปรทั้งหมด'
+      args: (parse) (placeholder) (playerName)
+    info:
+      list: '&e[place]. &6[placeholder]'
+      outputResult: ' &eผลลัพธ์: &6[result]'
+      parse: '&6[placeholder] &eโดย [source] &6ผลลัพธ์ &8|&f[result]&8|'
+  playercollision:
+    help:
+      info: '&eตั้งค่าโหมดการชนกันของผู้เล่น'
+      args: (playerName) [true/false] (-s)
+    info:
+      feedback: '&eคุณได้ตั้งค่าการชนกันของ &3[boolean]&e สำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&eโหมดการชนของคุณเปลี่ยนเป็น &3[boolean]'
+  playtime:
+    help:
+      info: '&eแสดงเวลาเล่นทั้งหมดของผู้เล่น'
+      args: (playername)
+    info:
+      total: '&e* เวลาเล่นทั้งหมด: [time]'
+      joined: '&e* เข้าร่วมเมื่อ: &6[time]'
+  playtimetop:
+    help:
+      info: '&eแสดงรายการเวลาเล่นสูงสุดของผู้เล่น'
+      args: '[page]'
+    info:
+      topLine: '&e----- อันดับคนที่เล่นมากที่สุด &e-----'
+      scanning: '&eกำลังสแกนข้อมูลในขณะนี้ โปรดรอสักครู่แล้วลองอีกครั้ง'
+      loading: '&eยังไม่ได้โหลดข้อมูล การสแกนจะเริ่มขึ้นและจะได้รับผลหลังจากสแกน'
+      list: '&e[number]. [playerDisplayName] &e- &6[time]'
+      place: '&6[playerDisplayName] &eอยู่ในลำดับ &6[place]'
+      ownLine: '&2[number]. &2[playerDisplayName] &2- &2[time]'
+  point:
+    help:
+      info: '&eชี้ไปที่บล็อก'
+      args: (particleName) (playerName) (-self) (time) (-s:[speed])
+  portals:
+    help:
+      info: '&eตั้งค่าประตูวาร์ป'
+      args: (new/nearest) (portalName)
+    info:
+      collides: '&cชนกับ &6[portalName] &eประตูวาร์ป'
+      exist: '&cประตูวาร์ปที่ใช้ชื่อนี้มีอยู่แล้ว'
+      notExist: '&cประตูวาร์ปที่ชื่อนี้ไม่มีอยู่'
+      locationSet: '&eตำแหน่งประตูวาร์ปถูกตั้งค่าเป็นตำแหน่งของคุณสำหรับ &6[portalName]'
+      removed: '&eประตูวาร์ป &6[portalName] &eได้ลบออก'
+      click: '&eคลิกเพื่อตั้งค่าตำแหน่งวาร์ปสำหรับ &6[portalName] &eไปยังตำแหน่งปัจจุบันของคุณ'
+      bungeeSet: '&eเดินทางไปที่ตำแหน่งและคลิกที่ข้อความนี้เพื่อตั้งค่าตำแหน่งเคลื่อนย้าย'
+      bungeeSetConfirmed: '&eBungee portal (&6[portal]&e) location set from &6[sourceServer]
+        &eserver to &e[location]'
+      bungeeSetEmpty: '&eInitiated portal location set at &6[serverName] &eserver,
+        but no one is online in this server. This action will not complete until some
+        one joins it'
+      List: '&e[color][portalName]'
+      redefine: '&eกำหนดพื้นที่ใหม่จากการเลือกปัจจุบัน'
+      particles: '&eอนุภาค: &6[state]'
+      particleType: '&eประเภทของอนุภาค: &6[type]'
+      particleAmount: '&eปริมาณอนุภาค: &6[amount]'
+      particlePercent: '&eเปอร์เซ็นต์ของอนุภาคที่หดตัวด้านข้าง: &6[amount]%'
+      activationRange: '&eช่วงการเปิดใช้งาน: &6[amount]'
+      particlePermission: '&eShow particles without permission: &6[state]'
+      bungeeTeleport: '&eส่งต่อไปยังตำแหน่งเครือข่ายที่แน่นอน: [state]'
+      requiresPermission: '&eต้องการสิทธิ์ &7[perm] &eเพื่อใช้งาน: [state]'
+      kickBack: '&ePrevent enter without permission: [state]'
+      informPermission: '&eแจ้งเมื่อไม่มีสิทธิ์: [state]'
+      teleportToLocation: '&eเคลื่อนย้ายไปยังประตูวาร์ป'
+      teleportToTarget: '&eเคลื่อนย้ายไปยังเป้าหมาย'
+      performCommandsWithoutTp: '&eดำเนินการคำสั่งที่ไม่มีตำแหน่งวาร์ปที่ถูกต้อง'
+      editCommands: '&eแก้ไขคำสั่งประตูวาร์ป'
+      setTeleportLocation: '&eตั้งค่าตำแหน่งเคลื่อนย้าย'
+      setSafeLocation: '&eตั้งค่าตำแหน่งที่ปลอดภัยนอกสถานที่'
+      save: '&eบันทึกการเปลี่ยนแปลงไปยังไฟล์'
+      removePortal: '&eลบประตูวาร์ป'
+      cantUsePortal: '&cคุณไม่สามารถใช้ประตูวาร์ปนี้'
+  pos:
+    help:
+      info: '&eแสดงพิกัดปัจจุบันของผู้เล่น'
+      args: (playerName)
+    info:
+      feedback: '&e[playerDisplayName] &e(&3[offon]&e) ([world]&e,&6[x]&e:&6[y]&e:&6[z]&e)'
+      feedbackRegion: '&eชิ้นส่วน &6[chunkx]&e:&6[chunkz]&e ภูมิภาค &6[regionx]&e:&6[regionz]'
+      feedbackDirection: '&eทิศ &6[direction] &e(&6[degrees] &eองศา)'
+      feedbackBiome: '&eไบโอม &6[biome]'
+      feedbackLight: '&eระดับแสง &6[lightLevel]'
+      netherCoord: '&eพิกัดโลกนรก: &e(&6[x]&e:&6[y]&e:&6[z]&e)'
+      normalCoord: '&eพิกัดโลกหลัก: &e(&6[x]&e:&6[y]&e:&6[z]&e)'
+  preview:
+    help:
+      info: '&eโหลดชิ้นส่วนสำหรับช่วงที่กำหนด'
+      args: '[range] (innerrange)'
+    info:
+      NoMore: '&eระยะไม่สามารถเกิน 32 เปลี่ยนเป็นค่าสูงสุดที่อนุญาต'
+      startSending: '&eพบ &6[amount] &eชิ้นส่วนที่จะส่ง เริ่มทำงาน'
+      InfoShow: '&6TPS: &3[tps] &6เหลืออีก &e[left] &6(&e[min]นาที:[sec]วินาที&6)
+        &6ความเร็ว: &e[speed]'
+      Finished: '&eเสร็จสิ้น อาจต้องใช้เวลาเพื่อโหลดชิ้นส่วนทั้งหมดรอบตัวคุณ'
+  prewards:
+    help:
+      info: '&eตรวจสอบรางวัลการเล่น'
+      args: (playerName)
+    info:
+      list: '&e[place]. &6[rewardName] &eให้รางวัลเมื่อ &6[time]'
+      listNoStack: '&e[place]. &6[rewardName]'
+      listOneTime: '&e[place]. &6[rewardName]'
+      claim: ' &2รับรางวัล'
+      claimAmount: ' &2รับ(x[amount])'
+      claimHover: '&2คลิกเพื่อรับรางวัล'
+      inform: '!actionbar!&2คุณมีรางวัลที่คุณยังไม่ได้รับ พิมพ์ /prewards เพื่อดูรางวัล'
+  ptime:
+    help:
+      info: '&eควบคุมเวลาส่วนตัวของผู้เล่น'
+      args: ''
+      explanation:
+      - 'ตัวอย่าง:'
+      - /ptime 13:00:00
+      - /ptime 1pm
+      - /ptime 13
+      - /ptime 7000ticks
+      - /ptime Zrips 1pm
+      - /ptime freeze
+      - /ptime unfreeze
+      - /ptime realtime
+      - /ptime reset
+    info:
+      check: '&eเวลาส่วนตัว: &6[24h] &eหรือ &6[12h] &eหรือ &6[ticks]ทิก'
+      frozen: ' &c(-)'
+      gotreseted: '&6[playerDisplayName] &eเวลาถูกรีเซ็ต'
+      gotfrozen: '&6[playerDisplayName] &eเวลาถูกหยุด'
+      gotunfrozen: '&6[playerDisplayName] &eเวลาได้เดินต่อ'
+      setto: '&eตั้งเวลาเป็น &6[24h] &eหรือ &6[12h] &eหรือ &6[ticks]ทิก &eให้ &6[playerDisplayName]'
+  purge:
+    help:
+      info: '&eล้างข้อมูลผู้เล่นเมื่อไม่ได้เล่นครบวันที่กำหนด'
+      args: (stop)
+    info:
+      stopped: หยุดการล้าง
+  pweather:
+    help:
+      info: '&eควบคุมสภาพอากาศส่วนตัวของผู้เล่น'
+      args: (playerName) [sun/rain/reset] (-s)
+    info:
+      check: '&eสภาพอากาศส่วนตัว: &6[weather]'
+      gotreseted: '&6[playerDisplayName] &eรีเซ็ตสภาพอากาศแล้ว'
+      setto: '&eตั้งค่าสภาพอากาศส่วนบุคคลเป็น &6[weather] &eสำหรับ &6[playerDisplayName]'
+      gotset: '&eสภาพอากาศส่วนบุคคลของคุณตั้งค่าเป็น &6[weather]'
+      reset: '&eรีเซ็ตสภาพอากาศ'
+  rankdown:
+    help:
+      info: '&eลดอันดับของคุณ'
+      args: (playerName) (rankName) (confirm) (-cmd) (-cost)
+      explanation:
+      - -cmd จะดำเนินการคำสั่งที่กำหนดไว้สำหรับการจัดอันดับก่อนหน้า
+      - -cost จะเรียกเก็บเงินจากผู้เล่นด้วยเงิน ประสบการณ์ หรือไอเท็มหากกำหนดไว้
+    info:
+      noPrev: '&eไม่พบอันดับใด ๆ ก่อนหน้า'
+      list: '&eเลือกอันดับที่คุณต้องการ &cลด &eเป็น: '
+      confirm: '&eคลิกเพื่อยืนยัน &cลด &eอันดับเป็น &6[rank]'
+      downranked: '&eอันดับปัจจุบันของคุณคือ &6[rank]'
+  rankinfo:
+    help:
+      info: '&eข้อมูลอันดับของคุณ'
+      args: (playerName) (rankName)
+    info:
+      distanceCM: '[value]เซนติเมตร'
+      distanceM: '[value]เมตร'
+      distanceKm: '[value]กิโลเมตร'
+      requiredMoney: ' &eเงิน: [color][current]&e/&6[needed]'
+      requiredExp: ' &eประสบการณ์: [color][current]&e/&6[needed]'
+      requiredVotes: ' &eโหวต: [color][current]&e/&6[needed]'
+      requiredPerm: ' &eสิทธิ์: '
+      requiredMcmmo: ' &eMcmmo: '
+      requiredMcmmoList: '&e[color][name] '
+      requiredMcmmoListHover: ' &e[color][current]&e/&6[needed]'
+      requiredMcmmoPower: พลัง
+      requiredAurelium: ' &eAurelium: '
+      requiredAureliumList: '&e[color][name] '
+      requiredAureliumListHover: ' &e[color][current]&e/&6[needed]'
+      requiredJobs: ' &eอาชีพ: '
+      requiredJobsList: ' &e[color][name]'
+      requiredJobsListHover: ' &e[color][current]&e/&6[needed]'
+      requiredJobsTotalLevel: เลเวลอาชีพทั้งหมด
+      requiredItem: ' &eไอเท็ม: '
+      requiredItemsList: '&e[color][name]'
+      requiredItemListHover: '&e[color][current]&e/&6[needed]'
+      currentRank: ' &eอันดับปัจจุบันของคุณ: &6[rankName]'
+      elseCurrentRank: ' &6[playerDisplayName] &eอันดับปัจจุบัน: &6[rankName]'
+      rankNameLine: ' &e------ &6[rankName] &e[rankupState] &e------'
+      canRankup: ' &2สามารถจัดอันดับ'
+      cantRankup: ''
+      requiredStats: ' &e[name][extra]&e: [color][current]&e/&6[needed]'
+      requiredStatsExtra: ' (&6[type]&e)'
+      nextRanks: ' &eอันดับต่อไป: '
+      finalRank: ' &eนี่คืออันดับล่าสุดแล้ว'
+      noRank: ' &eไม่สามารถหาอันดับได้'
+      check: '&eตรวจสอบอันดับ &6[rank]'
+      progressBarHover: '&eความคืบหน้า [percent]%'
+  ranklist:
+    help:
+      info: '&eรายการอันดับที่เป็นไปได้'
+      args: ''
+    info:
+      list: '&e[place]. [currentRankMarker]&6[rankName][currentRankMarker]'
+      currentRankMarker: '&6+'
+      hoverNext: "&6Next: \n[rankList]"
+      hoverLast: '&2Last rank'
+  rankset:
+    help:
+      info: '&eตั้งค่าอันดับผู้เล่น'
+      args: (playerName) [rankName] (-cmd) (-cost)
+      explanation:
+      - -cmd จะดำเนินการคำสั่งที่กำหนดไว้สำหรับการจัดอันดับนั้น
+      - -cost จะเรียกเก็บเงินผู้เล่นด้วยเงิน ประสบการณ์ หรือไอเท็มหากกำหนดไว้
+      - ผู้เล่นจะได้อันดับแม้ว่าเขาจะไม่มีเงินพอ หรือไอเท็มที่จำเป็น
+    info:
+      set: '&eอันดับมีการเปลี่ยนแปลงสำหรับ &6[playerDisplayName] &eเป็น &6[rankName]'
+  rankup:
+    help:
+      info: '&eเพิ่มอันดับของคุณ'
+      args: (playerName) (rankName) (confirm)
+    info:
+      noRank: ' &eคุณไม่มีอันดับที่เกี่ยวข้องกับคุณ'
+      requiresPrevious: ' &eคุณไม่สามารถเป็นอันดับนี้ คุณต้องมีอันดับ &6[rank] &eก่อน'
+      list: '&eเลือกอันดับหนึ่งที่คุณต้องการ: '
+      confirm: '&eคลิกเพื่อเลื่อนอันดับเป็น &6[ranks]'
+  realname:
+    help:
+      info: '&eตรวจสอบชื่อจริงของผู้เล่น'
+      args: (playerName/nickName)
+    info:
+      feedback: '&r[playerDisplayName] &eชื่อจริงคือ &r[playerName]'
+  recipe:
+    help:
+      info: '&eตรวจสอบสูตรคราฟต์'
+      args: (itemName)
+    info:
+      type: '&0[type]'
+      page: ' &0[current]&7/&0[total]'
+      noRecipes: '&cไม่พบสูตรคราฟต์ใด ๆ สำหรับไอเท็มนี้'
+  reload:
+    help:
+      info: '&eโหลดปลั๊กอินและไฟล์ใหม่อีกครั้ง'
+      args: ''
+    info:
+      feedback: '&6โหลดไฟล์ใหม่อีกครั้งแล้ว'
+      failedConfig: '&4ไม่สามารถโหลดไฟล์กำหนดค่าได้ ตรวจการสะกดคำ'
+      failedLocale: '&4ไม่สามารถโหลดไฟล์ภาษาได้ ตรวจการสะกดคำ'
+  removehome:
+    help:
+      info: '&eลบบ้าน'
+      args: (homeName) (playerName)
+    info:
+      remove: '&cคลิกเพื่อลบ'
+      removed: '&eบ้าน (&6[home]&e) ได้ลบแล้ว'
+      list: '&c[home]'
+  removeuser:
+    help:
+      info: '&eลบผู้ใช้และข้อมูล'
+      args: '[uuid/duplicates]'
+    info:
+      removed: '&eผู้ใช้ (&6[uuid]&e) ถูกลบออก'
+      removedDuplicate: '&6[amount]/[max] &eบัญชีที่ซ้ำกันได้ถูกลบ'
+  removewarp:
+    help:
+      info: '&eลบวาร์ป'
+      args: (warpName)
+    info:
+      remove: '&cคลิกเพื่อลบ'
+      removed: '&eวาร์ป (&6[warp]&e) ได้ลบแล้ว'
+      notYours: '&cวาร์ปนี้ไม่ได้เป็นของคุณ'
+  repair:
+    help:
+      info: '&eซ่อมแซมไอเท็ม'
+      args: '[hand/armor/all] (playerName)'
+      explanation:
+      - cmi.command.repair.hand - อนุญาตให้ผู้ใช้ซ่อมไอเท็มในมือ
+      - cmi.command.repair.armor - อนุญาตให้ผู้ใช้ซ่อมไอเท็มในช่องเกราะ
+      - cmi.command.repair.all - อนุญาตให้ผู้ใช้ซ่อมไอเท็มทั้งช่องเก็บของ
+      - cmi.command.repair.repairshare.bypass - อนุญาตให้ผู้ใช้ซ่อมไอเท็ม โดยไม่ต้องเพิ่มการป้องกันส่วนแบ่งการซ่อม
+    info:
+      feedback: '&eคุณได้ซ่อม &3[amount]&e ไอเท็มให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      nothing: '&eNothing to repair'
+      cant: '&eCan''t repair this item'
+      feedbackMoney: '&eคุณได้ซ่อม &3[amount]&e ไอเท็มให้ &3[playerDisplayName]&e
+        (&3[offon]&e) ราคา: &7[cost]'
+      itemOwner: '&eซ่อมล่าสุดโดย: &6[owner]'
+      cantUse: '!title!&cไม่สามารถใช้ไอเท็มได้!subtitle!&eซ่อมมันด้วยตัวเองเท่านั้น'
+  repaircost:
+    help:
+      info: '&eกำหนดราคาซ่อมไอเท็ม'
+      args: (playerName) [amount]
+    info:
+      feedback: '&eRepair cost: &6[amount]'
+      noNeed: '&eNo need to repair'
+  replaceblock:
+    help:
+      info: '&eแทนที่บล็อกในโลกรอบ ๆ ตัวคุณ'
+      args: '&eรหัส &6[blockName:data/id:data]&e w &6[blockName:data/id:data] &er
+        &6[range in chunks/g]&e y &6[max height]'
+      explanation:
+      - '&6คำสั่งย่อย:'
+      - '&e- &6pause &e- หยุดการแทนที่ชั่วคราว'
+      - '- &6continue &e- แทนที่ต่อ'
+      - '- &6stop &e- หยุดการแทนที่'
+      - '- &6speed [amount] &e- ตั้งความเร็วในการเปลี่ยน'
+      - '- &6autospeed [true/false] &e- ตั้งความเร็วอัตโนมัติ'
+      - '- &6messages [true/false] &e- ตั้งค่าข้อความเป็นเปิดหรือปิด'
+      - 'ตัวอย่าง:'
+      - /cmi replaceblock id 52 w stone r 10
+      - /cmi replaceblock id 52,gold_block w stone r 15 y 100
+      - /cmi replaceblock id 52 w air r g y 100
+      - /cmi replaceblock id iron_ore%75 w stone%90,dirt%5 r g
+    info:
+      startScanning: '&eพบ &6[amount] &eชิ้นส่วนที่ตรวจสอบ เริ่มทำงาน'
+      paused: '&eการแทนที่หยุดชั่วคราวเพื่อดำเนินการต่อ พิมพ์ &6/cmi blockreplace
+        continue'
+      continuing: '&eแทนที่อย่างต่อเนื่อง'
+      stoped: '&eการแทนที่หยุดทำงาน'
+      speedChange: '&eความเร็วเปลี่ยนเป็น [amount]'
+      autospeedChange: '&eความเร็วอัติโนมัติสถานะ [state]'
+      messagesChange: '&eสถานะข้อความเปลี่ยนเป็น [state]'
+      infoShow: '&6TPS: &3[tps] &6เหลืออีก &e[left] &6(&e[time]&6) &6ความเร็ว: &e[speed]
+        &6แทนที่: &e[found]'
+      finished: '&eเสร็จสิ้น แทนที่: &6[amount] &eบล็อก ในระยะเวลา &6[time]'
+  reply:
+    help:
+      info: '&eตอบกลับผู้ส่งข้อความล่าสุด'
+      args: '[message]'
+    info:
+      noOneToReply: '&eThere is no one to reply'
+  resetback:
+    help:
+      info: '&eResets players back location'
+      args: (playerName) (reason) (-death) (-s)
+    info:
+      feedback: '&eBack location got a reset!'
+  resetdbfields:
+    help:
+      info: '&eรีเซ็ตคอลัมน์ฐานข้อมูลเฉพาะเป็นค่าเริ่มต้น'
+      args: '[collumnName] (-w:[worldName]) (-p:[playerName])'
+    info:
+      feedback: '&eอัปเดต &7[amount] &eผู้เล่น'
+      nofield: '&cไม่สามารถค้นหาฟิลด์ด้วยชื่อนี้'
+  ride:
+    help:
+      info: '&eขี่เป้าหมาย'
+      args: ''
+      explanation:
+      - ' cmi.command.ride.[entityType] - อนุญาตให้ขี่ม็อบที่กำหนด'
+    info:
+      riding: '&eคุณกำลังขี่ &6[entityName]'
+      cantRide: '&cคุณไม่สามารถขี่ (&6[entityName]&c) ได้'
+      someOneElse: '&cมีบางคนกำลังขี่อยู่'
+      ridingYou: '&6[playerDisplayName] &eกำลังขี่คุณ ใช้ &b/shakeitoff &eเพื่อไล่พวกเขาออกไป'
+  rt:
+    help:
+      info: '&eเคลื่อนย้ายไปยังตำแหน่งแบบสุ่ม'
+      args: (playerName) (worldName)
+    info:
+      possible: '&ePossible worlds: &6[worlds]'
+      tpLimit: '&eคุณไม่สามารถเคลื่อนย้ายได้ในตอนนี้ โปรดรอ &6[time] &eและลองอีกครั้ง'
+      IncorrectLocation: '&6ไม่พบตำแหน่งเคลื่อนย้ายที่ถูกต้อง โปรดรอ &e[time] &6และลองอีกครั้ง'
+      teleported: '!actionbar!&6เคลื่อนย้ายแล้ว'
+      waiting: '!actionbar!&6Looking for suitable location. Please wait'
+  sameip:
+    help:
+      info: '&eรายชื่อผู้เล่นที่เข้าจากไอพีเดียวกัน'
+      args: ''
+    info:
+      list: '&e[place]. &6'
+  saturation:
+    help:
+      info: '&eตั้งค่าความอิ่มของผู้เล่น'
+      args: (playerName) [amount]
+    info:
+      feedback: '&eคุณได้ตั้งค่า &3[amount]&e ความอิ่มให้ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetfeedback: '&eความอิ่มของคุณถูกกำหนดเป็น &3[amount]&e โดย &3[senderDisplayName]'
+  saveall:
+    help:
+      info: '&eบันทึกช่องเก็บของผู้เล่นทุกคน'
+      args: (daysRange/-online)
+      explanation:
+      - -online ตัวแปรที่ใช้ได้เพื่อบันทึกช่องเก็บของเฉพาะผู้เล่นที่ออนไลน์
+    info:
+      saving: '[simbol] &2ตรวจสอบ: &e[checked]&2 จาก &e[total]&2 บันทึกไว้: &e[saved]
+        &2ข้ามไป: &e[skipped] [simbol]'
+      saved: '&eบันทึกเสร็จแล้ว บันทึกไว้: &6[saved] &eข้ามไป: &6[skipped]'
+  saveditems:
+    help:
+      info: '&eบันทึกหรือจัดการไอเท็มที่บันทึก'
+      args: '[save/get/remove/list] (savedItemName) (-t:playerName) (-a:amount) (-s)'
+    info:
+      info:
+      - '&fคลิกซ้ายเพื่อรับไอเท็ม'
+      - '&fคลิกเมาส์กลางเพื่อลบ'
+      got: '&eได้รับ &6[name] &eไอเท็ม'
+      give: '&eให้ &6[name] &eไอเท็ม'
+      removed: '&eลบ &6[name] &eไอเท็ม'
+      saved: '&eบันทึก &6[name] &eไอเท็ม'
+      uiTitle: 'Category: [category] &8[current]&7/&8[total]'
+      name: '&7Name: &f[name]'
+      category: '&7Category: &f[category]'
+  sc:
+    help:
+      info: '&eเริ่มกระบวนการคัดลอกป้าย'
+      args: (playerName)
+    info:
+      punch: '&eคลิกป้ายเพื่อวางข้อความ หรือต่อยอะไรที่ไม่ใช่ป้ายเพื่อยกเลิกกระบวนการ'
+      canceled: '&eกระบวนการคัดลอกป้ายถูกยกเลิก'
+      updated: '&eอัปเดตป้ายแล้ว'
+  scan:
+    help:
+      info: '&eสแกนหาไอเท็มในโลกปัจจุบัน'
+      args: ''
+      explanation:
+      - '&6คำสั่งย่อย:'
+      - '&e- &6stats &e- แสดงสถิติการสแกนปัจจุบัน '
+      - '&e- &6pause &e- หยุดการสแกนชั่วคราว '
+      - '- &6continue &e- สแกนต่อไป '
+      - '- &6stop &e- หยุดการสแกน '
+      - '- &6stopall &e- หยุดการสแกนทั้งหมด '
+      - '- &6speed [amount] &e- ตั้งค่าความเร็วสแกนปัจจุบัน '
+      - '- &6autospeed [true/false] &e- ตั้งค่าความเร็วอัตโนมัติ '
+      - '- &6messages [true/false] &e- ตั้งค่าข้อความเป็นเปิดหรือปิด'
+      - 'ตัวแปร:'
+      - '&eid &6[id:data]'
+      - '&eq &6[minimum quantity]'
+      - '&er &6[range in chunks] &e- ตัวเลือกที่จะใช้ &6g &eแทนที่จะเป็นตัวเลขเพื่อสแกน
+        แผนที่ทั้งหมด'
+      - '&en &6[item name]'
+      - '&el &6[item lore]'
+      - '&eh &6ใช้ข้อมูลจากไอเท็มในมือ'
+      - '&ee &6[enchantname]'
+      - '&eelvl &6[enchantminlevel]'
+      - '&eoversize'
+      - '&epurge - ลบไอเท็มที่พบ ควรเปิดใช้งานคุณสมบัตินี้ในไฟล์กำหนดค่า'
+      - 'ตัวอย่าง:'
+      - /scan id 52 r 30
+      - scan id diamond_block r g q 32
+    info:
+      loadingChunkInfo: '&eกำลังโหลดข้อมูลชิ้นส่วน'
+      startScanning: '&eพบ &6[amount] &eชิ้นส่วนเพื่อตรวจสอบ เริ่มทำงาน'
+      paused: '&eการสแกนหยุดชั่วคราวเพื่อใช้งานต่อ พิมพ์ &6/cmi scan continue'
+      continuing: '&eกำลังสแกนต่อเนื่อง'
+      stoped: '&eการสแกนหยุดลง คุณสามารถตรวจสอบผลลัพธ์ด้วย /cmi scan info'
+      speedChange: '&eความเร็วเปลี่ยนเป็น [amount]'
+      autospeedChange: '&eความเร็วอัติโนมัติสถานะ [state]'
+      messagesChange: '&eสถานะข้อความเปลี่ยนเป็น [state]'
+      NoInfo: '&eไม่มีข้อมูล'
+      infoShow: '&6TPS: &3[tps] &6เหลืออีก &e[left] &6(&e[time]&6) &6ความเร็ว: &e[speed]
+        &6พบ: &e[found]'
+      Teleport: '&eกดเพื่อเคลื่อนย้าย'
+      scanList: '&2[number]. &e[place] &6[amount] &8(&7X:&f[x] &7Y:&f[y] &7Z:&f[z]&8)'
+      scanListChecked: '&7[number]. [place] [amount] (X:[x] Y:[y] Z:[z])'
+      edit: ' &e(แก้ไข)'
+      total: '&eกำลังตรวจสอบจาก [current]/[until] จากทั้งหมดของ [total]'
+      Stats:
+      - '&e************************************************************'
+      - '&e* &6ชิ้นส่วน: &e[checked]/[total]'
+      - '&e* &6ช่วงสแกน: &e[range]'
+      - '&e* &6ความเร็วในการสแกน: &e[scanspeed] &6(&e[autospeed]&6)'
+      - '&e* &6โลก: &e[world]'
+      - '&e* &6พบ: &e[found]'
+      - '&e* &6ระยะเวลา: &e[time]'
+      - '&e* &6รหัส: &e[id]'
+      - '&e* &6จำนวน: &e[qty] และขึ้น'
+      - '&e* &6ชื่อ: &e[name]'
+      - '&e* &6รายละเอียด: &e[lore]'
+      - '&e************************************************************'
+  scavenge:
+    help:
+      info: '&eไอเท็ม+ลงมนต์ที่จะรีไซเคิล'
+      args: (playerName)
+    info:
+      enchantWorth: '&eมนต์มีค่า: &7[price]'
+      enchantFailChance: '&4โอกาสล้มเหลว: &7[chance]%'
+      enchantFailed: '&cคุณเสียมนต์ &7[enchant]&c เลเวล &7[level] &cในอัตราล้มเหลว
+        &7[chance]%'
+      enchantLevelChance: '&cโอกาสได้มนต์ที่เลเวลน้อยลง: &7[chance]%'
+      gotIngredients: '&eคุณได้รับ [itemList]'
+      gotIngredientsFormat: '&6[material]&7-&6[amount]'
+      itemBroke: '&fไอเท็มโดนย่อยสลาย &4! &cโอกาสไอเท็มพัง [chance]%'
+      confirm: '&2ยืนยันการรีไซเคิล ต้องเสียเงิน: &c[price]'
+      itemBreakChance: '&cโอกาสทำลายไอเท็ม: [chance]%'
+      itemBreakChanceExtra: '&cโอกาสทำลายไอเท็มเพิ่มเติมตามความทนทานของอาวุธ [durability]%
+        \n&cโอกาสทำลายไอเท็มเพิ่มเติม [chance]%'
+      itemBreak: '&cไอเท็มจะพังเมื่อคลิก'
+      ingredientReturnChance: '&7โอกาสคืนวัตถุดิบ: [chance]%'
+      cantScavenge: '&cไม่สามารถรีไซเคิล'
+      insertItem: '&2ใส่ไอเท็มในช่องว่าง'
+      scavengeCost: '&8ค่ารีไซเคิล: [cost]'
+      moreTitle: 'Incorrect amount: [input]/[required]'
+      moreLore:
+      - '&bYou need more of this item.'
+      - '&bRequires atleast &e[amount]'
+      title: '&2รีไซเคิล'
+  schedule:
+    help:
+      info: '&eตารางกำหนด'
+      args: '[scheduleName]'
+  se:
+    help:
+      info: '&eเปลี่ยนบรรทัดข้อความป้าย'
+      args: '[SignLine] [Text]'
+      explanation:
+      - ใช้ / n สำหรับบรรทัดใหม่
+  search:
+    help:
+      info: '&eค้นหา items/enchants/fly/maxhp/gm/oversize โหมด และสิ่งอื่น ๆ จาก ผู้ใช้ทั้งหมด'
+      args: ''
+      explanation:
+      - '&eid &6[id:data] '
+      - '&ename &6[some_custom_itemname] '
+      - '&elore &6[some_custom_lore] '
+      - '&eenchant &6[lowest enchant level] '
+      - '&epotion &6[lowest custom potion effect level] '
+      - '&efly &6[true or false] '
+      - '&egm &6[0/1/2/3 or survival/creative/adventure/spectator] '
+      - '&emaxhp &6[lowest hp player have] '
+      - '&egod &6[true/false]'
+      - '&eoversize'
+      - 'ตัวอย่าง:'
+      - /search gm 1
+      - /search id 52
+      - /search lore Uber_lore
+    info:
+      started: '&eกำลังค้นหา '
+      current: '&eพบในปัจจุบัน &3[amount] &eจาก &3[files] &eทั้งหมด'
+      nothingfound: '&eไม่พบเกณฑ์ของคุณ'
+      totalfound: '&eพบทั้งหมด &3[amount] &eจากที่เป็นไปได้ &3[files] &eผู้เล่น'
+      location:
+        ender: '&3หีบเอ็นเดอร์'
+        inv: '&eช่องเก็บของ'
+        invS: '&eกล่องซัคเกอร์'
+        PlayerVault: '&eคลังเก็บของ'
+      localsearch: '&e (L search)'
+      localsearchhover: |-
+        &eจะเปิดคำเชิญจากไฟล์ในเครื่อง
+        &eสิ่งนี้จะใช้เวลานานกว่า
+      reglist: '&e[number]. &e[name]'
+      list: '&2[number]. [location] &6[name]'
+      listhover: '&eคลิกเพื่อเปิดคำเชิญ'
+  seen:
+    help:
+      info: '&eตรวจสอบว่าออนไลน์ครั้งสุดท้ายเมื่อไหร่'
+      args: '[playerName/uuid]'
+    info:
+      feedback: '&6[playerDisplayName] &eได้ &6[offon] &eตั้งแต่ &6[time]&eมาแล้ว'
+  select:
+    help:
+      info: '&eManage selection area'
+      args: (pos1/pos2/shift/expand/contract/clear) (amount)
+  sell:
+    help:
+      info: '&eขายไอเท็มจากช่องเก็บของ'
+      args: (all/blocks/hand/same/gui)
+    info:
+      total: '&eได้รับเงิน &6[total] &eจากการขาย &6[amount] &eไอเท็ม ยอดเงินใหม่ &6[balance]'
+      close: '&8วางไอเท็มที่คุณต้องการจะขาย'
+      sellInfo: '&8ขายได้ราคา: &2[price]'
+  sendall:
+    help:
+      info: '&eส่งผู้เล่นทั้งหมดไปยังเซิร์ฟเวอร์เป้าหมาย'
+      args: '[serverName]'
+  server:
+    help:
+      info: '&eเชื่อมต่อกับเซิร์ฟเวอร์เครือข่าย'
+      args: '[serverName] (playerName) (-f)'
+  serverlist:
+    help:
+      info: '&eแสดงรายการเซิร์ฟเวอร์'
+      args: ''
+    info:
+      listOnline: '&7[place]. &2[serverName] &6[count]&7/&6[max]'
+      listOffline: '&7[place]. &c[serverName] &60&7/&60'
+      consoleInfo: ' &f(&2[ip]&f:&2[port]&f)'
+  servertime:
+    help:
+      info: '&eแสดงเวลาเซิร์ฟเวอร์'
+      args: ''
+    info:
+      time: '&eเวลาเซิร์ฟเวอร์: [time]'
+      format: MM/dd/YYYY HH:mm:ss
+      timeZone: '&eชื่อเขตเวลา: &6[name]'
+      timeZoneId: '&eรหัสเขตเวลา: &6[id]'
+      timeZoneOffset: '&eเขตเวลาชดเชย: &6[offset]'
+  setenchantworth:
+    help:
+      info: '&eเปลี่ยนมูลค่ามนต์'
+      args: ''
+  setfirstspawn:
+    help:
+      info: '&eตั้งจุดเกิดแรก'
+      args: (playerName)
+    info:
+      feedback: '&eจุดเกิดแรกถูกตั้งเป็น (&6[world]&e,&6[x]&e,&6[y]&e,&6[z]&e)'
+  sethome:
+    help:
+      info: '&eตั้งค่าตำแหน่งบ้าน'
+      args: (homeName) (playerName) (-p) (-l:worldName;x;y;z) (block/Material) (slotNumber)
+      explanation:
+      - cmi.command.sethome.unlimited
+      - -l จะกำหนดตำแหน่งสำหรับบ้านใหม่ ต้องการสิทธิ์ cmi.command.sethome.customloc
+    info:
+      set: '&eคุณได้สร้างบ้านด้วยชื่อ &6[homeName]'
+      setBed: '&eสร้างตำแหน่งจุดเกิดที่เตียงนอน'
+      private: ' &2(ส่วนตัว)'
+      noMore: '&cคุณมีจำนวนจำกัดถึงที่กำหนดแล้ว'
+      exist: "&cHome location with this name (&6[name]&c) already exists! \n&eClick\
+        \ to confirm overwrite."
+      noOverwrite: '&cคุณไม่มีสิทธิ์ให้เขียนทับตำแหน่งบ้านที่มีอยู่ ลบชื่อเก่าหรือเลือกชื่อบ้านอื่น'
+      slotTaken: '!actionbar!&cช่องนี้ถูกใช้งานโดย &7[homeName]&c พิจารณาอันอื่น'
+      setIcon: '!actionbar:3!&7Set home icon as &6[material] &7material'
+      tooManyInWorld: '&cYou cant have any more homes in this world. Max &6[max]&c
+        allowed, you have &6[current]'
+  setmotd:
+    help:
+      info: ตั้งค่าข้อความเซิร์ฟเวอร์
+      args: '[newMotd] (-s)'
+      explanation:
+      - ใช้ \n เพื่อสร้างบรรทัดที่สอง
+    info:
+      changed: '&eได้เปลี่ยนข้อความเซิร์ฟเวอร์เป็น:'
+  setrt:
+    help:
+      info: '&eตั้งค่าขอบเขตเคลื่อนย้ายแบบสุ่ม'
+      args: (worldName) (ใจกลาง:[x]:[z]) (น้อยสุด:[range]) (มากสุด:[range]) (square/circle)
+        (enabled/disabled)
+    info:
+      list: '&6[place]. [world] [enabled] &7[centerX]:[centerZ] &e[maxDist]/[minDist]
+        [type]'
+  setspawn:
+    help:
+      info: '&eตั้งค่าจุดเกิด'
+      args: (playerName) (true/false) (-g:[groupName]) (-rng:[range]) (-w:world,world_nether)
+        (loc:[world;x;y;z;yaw;pitch])
+      explanation:
+      - ข้อมูลเพิ่มเติมเกี่ยวกับการใช้คำสั่งที่ http://www.zrips.net/cmi/commands/spawn/
+    info:
+      feedback: '&6ตั้งจุดเกิดเป็น ([world],[x],[y],[z])!'
+      group: ' &e([group])'
+      rng: ' &e(Rng: [rng])'
+      respawn: '&7คลิกเพื่อตั้งจุดเกิดนี้เป็นจุดเกิดใหม่'
+  setwarp:
+    help:
+      info: '&eสร้างวาร์ปแบบกำหนดเอง'
+      args: '[warpName] (reqPermission) (hand) (slot) (autoLore)'
+      explanation:
+      - 'ตัวอย่าง:'
+      - /cmi setwarp spawn - สร้างวาร์ปชื่อ spawn
+      - /cmi setwarp spawn true - สร้างวาร์ปและต้องมีสิทธิ์ cmi.command.warp.[warpname]
+        เพื่อจะใช้งานวาร์ป
+      - /cmi setwarp spawn hand - สร้างวาร์ปและจะใช้ไอเท็มจากมือเพื่อแสดง ในหน้าต่างสำหรับวาร์ปนี้
+      - /cmi setwarp spawn 13 - สร้างวาร์ปและตั้งค่าช่องที่จะใช้ในหน้าต่าง (1-54)
+      - /cmi setwarp spawn true hand 13 - สร้างวาร์ปด้วยไอคอนจากมือช่อง 13 และต้องการสิทธิ์
+      - /cmi setwarp spawn true hand 13 false - เหมือนข้างบนแต่ไม่มีรายละเอียด
+    info:
+      newSet: '&eวาร์ป (&6[warp]&e) ได้ถูกสร้าง'
+      noSet: '&cมีวาร์ปชื่อนี้แล้ว'
+      noMore: '&cวาร์ปถึงขีดจำกัดที่อนุญาตแล้ว มากสุด ([max])'
+  setworth:
+    help:
+      info: '&eตั้งราคาไอเท็ม'
+      args: (itemname) -s:(sellPrice)
+    info:
+      setSell: '&eกำหนดราคาขายเป็น &7[amount]'
+      setBuy: '&eกำหนดราคาซื้อเป็น &7[amount]'
+      notInUse: '&eใช้สำหรับตรวจหาช่องโหว่ที่เป็นไปได้'
+      sellPrice: '&fราคาขาย: &e[amount]'
+      buyPrice: '&fราคาซื้อ: &2[amount]'
+      exploit: '&4ใช้ประโยชน์สูงสุด'
+      ingredient: '&2Ingredients'
+      ingredients: '&7[ingredient]&f(&7[amount]&f) = &e[price]'
+      notSet: '&eยังไม่ได้ตั้งราคา'
+      notSetBuy: '&7Buy price not set'
+      result: '&2คราฟต์ไอเท็ม &7[result]&f(&7[amount]&f)'
+      ingredientsPrice: '&cIngredient price: &7[price]'
+      resultPrice: '&cขายได้ในราคา: &7[price]'
+      explanation: '&2Buy price is only used in detecting posible exploits'
+  shadowmute:
+    help:
+      info: '&eปิดแชทผู้เล่นโดยไม่แจ้งเตือน'
+      args: '[playerName] (time) (-s) (reason)'
+  shakeitoff:
+    help:
+      info: '&eไล่ทุกคนที่ขี่คุณอยู่'
+      args: ''
+    info:
+      shaked: '&eคุณได้ไล่: &6[entity] &eแล้ว'
+      nothing: '&eไม่มีอะไรให้ไล่'
+  shoot:
+    help:
+      info: '&eยิงกระสุน'
+      args: (playerName) (-t:targetPlayer) (type) (speed)
+  silence:
+    help:
+      info: '&eบล็อกข้อความสาธารณะ'
+      args: ''
+      explanation:
+      - cmi.command.silence.bypass - เพื่อหลีกเลี่ยงการบล็อก
+    info:
+      enabled: '&eโหมดเงียบ &2เปิดใช้งาน'
+      disabled: '&eโหมดเงียบ &cปิดใช้งาน'
+      inMode: '&eผู้เล่นอยู่ในโหมดเงียบ'
+  silentchest:
+    help:
+      info: '&eสลับโหมดเงียบในการเปิดกล่อง'
+      args: ''
+      explanation:
+      - '&eผู้เล่นจะไม่เห็นภาพเคลื่อนไหวการเปิดกล่องเมื่อคุณเปิดกล่อง'
+      - '&eProtocollib จำเป็นสำหรับคุณสมบัตินี้'
+    info:
+      feedback: '&eคุณสลับโหมดเงียบเป็น &3[offon]'
+      onOpen: '&eเปิดกล่องเก็บของในโหมดเงียบ'
+      cantOpen: '&cUnable to open. Loot not generated yet.'
+  sit:
+    help:
+      info: '&eนั่งในตำแหน่งปัจจุบัน'
+      args: ''
+    info:
+      onSit: '!actionbar!&eคุณกำลังนั่งตอนนี้'
+      onStandUp: '!actionbar!&eคุณไม่ได้นั่งแล้ว'
+      accupied: '!actionbar!&cมีคนนั่งตรงนี้แล้ว'
+  skin:
+    help:
+      info: '&eเปลี่ยนสกินของผู้เล่น'
+      args: '[skinName/off/update] (playerName) (-s)'
+    info:
+      changed: '&eเปลี่ยนสกินเป็น &6[skinOwner]'
+      failed: '&eไม่สามารถใช้สกินนี้ได้'
+      resetSteve: '&eลบสกิน'
+      reset: '&eรีเซ็ตเป็นสกินเริ่มต้น'
+      update: '&eอัปเดตสกิน'
+  smite:
+    help:
+      info: '&eโจมตีผู้เล่นหรือพื้นด้วยสายฟ้า'
+      args: (playerName) (-s)
+    info:
+      gotSmited: '&eคุณโดนฟ้าผ่า'
+      targetSmited: '&eSmiting target!'
+  smithingtable:
+    help:
+      info: '&eOpen smithing table'
+      args: (playerName)
+    info:
+      feedback: '&eYou have opened smithing table for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&3[senderDisplayName]&e opened smithing table for you.'
+  solve:
+    help:
+      info: '&eแก้สมการ'
+      args: '[equation]'
+    info:
+      result: '&7ผลลัพธ์: &e[res]'
+      incorrect: '&cอินพุตไม่ถูกต้อง: &e[input]'
+  sound:
+    help:
+      info: '&eเล่นเสียงที่ตำแหน่งเป้าหมาย'
+      args: '[sound] (-p:[pitch]) (-v:[volume]) (playerName/-all) (world) (x) (y)
+        (z) (-s)'
+    info:
+      playing: "&eเล่น &6[sound] &eที่ [world] [x]:[y]:[z] \n&eระดับเสียง: &6[pitch]\
+        \ &eความดัง: &6[volume]"
+      playingMultiple: "&eเล่น &6[sound] &eให้ &6[amount] &eผู้เล่น \n&eระดับเสียง\
+        : &6[pitch] &eความดัง: &6[volume]"
+  spawn:
+    help:
+      info: '&eเคลื่อนย้ายกลับไปยังจุดเกิด'
+      args: (playerName)
+    info:
+      notset: '&4ยังไม่ได้ตั้งค่าจุดเกิด'
+      feedback: '&6ได้เคลื่อนย้ายมาจุดเกิดแล้ว'
+      feedbackother: '&e[playerDisplayName] &6was teleported to spawn.'
+  spawner:
+    help:
+      info: '&eตั้งค่ากรงสปาว'
+      args: '[EntityType]'
+    info:
+      feedback: '&eกรงสปาวตั้งค่าเป็น &6[type]'
+      wrongEntityIdName: '&cรหัสหรือชื่อเอนทิตีไม่ถูกต้อง'
+      cantSet: '&cไม่สามารถตั้งค่าประเภทนี้ได้'
+      cantDetect: '&cไม่สามารถตรวจกรงสปาวได้'
+      pickOne: '&8เลือกประเภท'
+  spawnereditor:
+    help:
+      info: '&eแก้ไขกรงสปาว'
+      args: ''
+    info:
+      type: '&7Change type: &e[type]'
+      nextIn: '&7Next spawn in: &e[time]'
+      nearby: '&7MaxNearBy entities: &e[count]'
+      maxdelay: '&7Max Spawn Delay: &e[count]'
+      mindelay: '&7Min Spawn Delay: &e[count]'
+      prange: '&7Required player range: &e[range]'
+      spawncount: '&7Spawn Count: &e[count]'
+      spawnrange: '&7Spawn Range: &e[range]'
+  spawnmob:
+    help:
+      info: '&eวางเอนทิตีที่ตำแหน่งของคุณ'
+      args: '[EntityType]'
+      explanation:
+      - ' &e- อาร์กิวเมนต์แรกเสมอคือชื่อเอนทิตีหลัก'
+      - ' &e- คุณสามารถกำหนดสถานะเอนทิตี: baby, adult, dumb, tamed, n-[name], upwards,
+        glow, skull-[name], helmet-[itemname], chest-[itemname], legs-[itemname],
+        boots-[itemname], mhand-[itemname], ohand-[itemname], effect-levitation/10/1-speed/10/2.
+        /n ตัวอย่าง: horse:baby:tamed:n-Horsy, zombie:skull-Zrips:n-AngryZombie:mhand-Diamond_Sword'
+      - ' &e- บางหน่วยมีตัวแปรพิเศษ: '
+      - '    &6Sheep &e- white, brown, red, rainbow และ so on... &6primed_tnt &e-
+        [ticks], incendiary'
+      - '    &6Horse &e- white, chestnut, creamy, darkbrown, gray, black'
+      - '    &6Ocelot &e- red, siamese, wild, black &6experience_orb &e- [number]'
+      - '    &6Skeleton &e- wither, &6Creeper &e- charged &6Wolf &e- angry'
+      - '    &6Zombie &e- villager, blacksmith, butcher, farmer, priest, librarian'
+      - '    &6Villager &e- blacksmith, butcher, farmer, priest, librarian'
+      - '    &6Slime, MagmaCube &e- size by giving number from 1. slime:3'
+      - '    &6ArmorStands &e- nogravity, noplate, arms, noarms, small'
+      - '    &6ShulkerBullet &e- [target], bounce'
+      - ' &e- ตัวแปรเสริม:'
+      - '     &6ps:zombie:priest:baby-1 &e- จำนวนขี่ที่กำหนด'
+      - '     &6hp:20 &e- เลือด'
+      - '     &6sp:3 &e- กระจายม็อบแบบสุ่มในช่วง'
+      - '     &6s:4 &e- ความเร็วม็อบ'
+      - '     &6t:[playername] &e- เป้าหมายที่เอนทิตีหนึ่งจะโจมตี'
+      - '     &6q:10 &e- จำนวนที่คุณต้องการเสก'
+      - '     &6[playername] &e- เสกม็อนที่สถานที่ของผู้เล่น'
+      - '     &6loc:123/13.0/-15/World &e- สถานที่เสกมอน ชื่อโลกเป็นตัวเลือกถ้าใช้เป็นผู้เล่น'
+      - 'ตัวอย่าง: /cmi spawnmob sheep:adult:rainbow ps:chicken:baby:n-Chick_on_Sheep
+        q:10 sp:10 hp:50 s:2'
+    info:
+      wrongEntityName: '&eชื่อเอนทิตีไม่ถูกต้อง'
+      spawnedEntities: '&eวาง &6[entities] &eเอนทิตี '
+      spawnedPasangers: '&eและ &6[passengers] &eตัวขี่'
+      nothingSpawned: '&eไม่มีเอนทิตีที่เสก'
+      cantSpawn: '&eไม่สามารถวางเอนทิตีประเภทนี้ได้'
+  speed:
+    help:
+      info: '&eSet players walk or fly speed'
+      args: (playerName) [amount] (-s)
+  staffmsg:
+    help:
+      info: '&eส่งข้อความไปยังทีมงาน'
+      args: '[message/toggle/on/off]'
+    info:
+      message: '&2[ทีมงาน]&4[&7[senderDisplayName]&4]&r&c [message]'
+      toggledOn: '&eเริ่มการแชททีมงาน ตอนนี้คุณสามารถเขียนข้อความในแชทสาธารณะ'
+      toggledOff: '&eแก้ไขการสนทนากับพนักงานแบบต่อเนื่อง'
+  stats:
+    help:
+      info: '&eตรวจสอบสถิติผู้เล่น'
+      args: (playerName)
+    info:
+      distanceCM: '&e[value] &6เซนติเมตร'
+      distanceM: '&e[value] &6เมตร'
+      distanceKm: '&e[value] &6กิโลเมตร'
+      list: '&e[name]:&6[amount]'
+      listCover: '&e([list]&e)'
+      Quit: '&eออกจากเกม: &6[value]'
+      PlayTime: '&eเวลาที่เล่น: &6[value]'
+      SneakTime: '&eเวลาที่ย่อ: &6[value]'
+      Sleep: '&eนอนบนเตียง: &6[value]'
+      Joined: '&eเข้าร่วมเมื่อ: &6[time]'
+      Jumps: '&eกระโดด: &6[value]'
+      SinceDeath: '&eตายล่าสุด: &6[value]'
+      Deaths: '&eจำนวนที่ตาย: &6[value]'
+      DeathsByMonsters: '&eถูกฆ่าโดยมอนสเตอร์: &6[value]'
+      TotalDistance: '&eรวมระยะที่เดินทาง: &6[value]'
+      Walk: '&eเดิน: &6[value]'
+      Crouch: '&eหมอบ: &6[value]'
+      Sprint: '&eวิ่ง: &6[value]'
+      Swim: '&eว่ายน้ำ: &6[value]'
+      Fall: '&eร่วง: &6[value]'
+      Climb: '&eปีน: &6[value]'
+      Fly: '&eบิน: &6[value]'
+      Dive: '&eดำน้ำ: &6[value]'
+      Minecart: '&eรถราง: &6[value]'
+      Boat: '&eขับเรือ: &6[value]'
+      Pig: '&eขี่หมู: &6[value]'
+      Horse: '&eขี่ม้า: &6[value]'
+      Elytra: '&eบินด้วยปีก: &6[value]'
+      Damage: '&eความเสียหาย &6[dealt] [taken]'
+      DamageDealt: '&eความเสียหายที่ทำ: &6[value]'
+      DamageTaken: '&eความเสียหายที่ได้รับ: &6[value]'
+      JUMP: '&eกระโดด: &6[value]'
+      Kills: '&4⚔ &6'
+      KillsMob: '&eฆ่าม็อบ: &6[value]'
+      KillsPlayer: ' &eฆ่าผู้เล่น: &6[value]'
+      Blocks: '&a🌏 &6'
+      BlocksMined: '&eขุดไป: &6[value]'
+      BlocksPlaced: ' &eวางไป: &6[value]'
+      Items: '&7⚒ &6'
+      ItemsUsed: '&eใช้ไป:&6[value]'
+      ItemsDrop: '&eโยน:&6[value]'
+      ItemsPicked: '&eเก็บ:&6[value]'
+      ItemsBroken: '&eพัง:&6[value]'
+      ItemsCrafted: ' &eคราฟต์:&6[value]'
+      ItemsEnchanted: ' &eลงมนต์:&6[value]'
+      Opened: '&eการเปิด &6[list]'
+      OpenChest: '&eกล่อง:&6[value]'
+      OpenEnder: '&eหีบเอ็นเดอร์:&6[value]'
+      OpenShulker: '&eกล่องซัคเกอร์:&6[value]'
+      Interacted: '&eโต้ตอบ &6[list]'
+      InteractBeacon: '&eดวงประทีป:&6[value]'
+      InteractBrewingStand: '&eแท่นปรุงยา:&6[value]'
+      InteractCraftTable: '&eโต๊ะคราฟต์:&6[value]'
+      InteractFurnace: '&eเตาเผา:&6[value]'
+      Inspected: '&eตรวจสอบ &6[list]'
+      InspectDispenser: '&eเครื่องยิง:&6[value]'
+      InspectDropper: '&eดรอปเปอร์:&6[value]'
+      InspectHopper: '&eเครื่องส่ง:&6[value]'
+      Statistics:
+        LEAVE_GAME: ออกเกม
+        PLAY_ONE_TICK: เวลาที่เล่น
+        TIME_SINCE_DEATH: ตายครั้งล่าสุด
+        TIME_SINCE_REST: พักครั้งล่าสุด
+        SNEAK_TIME: เวลาที่ย่อ
+        ACOUNT_AGE: อายุบัญชี
+        TRAVEL: สำรวจ
+        WALK_ONE_CM: เดิน
+        CROUCH_ONE_CM: ย่อ
+        SPRINT_ONE_CM: วิ่ง
+        SWIM_ONE_CM: ว่ายน้ำ
+        FALL_ONE_CM: ตก
+        CLIMB_ONE_CM: ปีน
+        FLY_ONE_CM: บิน
+        DIVE_ONE_CM: ดำน้ำ
+        WALK_UNDER_WATER_ONE_CM: เดินใต้น้ำ
+        WALK_ON_WATER_ONE_CM: เดินบนน้ำ
+        MINECART_ONE_CM: เดินทางด้วยรถราง
+        BOAT_ONE_CM: เดินทางด้วยเรือ
+        PIG_ONE_CM: เดินทางด้วยหมู
+        HORSE_ONE_CM: เดินทางด้วยม้า
+        AVIATE_ONE_CM: เดินทางด้วยปีก
+        JUMP: กระโดด
+        DAMAGE_DEALT: ความเสียหายที่ทำ
+        DAMAGE_TAKEN: ความเสียหายที่ได้รับ
+        DAMAGE_DEALT_ABSORBED: ความเสียหายที่ทำแล้วโดนดูดซับ
+        DAMAGE_DEALT_RESISTED: ความเสียหายที่ทำแล้วโดนป้องกัน
+        DAMAGE_BLOCKED_BY_SHIELD: ความเสียหายที่บล็อกโดยโล่
+        DAMAGE_ABSORBED: ความเสียหายที่ดูดซับ
+        DAMAGE_RESISTED: ความเสียหายที่ป้องกัน
+        DEATHS: ตาย
+        ENTITY_KILLED_BY: ฆ่าโดย
+        MOB_KILLS: ม็อบฆ่า
+        PLAYER_KILLS: ผู้เล่นฆ่า
+        ITEM_ENCHANTED: ไอเท็มที่ลงมนต์
+        ANIMALS_BRED: ผสมพันธุ์สัตว์
+        FISH_CAUGHT: ปลาที่จับได้
+        TALKED_TO_VILLAGER: คุยกับชาวบ้าน
+        TRADED_WITH_VILLAGER: ซื้อขายกับชาวบ้าน
+        CAKE_SLICES_EATEN: เค้กที่กิน (ชิ้น)
+        CAULDRON_FILLED: เติมน้ำหม้อปรุงยา
+        CAULDRON_USED: หม้อปรุงยาใช้ไป
+        ARMOR_CLEANED: เคลียร์เกราะ
+        BANNER_CLEANED: เคลียร์ธง
+        BREWINGSTAND_INTERACTION: การโต้ตอบกับแท่นปรุงยา
+        BEACON_INTERACTION: การโต้ตอบกับดวงประทีป
+        CRAFTING_TABLE_INTERACTION: การโต้ตอบกับโต๊ะคราฟต์
+        FURNACE_INTERACTION: การโต้ตอบกับเตาเผา
+        DISPENSER_INSPECTED: การโต้ตอบกับเครื่องยิง
+        DROPPER_INSPECTED: การโต้ตอบกับดร็อปเปอร์
+        HOPPER_INSPECTED: การโต้ตอบกับท่อส่งของ
+        CHEST_OPENED: เปิดกล่อง
+        TRAPPED_CHEST_TRIGGERED: กล่องที่ถูกกระตุ้น
+        ENDERCHEST_OPENED: หีบเอ็นเดอร์ที่ถูกเปิด
+        NOTEBLOCK_PLAYED: กล่องตัวโน้ตที่เล่นแล้ว
+        NOTEBLOCK_TUNED: โทนตัวโน้ต
+        FLOWER_POTTED: กระถางดอกไม้
+        RECORD_PLAYED: บันทึกการเล่น
+        SLEEP_IN_BED: นอนบนเตียง
+        SHULKER_BOX_OPENED: กล่องซัคเกอร์ที่เปิด
+        CLEAN_SHULKER_BOX: กล่องซัคเกอร์ที่เคลียร์
+        DROP: โยนไอเท็ม
+        MINE_BLOCK: บล็อกที่ขุด
+        PLACE_BLOCK: บล็อกที่วาง
+        BREAK_ITEM: ไอเท็มที่พัง
+        CRAFT_ITEM: ไอเท็มที่คราฟต์
+        USE_ITEM: ไอเท็มที่ใช้
+        PICKUP: ไอเท็มที่เก็บได้
+        KILL_ENTITY: ฆ่ามอนสเตอร์
+        STRIDER_ONE_CM: Strider travel
+        INTERACT_WITH_BLAST_FURNACE: Interaction with blast furnace
+        INTERACT_WITH_SMOKER: Interaction with smoker
+        INTERACT_WITH_LECTERN: Interaction with lectern
+        INTERACT_WITH_CAMPFIRE: Interaction with campfire
+        INTERACT_WITH_CARTOGRAPHY_TABLE: Interaction with cartography table
+        INTERACT_WITH_LOOM: Interaction with loom
+        INTERACT_WITH_STONECUTTER: Interaction with stonecutter
+        INTERACT_WITH_ANVIL: Interaction with anvil
+        INTERACT_WITH_GRINDSTONE: Interaction with grindstone
+        INTERACT_WITH_SMITHING_TABLE: Interaction with smithing table
+        BELL_RING: Bell rings
+        RAID_TRIGGER: Raid triggers
+        RAID_WIN: Raid wins
+        TARGET_HIT: Target hits
+        OPEN_BARREL: Opened barrels
+        DROP_COUNT: Drop count
+        TOTAL_WORLD_TIME: Time in world
+  statsedit:
+    help:
+      info: '&eแก้ไขสถิติผู้เล่น'
+      args: (playerName) [add/take/set] [statistic] (subType) [amount] (-s)
+    info:
+      cantSet: '&cไม่สามารถตั้งค่าสถิติประเภทนี้'
+      reqSubType: '&cสถิตินี้ต้องมีการกำหนดไว้ &6[type]'
+      set: '&eเปลี่ยนจาก &6[old] &eเป็น &6[new] &eค่าสำหรับ &6[statistic] &e(&6[extra]&e)'
+  status:
+    help:
+      info: '&eแสดงสถานะเซิร์ฟเวอร์'
+      args: ''
+    info:
+      Platform: ' &eแพลตฟอร์ม: &6[platform] &e(&6[os]&e) &eกำลังรันเธรด: &6[threads]'
+      Tps: ' &eTPS: &6[tps]'
+      CpuUsage: ' &eการใช้ซีพียู: &6[cpuusage]% &e(&6[cores] แกน&e)'
+      Uptime:
+        main: ' &eระยะเวลาที่เปิด: '
+        weeks: '&e[weeks] &6สัปดาห์ '
+        days: '&e[days] &6วัน '
+        hours: '&e[hours] &6ชั่วโมง '
+        mins: '&e[mins] &6นาที '
+        secs: '&e[secs] &6วินาที '
+      MemoryUsage: ' &eการใช้ความจำ: &6[percent]% &e(&6[current]&e/&6[max] MB&e)'
+      MemoryUsageHover: "&fเหลือ: &7[free] \n&fใช้ไป: &7[allocated] \n&fมากสุด: &7[max]\
+        \ \n&fรวมทั้งหมด: &7[total]"
+      Java: ' &eรุ่นจาวา: &6[mainV].[majorV].[minorV]&e(&6[update]&e) บิลด์: &6[build]'
+      DiskUsage: ' &eการใช้งานดิสก์: &6[percent]% &e(&6[current]&e/&6[max] GB&e)'
+      Worlds: '&4 [number]. &c[world] &2[chunks] &aชิ้นส่วน &6[entities] &eเอนทิตี
+        &8[tiles] &7เครื่องมือ &b[players] &fผู้เล่น'
+  stonecutter:
+    help:
+      info: '&eOpen stonecutter'
+      args: (playerName) (-s)
+    info:
+      feedback: '&eYou have opened stonecutter for &3[playerDisplayName]&e (&3[offon]&e).'
+      targetfeedback: '&3[senderDisplayName]&e opened stonecutter for you.'
+  sudo:
+    help:
+      info: '&eบังคับให้ผู้เล่นอื่นทำการใช้คำสั่ง'
+      args: '[playerName] (command/c:[text])'
+      explanation:
+      - cmi.command.sudo.bypass - ปกป้องผู้เล่นจากการถูก 'แกล้ง'
+    info:
+      performed: '&eดำเนินการ ''&6[command]&e'' คำสั่งกับ &6[playerDisplayName]'
+  suicide:
+    help:
+      info: '&eฆ่าตัวตาย'
+      args: '[playerName] (-s)'
+    info:
+      feedback: '&eลาโลกที่โหดร้าย...'
+      message: '&6[playerDisplayName] &eใช้ชีวิตของตัวเองแล้ว'
+      totem: '&6Can''t use while holding totem'
+  switchplayerdata:
+    help:
+      info: '&eสลับข้อมูลทั้งหมดจากผู้เล่นคนหนึ่งไปยังผู้เล่นคนอื่น'
+      args: '[sourcePlayerName/uuid] [targetPlayerName/uuid]'
+      explanation:
+      - ใช้ UUID เพื่อการถ่ายโอนที่แม่นยำยิ่งขึ้นโดยเฉพาะชื่อผู้ใช้ตรงกัน
+    info:
+      same: '&eเป้าหมายที่ให้และผู้ใช้ที่มานั้นเหมือนกันแล้ว'
+      transferred: '&6[sourceName] &eข้อมูลถูกสลับกับ &6[Name]'
+      failed: '&cFailed to switch player data'
+  tablistupdate:
+    help:
+      info: '&eบังคับให้อัปเดตแท็บ'
+      args: (playerName)
+    info:
+      updated: '&eอัปเดตแท็บแล้ว'
+  tempban:
+    help:
+      info: '&eแบนผู้เล่นชั่วคราว'
+      args: '[playerName] [timeValue] (reason) (-s)'
+      explanation:
+      - ช่วงแบนสูงสุดขึ้นอยู่กับสิทธิ์ cmi.command.tempban.max.[amount]
+      - cmi.command.tempban.max.unlimited - อนุญาตให้แบนได้มากสุดเท่าที่ต้องการ
+      - ในกรณีที่ผู้เล่นไม่มี 60 วินาทีจะเป็นค่าสูงสุด
+      - 'ตัวอย่าง: '
+      - /cmi tempban zrips 5m For swearing
+    info:
+      message: '&cTemporarily Banned!'
+      messageToAll: '&6[playerDisplayName] &eโดนแบนชั่วคราวโดย &6[senderDisplayName]
+        &eเป็นระยะเวลา: &6[time] &eเหตุผล： &6[reason]'
+      banedSilent: '&7[&8เงียบ&7]&6[playerDisplayName] &eโดนแบนชั่วคราวโดย &6[senderDisplayName]
+        &eเป็นระยะเวลา: &6[time] &eเหตุผล： &6[reason]'
+      time: '&eคุณจะถูกปลดแบนเมื่อ &6[time]'
+      badTime: '&cเวลาถูกกำหนดอย่างไม่ถูกต้อง'
+      badTimeRanges: '&cคุณไม่สามารถแบนได้นานกว่า [time] &6([seconds])'
+  tempipban:
+    help:
+      info: '&eแบนไอพีชั่วคราว'
+      args: '[ip/playerName] [time] (reason) (-s)'
+      explanation:
+      - cmi.command.banip.bypass - เพื่อหลีกเลี่ยงการแบน
+    info:
+      message: '&cคุณถูกแบนไอพีชั่วคราว'
+      messageToAll: '&6[playerDisplayName] &7โดนแบนไอพีชั่วคราวเป็นระยะเวลา &7[time]&7โดย
+        &6[senderDisplayName]&7 เหตุผล： &6[reason]'
+      banedSilent: '&7[&8เงียบ&7]&6[playerDisplayName] &7โดนแบนไอพีชั่วคราวเป็นระยะเวลา
+        &7[time]&7 เหตุผล： &6[reason]'
+  tfly:
+    help:
+      info: '&eตั้งค่าให้บินได้ชั่วคราว'
+      args: '[playerName] (timeInSec) (-s)'
+      explanation:
+      - 'ตัวอย่าง:'
+      - tfly Zrips 30 - บินได้ชั่วคราว 30 วินาที
+      - tfly Zrips +30 - เพิ่มเวลาบินอีก 30 วินาที
+      - tfly Zrips 0 - สามารถบินได้ชั่วคราวจนกว่าจะออกเกม
+      - tfly Zrips - ตรวจสอบว่าเปิดใช้งานโหมดบินชั่วคราวและมีระยะเวลาเท่าไหร่
+    info:
+      setTimedFly: '&eคุณได้ตั้งค่า &6[playerDisplayName]&e ให้บินได้ชั่วคราวเป็นระยะเวลา
+        [time]'
+      addTimedFly: '&eคุณได้เพิ่มอีก [addTime] ([time]) ให้ &6[playerDisplayName]'
+      takeTimedFly: '&eYou have taken [addTime] ([time]) for &6[playerDisplayName]&e'
+      setUntilRelogFly: '&eคุณได้ตั้งค่า &6[playerDisplayName]&e ให้บินได้ชั่วคราวจนกว่าจะออกเกม'
+      targetTimedEnabled: '&eโหมดบินชั่วคราวของคุณเปิดโดย &3[senderDisplayName]&e
+        เป็นระยะเวลา [time]'
+      targetTimedEnabledAdd: '&eเวลาบินของคุณเพิ่มขึ้น [addTime] ([time])'
+      targetTimedEnabledTake: '&eYour flight time was decreased by [addTime] ([time]).'
+      targetUntilRelogEnabled: '&eโหมดบินชั่วคราวของคุณเปิดโดย &3[senderDisplayName]&e
+        จนกว่าจะออกเกม'
+      setFor: '&eเหลือระยะเวลาอีก [time]'
+      setForRelog: '&eเปิดใช้งานโหมดบินชั่วคราวจนกระทั่งออกเกม'
+      notSet: '&eไม่ได้เปิดใช้งานโหมดการบินชั่วคราวให้ผู้เล่น'
+      willBeDisabled: '&eโหมดบินจะถูกปิดใช้งานใน [time]'
+      disabled: '&eโหมดบินถูกปิดใช้งาน'
+  tgod:
+    help:
+      info: '&eตั้งค่าโหมดอมตะชั่วคราว'
+      args: '[playerName] &3(timeInSec) (-s)'
+      explanation:
+      - 'ตัวอย่าง:'
+      - tgod Zrips 30 - โหมดอมตะชั่วคราว 30 วินาที
+      - tgod Zrips 0 - โหมดอมตะจนกว่าจะออกเกม
+      - tgod Zrips - ตรวจสอบว่ามีโหมดอมตะนานเท่าไหร่
+    info:
+      setTimedGod: '&eคุณได้ตั้งค่า &6[playerDisplayName]&e ให้มีโหมดอมตะชั่วคราวเป็นระยะเวลา
+        [time]'
+      setUntilRelogGod: '&eคุณได้ตั้งค่า &6[playerDisplayName]&e ให้มีโหมดอมตะชั่วคราวจนกว่าจะออกเกม'
+      targetTimedEnabled: '&eคุณได้โหมดอมตะชั่วคราวโดย &3[senderDisplayName]&e เป็นระยะเวลา
+        [time]'
+      targetUntilRelogEnabled: '&eโหมดอมตะชั่วคราวเปิดโดย &3[senderDisplayName]&e
+        จนกว่าจะออกเกม'
+      setFor: '&eโหมดอมตะชั่วคราวเหลืออีก [time]'
+      setForRelog: '&eโหมดอมตะชั่วคราวจนกว่าจะออกเกม'
+      notSet: '&eโหมดอมตะชั่วคราวไม่ได้เปิดให้ผู้เล่น'
+      willBeDisabled: '&eโหมดอมตะชั่วคราวจะปิดใน [time]'
+      disabled: '&eโหมดอมตะชั่วคราวปิดใช้งาน'
+  time:
+    help:
+      info: '&eควบคุมเวลาเซิร์ฟเวอร์'
+      args: (time) (world) (alter [value]) (-smooth)
+      explanation:
+      - 'ตัวอย่าง:'
+      - /day
+      - /night
+      - /time 13:00:00
+      - /time 1pm
+      - /time 13
+      - /time 7000ticks
+      - /time 1pm Lt_Craft
+      - /time 1pm all
+      - /time add 0:30
+      - /time take 0:30
+      - /time freeze
+      - /time unfreeze
+      - /time realtime
+      - /time autorealtime start/stop
+    info:
+      check: '&eเวลา: &6[24h] &eหรือ &6[12h] &eหรือ &6[ticks]ทิก &eในโลก &6[world]'
+      frozen: ' &c(-)'
+      frozenTime: '&eหยุดเวลา'
+      real: ' &6(+)'
+      realTime: '&eอัตโนมัติตามเวลาจริง'
+      autorealstart: '&eการปรับเวลาอัตโนมัติในโลก &6[world] &eเริ่มทำงาน'
+      autorealstop: '&eการปรับเวลาอัตโนมัติในโลก &6[world] &eหยุดทำงาน'
+      gotfrozen: '&6[world] &eเวลาถูกหยุด'
+      gotunfrozen: '&6[world] &eเวลาได้เดินต่อ'
+      cantset: '&eไม่สามารถกำหนดเวลาเป็นค่านี้ได้'
+      setto: '&eตั้งเวลาเป็น &6[24h] &eหรือ &6[12h] &eหรือ &6[ticks]ทิก &eในโลก &6[world]'
+  titlemsg:
+    help:
+      info: '&eส่งข้อความชื่อเรื่องไปยังผู้เล่น'
+      args: '[playerName/all] [title \n subtitle] (-in:[ticks]) (-out:[ticks]) (-keep:[ticks])'
+    info:
+      message: '&f[messsage]'
+  toast:
+    help:
+      info: '&eส่งข้อความแบบกำหนดให้ผู้เล่น'
+      args: '[playerName/all] (-t:[advType]) (-icon:[material]) [message]'
+    info:
+      message: '&f[messsage]'
+  top:
+    help:
+      info: '&eเคลื่อนย้ายไปยังจุดสูงสุดที่ตำแหน่งของคุณ'
+      args: '[playerName] (-s)'
+  tp:
+    help:
+      info: '&eเคลื่อนย้ายไปยังตำแหน่งของผู้เล่น'
+      args: '[playerName] (playerName)'
+    info:
+      feedback: '&eคุณได้เคลื่อนย้ายไปหา &3[sourceDisplayName] &e(&3[offon]&e)'
+      bad:
+        msg: '&cตำแหน่งเคลื่อนย้ายไม่ปลอดภัย เพราะ [reason]'
+        extraMsg: '&eใช้ &6/tpbypass &eเพื่อข้ามสิ่งนี้ คุณเหลือเวลา [time]'
+        lava: '&cลาวา'
+        void: '&cตกโลก'
+        suffocation: '&cติดกำแพง'
+        unknown: '&cไม่ทราบ'
+        plugin: '&cปลั๊กอินอื่น'
+      notAllowed: '&cไม่สามารถเคลื่อนย้ายไปยังผู้เล่นนี้'
+      prevented: '&cมีการป้องกันการเคลื่อนย้ายด้วยปลั๊กอินอื่น'
+  tpa:
+    help:
+      info: '&eขอเคลื่อนย้ายไปยังผู้เล่นเป้าหมาย'
+      args: '[playerName] (playerName) (-c)'
+    info:
+      requestSent: '&eได้ส่งคำขอเคลื่อนย้ายไปหา &6[playerName]'
+      gotRequest: '&eผู้เล่น &6[senderName] &eได้ขอเคลื่อนย้ายมาหาคุณ'
+      time: '&eคุณมีเวลา &6[time]&eเพื่อตอบรับคำขอเคลื่อนย้าย'
+      canceled: '&eคำขอเคลื่อนย้ายถูกยกเลิก'
+      # This line cant contain anything else then default variables ([message][cancelButton]), you can switch them around to your liking tho
+      senderFeedbackMessageFormat: '[message][cancelButton]'
+      alreadyRequesting: '&eคุณได้ส่งคำขอเคลื่อนย้าย &6[playerName] &eไปแล้ว รอเขายอมรับคำขอเคลื่อนย้าย'
+      banned: '&eคุณไม่สามารถส่งคำขอเคลื่อนย้ายไปยัง &6[playerName] &eจนกว่าจะส่งได้ในอีก
+        &6[time]'
+  tpaall:
+    help:
+      info: '&eขอให้ผู้เล่นทุกคนที่ออนไลน์เคลื่อนย้ายมายังที่ตั้งของคุณ'
+      args: ''
+    info:
+      requestSent: '&eส่งคำขอไปยังผู้เล่นทุกคน'
+  tpaccept:
+    help:
+      info: '&eยอมรับการเคลื่อนย้าย'
+      args: (playerName)
+    info:
+      noRequest: '&eไม่มีการขอเคลื่อนย้าย'
+      NotOnline: '&eผู้เล่นไม่ได้ออนไลน์'
+      accepted: '&6[playerName] &eได้ยอมรับคำขอ'
+      youAccepted: '&eคุณได้ยอมรับคำขอเคลื่อนย้าย'
+  tpahere:
+    help:
+      info: '&eขอให้ผู้เล่นเคลื่อนย้ายมายังตำแหน่งของคุณ'
+      args: '[playerName] (playerName) (-c)'
+    info:
+      requestSent: '&eRequest sent to &6[playerDisplayName]'
+      gotRequest: '&6[senderDisplayName] &eต้องการให้คุณเคลื่อนย้ายไปหาเขา'
+      accept: '&6คลิกเพื่อยอมรับการเคลื่อนย้าย'
+  tpall:
+    help:
+      info: '&eเคลื่อนย้ายทุกคนมายังตำแหน่งนี้'
+      args: (playerName)
+    info:
+      feedback: '&eคุณได้เคลื่อนย้าย ([world],[x],[y],[z]) ไปหา &3[playerDisplayName]
+        &eที่ตั้ง'
+  tpallworld:
+    help:
+      info: '&eเคลื่อนย้ายทุกคนจากโลกที่กำหนด'
+      args: '[worldName] (worldName;x;y;z(;yaw;pitch)) (-a)'
+      explanation:
+      - -a ตัวแปรจะเคลื่อนย้ายทุกคนที่อยู่ในโลกที่ไม่มีอยู่ให้ตำแหน่งเป้าหมาย
+    info:
+      started: '&eเริ่มต้นการเคลื่อนย้าย'
+      current: '&eปัจจุบันเคลื่อนย้าย &7[amount] &eจาก &7[files] &eผู้เล่นทั้งหมด'
+      total: '&eได้เคลื่อนย้ายทั้งหมด &7[amount] &eจาก &7[files] &eผู้เล่นที่ตรวจสอบ'
+      WorldNotFound: '&eโลก &7[name] &eไม่ได้โหลด ตรวจสอบให้แน่ใจ แก้ไขให้ถูกต้อง
+        จะใช้ตามที่เป็นอยู่'
+  tpbypass:
+    help:
+      info: '&eข้ามคำเตือนไปยังตำแหน่งที่ไม่ปลอดภัย'
+      args: (playername)
+    info:
+      noSavedTp: '&cไม่มีตำแหน่งเคลื่อนย้ายที่บันทึกไว้'
+      feedback: '&eเคลื่อนย้ายไปยังตำแหน่งไม่ปลอดภัย'
+  tpdeny:
+    help:
+      info: '&eปฏิเสธคำขอเคลื่อนย้าย'
+      args: (playerName)
+    info:
+      noRequest: '&eคุณไม่มีคำขอที่ขอเคลื่อนย้าย'
+      youDenied: '&eคำขอเคลื่อนย้ายของคุณถูกปฏิเสธ'
+      denied: '&e[senderDisplayName] &eปฏิเสธคำขอของคุณ'
+  tphere:
+    help:
+      info: '&eเคลื่อนย้ายผู้เล่นมายังตำแหน่งของคุณ'
+      args: '[playerName] (playerName)'
+    info:
+      feedback:
+        offline: '&eคุณได้ตั้งค่า ([world],[x],[y],[z]) จุดเกิดให้ &3[playerDisplayName]&e
+          (&3[offon]&e)'
+        online: '&eคุณได้เคลื่อนย้าย &6[playerDisplayName] &eมาหาคุณ'
+        player: '&eคุณถูกเคลื่อนย้ายโดย &6[sourceDisplayName] &eไปยังตำแหน่งของเขา'
+      notAllowed: '&eไม่สามารถเคลื่อนย้ายผู้เล่นคนนี้'
+  tpo:
+    help:
+      info: '&eเคลื่อนย้ายไปยังตำแหน่งของผู้เล่นโดยไม่ร้องขอ'
+      args: '[playerName] (playerName)'
+  tpohere:
+    help:
+      info: '&eเคลื่อนย้ายผู้เล่นมายังตำแหน่งของคุณโดยไม่ร้องขอ'
+      args: '[playerName] (playerName)'
+  tpopos:
+    help:
+      info: '&eเคลื่อนย้ายไปยังสถานที่ต่าง ๆ โดยบังคับ'
+      args: (-p:playerName) [x] [y] [z] (world) (pitch) (yaw) (-rng:[range])
+    info:
+      feedback: '&eคุณได้เคลื่อนย้ายไปยัง ([world],[x],[y],[z])'
+      feedbackOther: 対 &e[playerDisplayName] ได้เคลื่อนย้ายไปยัง ([world],[x],[y],[z])
+  tppos:
+    help:
+      info: '&eเคลื่อนย้ายไปยังพิกัด'
+      args: (-p:playerName) [x] [y] [z] (world) (pitch) (yaw) (-rng:[range])
+    info:
+      feedback: '&eคุณได้เคลื่อนย้ายไปยัง ([world],[x],[y],[z])'
+      feedbackOther: '&e[playerDisplayName] ได้เคลื่อนย้ายไปยัง ([world],[x],[y],[z])'
+  tps:
+    help:
+      info: '&eตรวจสอบสถานะเซิร์ฟเวอร์'
+      args: ''
+    info:
+      tps: '&eTPS: '
+      # Custom tps range can be defined and you can have as many of them as you want
+      tpsList: '&e[3] [10] [30] [60] [600]'
+      explanation: '&7One block &e60 &7seconds. Max &e600 &7seconds'
+      minMax: '&7Max: [max] &7Min: [min]'
+      hover:
+      - '[tpscolor][tps]'
+      - '&7[time]'
+  tree:
+    help:
+      info: '&eวางต้นไม้ตรงจุดที่คุณกำลังมอง'
+      args: (TreeType) (-p:[playerName])
+    info:
+      feedback: '&eเสกต้นไม้ &6[tree]'
+      cantSpawn: '&cไม่สามารถเสก (&e[tree]&c) บนบล็อกนี้ได้'
+  unban:
+    help:
+      info: '&eปลดแบนผู้เล่นหรือไอพี'
+      args: '[playerName/ip] (-s)'
+    info:
+      unBaned: '!broadcast!&6[playerDisplayName] &eได้ปลดแบนแล้ว'
+      unBanedSilent: '&7[&8เงียบ&7]&6[playerDisplayName] &eได้ปลดแบนแล้ว'
+      notBanned: '&6[playerDisplayName] &eไม่ได้ถูกแบน'
+  unbreakable:
+    help:
+      info: '&eทำให้ไอเท็มไม่มีวันพัง'
+      args: (playerName) (true/false)
+    info:
+      feedback: '&eได้ทำไอเท็มให้ [state] &eให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      breakable: '&6พังได้'
+      unbreakable: '&6ไม่มีวันพัง'
+  uncondense:
+    help:
+      info: '&eแยกบล็อกให้เป็นไอเท็ม'
+      args: (itemName)
+    info:
+      converted: '&eแปลง &7[blocks] &eบล็อกเป็น &7[items] &eไอเท็ม'
+      nothing: '&cไม่มีบล็อกใดในช่องเก็บของที่แยกเป็นไอเท็มได้'
+  unjail:
+    help:
+      info: '&eปล่อยผู้เล่นออกจากคุก'
+      args: '[playerName]'
+    info:
+      notInJail: '&cผู้เล่นไม่ได้ติดคุก'
+      unjailed: '&eคุณได้ปล่อย &6[playerDisplayName] &eออกจากคุก'
+      unjailedTarget: '&eคุณได้รับการปล่อยตัวจากคุกแล้ว'
+  unloadchunks:
+    help:
+      info: '&eยกเลิกการโหลดชิ้นส่วนจากหน่วยความจำเซิร์ฟเวอร์'
+      args: (-f)
+      explanation:
+      - -f ตัวแปรจะบังคับให้โหลดทั้งหมดในครั้งเดียว
+    info:
+      removed: '&eลบออก -[list]'
+      startScanning: '&eพบ &6[amount] &eชิ้นส่วนที่จะยกเลิกโหลด เริ่มทำงาน'
+      InfoShow: '&6TPS: &3[tps] &6เหลืออีก &e[left] &6(&e[min]นาที:[sec]วินาที&6)
+        &6ความเร็ว: &e[speed] &6ยกเลิกไป: &e[found]'
+      Finished: '&eเสร็จสิ้น ยกเลิกโหลดไป: &6[amount] &eชิ้นส่วน ใน &6[minutes] &eนาที
+        &6[seconds] &eวินาที'
+  unmute:
+    help:
+      info: '&eปลดการปิดแชทผู้เล่น'
+      args: '[playerName] (-s)'
+    info:
+      notMuted: '&eผู้เล่นไม่ได้โดนปิดแชท'
+      unmuted: '&eผู้เล่นสามารถพิมพ์แชทได้แล้ว'
+      unmutedTarget: '&eคุณสามารถคุยได้แล้ว'
+  unmutechat:
+    help:
+      info: '&eเปิดการแชทสาธารณะ'
+      args: (-s)
+    info:
+      unmuted: '&eสามารถแชทแบบสาธารณะได้แล้ว'
+  usermeta:
+    help:
+      info: '&eจัดการข้อมูล Meta ของผู้เล่น'
+      args: '[playerName] [add/remove/clear/list/increment] (key) (value) (-s)'
+      explanation:
+      - Meta ชุดใด ๆ สามารถแสดงด้วย %cmi_user_meta_[key]% ตัวแปรรอบปลั๊กอิน
+    info:
+      added: '&eเพิ่ม Meta สำหรับ &6[playerDisplayName] &eด้วยคีย์เป็น &6[key] &eและมีค่า
+        เป็น &6[value]'
+      cleared: '&eล้าง Meta จาก &6[playerDisplayName]'
+      removed: '&eลบ &6[key] &eMeta จาก &6[playerDisplayName]'
+      changed: '&eเปลี่ยน &6[key] &eMeta จาก &6[oldValue] &eเป็นค่าใหม่คือ &6[newValue]'
+      ls: '&6[key]&e: [value]'
+  util:
+    help:
+      info: '&eเครื่องมือการบริหาร'
+      args: (removeseats/testtarget)
+    info:
+      removedSits: '&eลบ &6[count] &eที่กำลังในทุกโลก'
+  vanish:
+    help:
+      info: '&eซ่อน/แสดง ผู้เล่น'
+      args: (playerName/list) (on/off)
+    info:
+      vanished: '&eคุณได้ซ่อนตัวแล้ว'
+      unvanish: '&eคุณได้แสดงตัวแล้ว'
+      targetVanished: '&6[playerDisplayName] &eได้ซ่อนตัว'
+      targetUnvanish: '&6[playerDisplayName] &eได้แสดงตัว'
+      list: '&e[place]. &6[playerDisplayName] &e(&6[offon]&e)'
+      noVanished: '&eไม่มีผู้เล่นที่ซ่อนตัว'
+      noMsg: '&cไม่สามารถส่งข้อความได้ในขณะซ่อนตัว สามารถตั้งค่าได้ใน &bVanishedit'
+  vanishedit:
+    help:
+      info: '&eแก้ไขโหมดซ่อนตัวสำหรับผู้เล่น'
+      args: (playerName)
+    info:
+      isVanished: '&eซ่อนตัว'
+      damageToEntity: '&eสามารถสร้างความเสียหายให้คนอื่นได้'
+      playerDamage: '&eสามารถรับความเสียหายได้'
+      itemPickup: '&eสามารถเก็บไอเท็ม'
+      mobAggro: '&eม็อบสามารถเล็งคุณ'
+      interaction: '&eสามารถโต้ตอบได้'
+      noisyChest: '&eเปิดกล่องมีเสียง'
+      informOnLeave: '&eแสดงข้อความตอนออกเกม'
+      informOnJoin: '&eแสดงข้อความตอนเข้าเกม'
+      nightVision: '&eให้บัพมองเห็นกลางคืน'
+      bossbar: '&eแสดงแถบเมื่อซ่อนตัว'
+      afkcommands: '&eแสดงข้อความไม่อยู่เมื่อซ่อนตัว'
+      PrivateMessages: '&eยอมรับข้อความส่วนตัว'
+      relogDisable: '&eยกเลิกซ่อนตัวเมื่อออกเกม'
+      noMessages: '&eไม่แสดงข้อความสาธารณะ'
+      fakeJoinLeave: '&eShow fake join/leave messages on vanish state change'
+      mobSpawning: '&eMobs will spawn nearby'
+      stopPlaytime: '&ePlaytime will stop increasing'
+      sleepIgnore: '&eIgnore for sleeping count'
+      joinVanished: '&eAlways join in vanish mode'
+      deathMessages: '&eShow death message'
+      bossbarTitle: '&fกำลังซ่อนตัว'
+  version:
+    help:
+      info: '&eแสดงเวอร์ชันปลั๊กอิน'
+      args: ''
+    info:
+      cmiVersion: '&eCMI: &6[version]'
+      cmiVersionNew: '&e-> [newVersion]'
+      dbType: ' &7[db]'
+      newServer: '&eเซิร์ฟเวอร์ เวอร์ชัน: &6[version]'
+      Economy: '&eCMI Economy: &6[state] '
+      Chat: '&eCMI Chat: &6[state] '
+      CMIB: '&7CMIB '
+      newVault: '&eVault: &6[version] '
+      Modules: '&eโมดูล -> &a[enabled] เปิดใช้งาน &7[disabled] ปิดใช้งาน&e: &c[list]'
+      Bungee: ' &eเครือข่าย '
+      CMILib: '&eCMILib: &6[version] '
+      cmilVersionNew: '&e-> [newVersion]'
+  viewrange:
+    help:
+      info: '&eตั้งค่าระยะการมองเห็น'
+      args: '[range] (playerName)'
+    info:
+      changed: '&eเปลี่ยนระยะการมองเห็นเป็น &6[range]'
+      NoProtocolLib: '&cฟังก์ชันนี้ต้องการ ProtocolLib!'
+      NoMore: '&eระยะไม่สามารถเกิน 32 ได้ ทำการเปลี่ยนเป็น 32'
+  voteedit:
+    help:
+      info: '&eจัดการคะแนนของผู้เล่น'
+      args: (playerName) [add/set/take/clear] [amount] (-s)
+      explanation:
+      - 'ตัวอย่าง:'
+      - /voteedit Zrips
+      - /voteedit add 10
+      - /voteedit take 10
+      - /voteedit Zrips clear
+      - /voteedit Zrips add 10
+    info:
+      currentVotes: '&e[playerDisplayName] &eมี &6[votes] &eคะแนน'
+      selfFeedback: '&eคะแนนถูกตั้งค่าเป็น &3[votes] &eสำหรับ &3[playerDisplayName]&e
+        (&3[offon]&e)'
+      targetFeedback: '&eคะแนนของคุณถูกกำหนดเป็น &3[votes]&e โดย &3[senderDisplayName]'
+  votes:
+    help:
+      info: '&eตรวจสอบคะแนนโหวตของผู้เล่น'
+      args: (playerName)
+    info:
+      currentVoteSelf: '&eคุณมี &6[votes] &eคะแนน'
+      currentVotes: '&e[playerDisplayName] &eมี &6[votes] &eคะแนน'
+      voteCooldown: '&eคุณจะต้องรออีก &6[time]&e เพื่อโหวตอีกครั้ง'
+      voteLimit: '&eคุณมีจำนวนโหวตถึงขีดจำกัดในวันนี้แล้ว คุณจะต้องรออีก &6[time]
+        &eเพื่อโหวตอีกครั้ง'
+  votetop:
+    help:
+      info: '&eตรวจสอบรายการคะแนนสูงสุด'
+      args: (playerName)
+    info:
+      topLine: '&e----- จำนวนคนที่มีคะแนนมากสุด &e-----'
+      list: '&e[place]. &6[playerDisplayName]: &e[votes]'
+      ownLine: '&2[place]. &2[playerDisplayName]: &2[votes]'
+  walkspeed:
+    help:
+      info: '&eตั้งค่าความเร็วการเดิน'
+      args: '[playerName] [amount]'
+    info:
+      feedback: 対 &eคุณได้ตั้งค่า &3[amount]&e ความเร็วเดินให้ &3[playerDisplayName]&e
+        (&3[offon]&e)
+      targetfeedback: 対 &eความเร็วเดินของคุณถูกตั้งเป็น &3[amount]&e โดย &3[senderDisplayName]
+      max: '&eความเร็วเดินสูงสุดที่อนุญาตคือ &6[max]'
+  warn:
+    help:
+      info: '&eเตือนผู้เล่น'
+      args: '[playerName] (category) (reason) (-s)'
+    info:
+      noSelfWarning: 対 &cคุณไม่สามารถเตือนตัวเองได้
+      cantBan: '&cไม่สามารถเตือนผู้เล่นคนนี้ได้'
+      messageToAll: '&6[playerDisplayName] &cได้รับคำเตือนจาก &6[senderDisplayName]
+        &cเหตุผล: &6[reason]'
+      banedSilent: '&7[&8เงียบ&7]&6[playerDisplayName] &cได้รับคำเตือนจาก &6[senderDisplayName]
+        &cเหตุผล: &6[reason]'
+  warnings:
+    help:
+      info: '&eเช็คประวัติการโดนเตือนของผู้เล่น'
+      args: (playerName)
+    info:
+      totalPoints: '&7---- &e[playerDisplayName] &eมีคะแนนการโดนเตือน: &6[totalPoints]
+        &7----'
+      noWarnings: '&eผู้เล่นไม่มีคำเตือนใด ๆ'
+      list: '&7[place]. &e[time] &6โดย [warnedBy] &cเหตุผล: &7[warnedFor]'
+      hover:
+      - '&7คำเตือนนี้จะหมดในอีก: &e[time]'
+      - '&7คะแนนการเตือน: &e[points]'
+  warp:
+    help:
+      info: '&eเคลื่อนย้ายไปยังวาร์ปที่บันทึก'
+      args: (warpName) (playerName) (-s)
+    info:
+      list: '&eวาร์ป: &6'
+      click: '&eคลิกเพื่อเคลื่อนย้ายไปยัง &6[warp]'
+      teleported: ''
+      noWarps: '&cไม่มีวาร์ปที่บันทึกไว้'
+      autoLoreName: '&7[warpName]'
+      autoLoreFormat:
+      - '&7[worldName]'
+      - '&e[x]:[y]:[z]'
+      - '[creator]'
+      creator: '&eผู้สร้าง: &6[creator]'
+      noWarpByName: '&cไม่มีวาร์ปที่ชื่อนี้'
+      noAccess: '&cไม่สามารถเข้าถึงวาร์ปนี้ได้'
+      guiTitle: '&7&l⇩'
+      pageTitles:
+      - '&r'
+  warpgroups:
+    help:
+      info: '&eLists warp groups'
+      args: ''
+    info:
+      list: '&e[number]. &7[group] &6(&e[amount]&6)'
+  weather:
+    help:
+      info: '&eควบคุมสภาพอากาศของเซิร์ฟเวอร์'
+      args: (sun/rain/storm) (lock/duration) (worldName/all)
+      explanation:
+      - 'รูปแบบเวลาเพิ่มเติม: s/m/h/d/w/M/Y'
+      - 'ตัวอย่าง:'
+      - /sun
+      - /rain
+      - /storm
+      - /sun lock
+      - /sun 120
+      - /sun Lt_Craft
+      - /sun 1h
+      - /sun 10m
+    info:
+      setTo: '&eตั้งค่า &6[world] &eสภาพอากาศเป็น &6[weather] &eในอีก &6[time]'
+      currentState: '&6[world] &e-> &6[weather] &eในอีก &6[time]'
+      sunny: แดดออก
+      rainy: ฝนตก
+      thundering: มีพายุ
+  workbench:
+    help:
+      info: '&eเปิดโต๊ะคราฟต์'
+      args: (playerName)
+    info:
+      feedback: '&eคุณเปิดโต๊ะคราฟต์ให้ &3[playerDisplayName]&e (&3[offon]&e)'
+      targetfeedback: '&3[senderDisplayName]&e ได้เปิดโต๊ะคราฟต์ให้คุณ'
+  world:
+    help:
+      info: '&eเคลื่อนย้ายไปยังโลกที่กำหนด'
+      args: (normal/nether/end/1/2/3...) (playerName) (-s)
+      explanation:
+      - ต้องการสิทธิ์ cmi.command.world.[worldName] นอกเหนือจากการอนุญาตพื้นฐาน
+    info:
+      here: '&eอยู่ที่นี่แล้ว'
+  worth:
+    help:
+      info: '&eตรวจสอบราคาไอเท็ม'
+      args: (all/blocks/hand)
+    info:
+      worthless: '&eไม่มีราคา'
+      damaged: ' &6(&2[percent]% &6damaged)'
+      shulker: '&6Remove items from shulker box before selling'
+      repair: '&eRepair before selling'
+      basePrice: '&6[itemName]&e(&7[amount]&e) -> &f[price]'
+      fullPrice: '&7[price]'
+      total: '&eรวมราคาทั้งหมด: &7[total]'
+  worthlist:
+    help:
+      info: '&eCheck list of items with set sell prices'
+      args: (playerName)
+    info:
+      type: '&7[type]'
+      worth: '&7Worth: &e[price]'
+      title: '&8Worth List'
+
+
+# Full color code support and some variables
+
+# Keep in mind that variables wont work for some lines, when it will for anothers :)
+
+# Just keep them where there are now and everything will be ok :)
+
+# Some lines can have global variables set. For player who will be effected. In example /heal Zrips then Zrips data will be used
+
+# [serverName] to show server name
+
+# [playerName] to show target player name
+
+# [playerDisplayName] to show target player display name
+
+# [lvl] to show target player level
+
+# [exp] to show target player total exp
+
+# [hp] to show target player health
+
+# [maxHp] to show target player max health
+
+# [hunger] to show target player hunger level
+
+# [gameMode] to show target player gamemode
+
+# [prefix] to show target player prefix if possible
+
+# [suffix] to show target player suffix if possible
+
+# Sender is console or player who performs command. In example Zrips performs /heal Zhax then Zrips data will be used
+
+# [senderName] to show Sender player name
+
+# [senderDisplayName] to show Sender player display name
+
+# [senderLvl] to show Sender player level
+
+# [senderExp] to show Sender player total exp
+
+# [senderHp] to show Sender player health
+
+# [senderMaxHp] to show Sender player max health
+
+# [senderHunger] to show Sender player hunger level
+
+# [senderGameMode] to show Sender player gamemode
+
+# [senderPrefix] to show Sender player prefix if possible
+
+# [senderSuffix] to show Sender player suffix if possible
+
+# Source is player which is being used for extra info. In example Zrips performs /tp Zhax Zrips then Zhax data will be used as its location is being taken for new player location
+
+# [sourceName] to show source player name
+
+# [sourceDisplayName] to show source player display name
+
+# [sourceLvl] to show source player level
+
+# [sourceExp] to show source player total exp
+
+# [sourceHp] to show source player health
+
+# [sourceMaxHp] to show source player max health
+
+# [sourceHunger] to show source player hunger level
+
+# [sourceGameMode] to show source player gamemode
+
+# [sourcePrefix] to show source player prefix if possible
+
+# [sourceSuffix] to show source player suffix if possible
+
+# ***********************************************
+
+# Some lines supports option to send them to custom places, like action bar, title, sub title or even create JSON/clickable messages
+
+# If line starts with !toast! then player will get toast message (advancement popup, only 1.12 and up). Some extra variables can be used to define type and icon. example: !toast! -t:goal -icon:paper Hello world!
+
+# If line starts with !actionbar! then player will get action bar message defined after this variable
+
+# If line starts with !actionbar:[seconds]! then player will get action bar message for defined amount of time
+
+# If line starts with !broadcast! then everyone will receive message. You can add extra !toast! !actionbar! or !title! to send message for everyone to specific place, in example !broadcast!!title!
+
+# If line starts with !customtext:[cTextName]! then custom text will be taken by name provided and shown for player. In case its used after !broadcast! then everyone who is online will get this custom text message
+
+# If line starts with !title! then player will get title message defined after this variable, in addition it can contain !subtitle! which will add subtitle message
+
+# If line starts with !bossbar:[name]-[timer]! then player will get bossbar message defined after this variable, in addition you can define how long this message will be visible. You need to define bossbar name which can be anything you want, but lines with same name will override each other to prevent stacking
+
+# To include clickable messages: <T>Text</T><H>Hover text</H><C>command</C><SC>Suggested text</SC>
+
+# <T> and </T> required, other is optional
+
+# Use /n to break line
+
+# To have more than one JSON message use <Next>
+
+# <C> performs command as a player who clicked
+
+# <CC> performs command from console once
+
+# <CCI> performs command from console every time player clicks text
+
+# <URL> includes url
+
+# 
+
+# 
+
+# 
+
+# ATTENTION! As of 9.0.0.0 CMI version some of the locale lines got moved to CMILib file. This is to centralize some of most used ones across multiple plugins.
+
+# After you update locale in CMILib file perform /CMIL RELOAD command for changes to take effect
